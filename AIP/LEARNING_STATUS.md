@@ -16,18 +16,18 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 ## Progress
 
-- Completed and persisted: 14 / 74
-- Remaining: 60 / 74
-- Progress: 18.9%
+- Completed and persisted: 15 / 74
+- Remaining: 59 / 74
+- Progress: 20.3%
 
 ## Completed Sequence
 
-`001 → 002 → 005 → 009 → 003 → 004 → 006 → 007 → 008 → 012 → 015 → 016 → 030 → 031`
+`001 → 002 → 005 → 009 → 003 → 004 → 006 → 007 → 008 → 012 → 015 → 016 → 030 → 031 → 032`
 
 ## Current Position
 
-- Current learning milestone: `aip-data-textract-031` completed, reviewed, approved, and persisted.
-- Next learning KP: `aip-data-transcribe-032` — Amazon Transcribe 语音识别与毒性检测.
+- Current learning milestone: `aip-data-transcribe-032` completed, reviewed, approved, and persisted.
+- Next learning KP: `aip-data-comprehend-033` — Amazon Comprehend 文本分析.
 - Active persistence debt: None.
 - Dependency blocker: None known.
 
@@ -35,5 +35,5 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 - Target: at least 25%
 - Required completed count: 19 / 74
-- Remaining today: 5 KPs
+- Remaining today: 4 KPs
 - Target endpoint on current route: `aip-data-appflow-036`
