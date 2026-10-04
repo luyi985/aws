@@ -5,8 +5,8 @@
 - Learning root: `AIP/`
 - KP root: `AIP/preRaw/KP/`
 - KP count: 74
-- Status snapshot: 63 `pending`; 0 `learning`; 3 `review/persistence_pending`; 8 `completed`
-- Learned and user-approved: 11 / 74
+- Status snapshot: 62 `pending`; 0 `learning`; 0 `review/persistence_pending`; 12 `completed`
+- Learned and user-approved: 12 / 74
 - Route objective: learn every prepared KP one at a time in a dependency-valid, conceptually useful order.
 - Last analysis date: 2026-09-17
 - Last progress update: 2026-10-04
@@ -318,10 +318,10 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 - [x] `aip-foundations-prompttechniques-004` — Zero-shot、Few-shot 与 Chain-of-Thought
 - [x] `aip-foundations-promptmanagement-006` — Bedrock Prompt Management
 - [x] `aip-foundations-semanticsearch-007` — 语义搜索与 K 近邻
-- [ ] `aip-foundations-vectordimensionality-008` — 向量维度与性能权衡 — approved; GitHub raw synced; Drive persistence pending
-- [ ] `aip-bedrock-continuedpretraining-012` — 持续预训练 — approved; GitHub raw synced; Drive persistence pending
-- [ ] `aip-bedrock-chunking-015` — RAG 文档分块策略 — approved; GitHub raw synced; Drive persistence pending
-- [ ] `aip-bedrock-vectordatabases-016` — RAG 向量数据库选型
+- [x] `aip-foundations-vectordimensionality-008` — 向量维度与性能权衡
+- [x] `aip-bedrock-continuedpretraining-012` — 持续预训练
+- [x] `aip-bedrock-chunking-015` — RAG 文档分块策略
+- [x] `aip-bedrock-vectordatabases-016` — RAG 向量数据库选型
 - [ ] `aip-data-bda-030` — Bedrock Data Automation 多模态提取
 - [ ] `aip-data-textract-031` — Amazon Textract 文档 OCR
 - [ ] `aip-data-transcribe-032` — Amazon Transcribe 语音识别与毒性检测
@@ -388,11 +388,10 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 
 ## Current Position
 
-- Canonically completed in Drive raw: 8 / 74
-- Learned and user-approved: 11 / 74
-- GitHub raw mirror count after this sync: 11
-- Persistence pending in Drive: `aip-foundations-vectordimensionality-008`, `aip-bedrock-continuedpretraining-012`, `aip-bedrock-chunking-015`
-- Current KP state: `aip-bedrock-chunking-015` — learning and review complete; user approved; GitHub raw synced; canonical Drive persistence still blocked.
-- Next learning KP after persistence reconciliation: `aip-bedrock-vectordatabases-016` — RAG 向量数据库选型
-- Blocker: Google Drive raw-file upload currently rejects the connector `file_uri` object because the action schema declares a string, so the three approved raw notes cannot yet be written to the canonical Drive raw folder.
-- GitHub is currently a synchronized mirror of the learning state, not a replacement for the Drive maintenance source of truth.
+- Persistence root: GitHub `luyi985/aws/AIP`
+- Completed and persisted: 12 / 74
+- Remaining: 62 / 74
+- Current KP state: `aip-bedrock-vectordatabases-016` — learning, review, user approval, and GitHub persistence complete.
+- Next learning KP: `aip-data-bda-030` — Bedrock Data Automation 多模态提取
+- Blocker: None.
+- Google Drive AIP content is a manual mirror; it is not required for completion.
