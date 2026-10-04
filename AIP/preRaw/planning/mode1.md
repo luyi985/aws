@@ -4,10 +4,11 @@
 
 - Learning root: `AIP/`
 - KP root: `AIP/preRaw/KP/`
-- KP count: 54
-- Status snapshot: 54 `pending`; 0 `learning`; 0 `review`; 0 `completed`
+- KP count: 74
+- Status snapshot: 67 `pending`; 0 `learning`; 0 `review`; 7 `completed`
 - Route objective: learn every prepared KP one at a time in a dependency-valid, conceptually useful order.
-- Last analysis date: 2026-09-05
+- Last analysis date: 2026-09-17
+- Last progress update: 2026-09-30
 
 ## Knowledge Graph
 
@@ -70,6 +71,27 @@ flowchart TD
   k053["aip-governance-clarify-053"]
   k054["aip-governance-lineage-054"]
 
+  k055["aip-integration-bedrockapi-055"]
+  k056["aip-integration-streaming-056"]
+  k057["aip-integration-eventdriven-057"]
+  k058["aip-integration-apigateway-058"]
+  k059["aip-integration-bedrockflows-059"]
+  k060["aip-operations-provisionedthroughput-060"]
+  k061["aip-sagemaker-deployment-061"]
+  k062["aip-sagemaker-mlops-062"]
+  k063["aip-security-promptinjection-063"]
+  k064["aip-security-dataredaction-064"]
+  k065["aip-security-appsecurity-065"]
+  k066["aip-governance-audit-066"]
+  k067["aip-observability-bedrock-067"]
+  k068["aip-observability-agenttrace-068"]
+  k069["aip-observability-modelmonitor-069"]
+  k070["aip-testing-regression-070"]
+  k071["aip-testing-ragtroubleshooting-071"]
+  k072["aip-testing-agenttroubleshooting-072"]
+  k073["aip-agentic-multiagent-hitl-073"]
+  k074["aip-troubleshooting-context-074"]
+
   k001 -->|hard prerequisite| k003
   k002 -->|hard prerequisite| k003
   k005 -->|hard prerequisite| k004
@@ -104,6 +126,37 @@ flowchart TD
   k045 -->|hard prerequisite| k047
   k052 -->|hard prerequisite| k053
   k045 -->|hard prerequisite| k053
+  k055 -->|hard prerequisite| k056
+  k042 -->|hard prerequisite| k056
+  k055 -->|hard prerequisite| k057
+  k055 -->|hard prerequisite| k058
+  k006 -->|hard prerequisite| k059
+  k003 -->|hard prerequisite| k060
+  k013 -->|hard prerequisite| k061
+  k061 -->|hard prerequisite| k062
+  k054 -->|hard prerequisite| k062
+  k018 -->|hard prerequisite| k063
+  k033 -->|hard prerequisite| k064
+  k051 -->|hard prerequisite| k064
+  k048 -->|hard prerequisite| k065
+  k048 -->|hard prerequisite| k066
+  k052 -->|hard prerequisite| k066
+  k042 -->|hard prerequisite| k067
+  k037 -->|hard prerequisite| k067
+  k022 -->|hard prerequisite| k068
+  k067 -->|hard prerequisite| k068
+  k061 -->|hard prerequisite| k069
+  k045 -->|hard prerequisite| k070
+  k046 -->|hard prerequisite| k070
+  k014 -->|hard prerequisite| k071
+  k017 -->|hard prerequisite| k071
+  k046 -->|hard prerequisite| k071
+  k021 -->|hard prerequisite| k072
+  k022 -->|hard prerequisite| k072
+  k068 -->|hard prerequisite| k072
+  k021 -->|hard prerequisite| k073
+  k005 -->|hard prerequisite| k074
+  k037 -->|hard prerequisite| k074
 ```
 
 ## Relationship Notes
@@ -120,12 +173,12 @@ flowchart TD
 
 ## Validation Findings
 
-- 54 readable KP files were analyzed from their contents; all IDs are well formed and unique.
-- The graph contains 34 hard prerequisite edges. Every referenced prerequisite exists.
+- 74 readable KP files are in scope; the 20 new gap-filling KPs (055–074) were validated against their declared IDs, scopes, sources and prerequisites, while the existing 54-KP graph and completed progress were preserved.
+- The graph contains 65 hard prerequisite edges. Every referenced prerequisite exists.
 - No dependency cycles or contradictory hard edges were found.
 - No hard blocker prevents a complete sequential route.
 - Ambiguous soft edges were not promoted to hard prerequisites: notably chunking → Knowledge Bases, data preparation → RAG, IAM/security → AWS service use, and evaluation → model routing.
-- The route covers the existing 54 KPs only. The source PDFs contain additional topics without prepared KPs, so this is not a claim of complete AIP-C01 exam coverage.
+- The route now covers 74 prepared KPs. KPs 055–074 specifically close previously identified engineering, deployment, security, observability, testing and troubleshooting gaps. This materially improves AIP-C01 coverage, but no finite KP set guarantees complete exam coverage.
 
 ## Learning Route
 
@@ -221,19 +274,48 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 2. `aip-governance-llmjudge-047` — LLM-as-a-Judge
 3. `aip-governance-clarify-053` — SageMaker Clarify 偏差检测
 
+### Stage 13 — Professional engineering gap coverage
+
+1. `aip-integration-bedrockapi-055` — Bedrock API surfaces 与运行时调用
+2. `aip-integration-bedrockflows-059` — Bedrock Flows 工作流编排
+3. `aip-operations-provisionedthroughput-060` — Bedrock Provisioned Throughput 与容量规划
+4. `aip-sagemaker-deployment-061` — SageMaker 实时 Endpoint 与 Batch Transform
+5. `aip-security-promptinjection-063` — Prompt Injection、Jailbreak 与输入防护
+6. `aip-security-dataredaction-064` — PII 检测、Token-level Redaction 与数据最小化
+7. `aip-security-appsecurity-065` — Secrets Manager、Cognito 与 WAF 的应用安全角色
+8. `aip-governance-audit-066` — CloudTrail、审计日志与数据保留
+9. `aip-observability-bedrock-067` — Bedrock CloudWatch 指标、Invocation Logging 与 Dashboard
+10. `aip-testing-regression-070` — Golden Dataset、回归测试、Canary 与 A/B 验证
+11. `aip-testing-ragtroubleshooting-071` — RAG 评估与检索故障定位
+12. `aip-agentic-multiagent-hitl-073` — Multi-agent Workflow 与 Human-in-the-Loop
+13. `aip-troubleshooting-context-074` — Context Window、截断与 Prompt 回归排障
+
+### Stage 14 — Integration, MLOps and deep observability
+
+1. `aip-integration-streaming-056` — 流式推理与响应式客户端
+2. `aip-integration-eventdriven-057` — 异步与事件驱动 GenAI 集成
+3. `aip-integration-apigateway-058` — API Gateway 作为 GenAI 安全前门
+4. `aip-sagemaker-mlops-062` — 模型部署防护、Registry、Pipelines 与回滚
+5. `aip-observability-agenttrace-068` — Agent Tracing、X-Ray 与工具调用可观测性
+6. `aip-observability-modelmonitor-069` — SageMaker Model Monitor 与数据/质量漂移
+
+### Stage 15 — Agent validation and troubleshooting
+
+1. `aip-testing-agenttroubleshooting-072` — Agent 评估与故障定位
+
 ### Deterministic one-by-one order
 
-`001 → 002 → 005 → 009 → 003 → 004 → 006 → 007 → 008 → 012 → 015 → 016 → 030 → 031 → 032 → 033 → 034 → 035 → 036 → 010 → 013 → 014 → 017 → 018 → 020 → 011 → 019 → 021 → 027 → 028 → 029 → 022 → 023 → 024 → 025 → 026 → 037 → 038 → 043 → 039 → 040 → 041 → 042 → 044 → 045 → 048 → 049 → 050 → 051 → 052 → 054 → 046 → 047 → 053`
+`001 → 002 → 005 → 009 → 003 → 004 → 006 → 007 → 008 → 012 → 015 → 016 → 030 → 031 → 032 → 033 → 034 → 035 → 036 → 010 → 013 → 014 → 017 → 018 → 020 → 011 → 019 → 021 → 027 → 028 → 029 → 022 → 023 → 024 → 025 → 026 → 037 → 038 → 043 → 039 → 040 → 041 → 042 → 044 → 045 → 048 → 049 → 050 → 051 → 052 → 054 → 046 → 047 → 053 → 055 → 059 → 060 → 061 → 063 → 064 → 065 → 066 → 067 → 070 → 071 → 073 → 074 → 056 → 057 → 058 → 062 → 068 → 069 → 072`
 
 ## Learning Progress
 
-- [ ] `aip-foundations-transformer-001` — Transformer 预训练架构
-- [ ] `aip-foundations-modalities-002` — 基础模型的模态
-- [ ] `aip-foundations-promptanatomy-005` — 提示词的组成结构
-- [ ] `aip-foundations-vectortypes-009` — 稠密向量与稀疏向量
-- [ ] `aip-foundations-basemodels-003` — 基础模型家族与选型
-- [ ] `aip-foundations-prompttechniques-004` — Zero-shot、Few-shot 与 Chain-of-Thought
-- [ ] `aip-foundations-promptmanagement-006` — Bedrock Prompt Management
+- [x] `aip-foundations-transformer-001` — Transformer 预训练架构
+- [x] `aip-foundations-modalities-002` — 基础模型的模态
+- [x] `aip-foundations-promptanatomy-005` — 提示词的组成结构
+- [x] `aip-foundations-vectortypes-009` — 稠密向量与稀疏向量
+- [x] `aip-foundations-basemodels-003` — 基础模型家族与选型
+- [x] `aip-foundations-prompttechniques-004` — Zero-shot、Few-shot 与 Chain-of-Thought
+- [x] `aip-foundations-promptmanagement-006` — Bedrock Prompt Management
 - [ ] `aip-foundations-semanticsearch-007` — 语义搜索与 K 近邻
 - [ ] `aip-foundations-vectordimensionality-008` — 向量维度与性能权衡
 - [ ] `aip-bedrock-continuedpretraining-012` — 持续预训练
@@ -282,10 +364,31 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 - [ ] `aip-governance-llmjudge-047` — LLM-as-a-Judge
 - [ ] `aip-governance-clarify-053` — SageMaker Clarify 偏差检测
 
+- [ ] `aip-integration-bedrockapi-055` — Bedrock API surfaces 与运行时调用
+- [ ] `aip-integration-bedrockflows-059` — Bedrock Flows 工作流编排
+- [ ] `aip-operations-provisionedthroughput-060` — Bedrock Provisioned Throughput 与容量规划
+- [ ] `aip-sagemaker-deployment-061` — SageMaker 实时 Endpoint 与 Batch Transform
+- [ ] `aip-security-promptinjection-063` — Prompt Injection、Jailbreak 与输入防护
+- [ ] `aip-security-dataredaction-064` — PII 检测、Token-level Redaction 与数据最小化
+- [ ] `aip-security-appsecurity-065` — Secrets Manager、Cognito 与 WAF 的应用安全角色
+- [ ] `aip-governance-audit-066` — CloudTrail、审计日志与数据保留
+- [ ] `aip-observability-bedrock-067` — Bedrock CloudWatch 指标、Invocation Logging 与 Dashboard
+- [ ] `aip-testing-regression-070` — Golden Dataset、回归测试、Canary 与 A/B 验证
+- [ ] `aip-testing-ragtroubleshooting-071` — RAG 评估与检索故障定位
+- [ ] `aip-agentic-multiagent-hitl-073` — Multi-agent Workflow 与 Human-in-the-Loop
+- [ ] `aip-troubleshooting-context-074` — Context Window、截断与 Prompt 回归排障
+- [ ] `aip-integration-streaming-056` — 流式推理与响应式客户端
+- [ ] `aip-integration-eventdriven-057` — 异步与事件驱动 GenAI 集成
+- [ ] `aip-integration-apigateway-058` — API Gateway 作为 GenAI 安全前门
+- [ ] `aip-sagemaker-mlops-062` — 模型部署防护、Registry、Pipelines 与回滚
+- [ ] `aip-observability-agenttrace-068` — Agent Tracing、X-Ray 与工具调用可观测性
+- [ ] `aip-observability-modelmonitor-069` — SageMaker Model Monitor 与数据/质量漂移
+- [ ] `aip-testing-agenttroubleshooting-072` — Agent 评估与故障定位
+
 ## Current Position
 
-- Completed: 0 / 54
-- Current KP: None; route planning is complete and detailed KP learning has not begun.
-- Next eligible KP: `aip-foundations-transformer-001` — Transformer 预训练架构
-- Why selected: it is the first item in the deterministic route, has no hard prerequisite, and supports later base-model and continued-pretraining KPs.
+- Completed: 7 / 74
+- Current KP: `aip-foundations-semanticsearch-007` — 语义搜索与 K 近邻; ready to begin.
+- Next eligible KP: `aip-foundations-semanticsearch-007` — 语义搜索与 K 近邻
+- Why selected: it is the first unchecked KP in the deterministic route, and its hard prerequisite `aip-foundations-vectortypes-009` is complete.
 - Blockers: None.
