@@ -31,9 +31,11 @@ Persistence root: GitHub `luyi985/aws/AIP`
 - Active persistence debt: None.
 - Dependency blocker: None known.
 
-## Today Target
+## Next Session Target
 
-- Target: at least 25%
-- Required completed count: 19 / 74
-- Remaining today: 2 KPs
-- Target endpoint on current route: `aip-data-appflow-036`
+- Target: at least 40%
+- Required completed count: 30 / 74
+- Current completed count: 17 / 74
+- Remaining to target: 13 KPs
+- Target endpoint on current deterministic route: `aip-agentic-qdeveloper-028`
+- Next KP: `aip-data-wrangler-035`
