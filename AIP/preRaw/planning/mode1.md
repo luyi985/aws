@@ -5,8 +5,8 @@
 - Learning root: `AIP/`
 - KP root: `AIP/preRaw/KP/`
 - KP count: 74
-- Status snapshot: 61 `pending`; 0 `learning`; 0 `review/persistence_pending`; 13 `completed`
-- Learned and user-approved: 13 / 74
+- Status snapshot: 60 `pending`; 0 `learning`; 0 `review/persistence_pending`; 14 `completed`
+- Learned and user-approved: 14 / 74
 - Route objective: learn every prepared KP one at a time in a dependency-valid, conceptually useful order.
 - Last analysis date: 2026-09-17
 - Last progress update: 2026-10-04
@@ -323,7 +323,7 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 - [x] `aip-bedrock-chunking-015` — RAG 文档分块策略
 - [x] `aip-bedrock-vectordatabases-016` — RAG 向量数据库选型
 - [x] `aip-data-bda-030` — Bedrock Data Automation 多模态提取
-- [ ] `aip-data-textract-031` — Amazon Textract 文档 OCR
+- [x] `aip-data-textract-031` — Amazon Textract 文档 OCR
 - [ ] `aip-data-transcribe-032` — Amazon Transcribe 语音识别与毒性检测
 - [ ] `aip-data-comprehend-033` — Amazon Comprehend 文本分析
 - [ ] `aip-data-glue-034` — AWS Glue 数据管道基础
@@ -389,9 +389,9 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 ## Current Position
 
 - Persistence root: GitHub `luyi985/aws/AIP`
-- Completed and persisted: 13 / 74
-- Remaining: 61 / 74
-- Current KP state: `aip-data-bda-030` — learning, review, user approval, and GitHub persistence complete.
-- Next learning KP: `aip-data-textract-031` — Amazon Textract 文档 OCR
+- Completed and persisted: 14 / 74
+- Remaining: 60 / 74
+- Current KP state: `aip-data-textract-031` — learning, review, user approval, and GitHub persistence complete.
+- Next learning KP: `aip-data-transcribe-032` — Amazon Transcribe 语音识别与毒性检测
 - Blocker: None.
 - Google Drive AIP content is a manual mirror; it is not required for completion.
