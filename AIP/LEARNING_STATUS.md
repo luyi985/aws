@@ -16,18 +16,18 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 ## Progress
 
-- Completed and persisted: 16 / 74
-- Remaining: 58 / 74
-- Progress: 21.6%
+- Completed and persisted: 17 / 74
+- Remaining: 57 / 74
+- Progress: 23.0%
 
 ## Completed Sequence
 
-`001 → 002 → 005 → 009 → 003 → 004 → 006 → 007 → 008 → 012 → 015 → 016 → 030 → 031 → 032 → 033`
+`001 → 002 → 005 → 009 → 003 → 004 → 006 → 007 → 008 → 012 → 015 → 016 → 030 → 031 → 032 → 033 → 034`
 
 ## Current Position
 
-- Current learning milestone: `aip-data-comprehend-033` completed, reviewed, approved, and persisted.
-- Next learning KP: `aip-data-glue-034` — AWS Glue 数据管道基础.
+- Current learning milestone: `aip-data-glue-034` completed, reviewed, approved, and persisted.
+- Next learning KP: `aip-data-wrangler-035` — SageMaker Data Wrangler.
 - Active persistence debt: None.
 - Dependency blocker: None known.
 
@@ -35,5 +35,5 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 - Target: at least 25%
 - Required completed count: 19 / 74
-- Remaining today: 3 KPs
+- Remaining today: 2 KPs
 - Target endpoint on current route: `aip-data-appflow-036`

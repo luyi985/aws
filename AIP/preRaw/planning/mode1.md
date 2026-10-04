@@ -5,8 +5,8 @@
 - Learning root: `AIP/`
 - KP root: `AIP/preRaw/KP/`
 - KP count: 74
-- Status snapshot: 58 `pending`; 0 `learning`; 0 `review/persistence_pending`; 16 `completed`
-- Learned and user-approved: 16 / 74
+- Status snapshot: 57 `pending`; 0 `learning`; 0 `review/persistence_pending`; 17 `completed`
+- Learned and user-approved: 17 / 74
 - Route objective: learn every prepared KP one at a time in a dependency-valid, conceptually useful order.
 - Last analysis date: 2026-09-17
 - Last progress update: 2026-10-04
@@ -326,7 +326,7 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 - [x] `aip-data-textract-031` — Amazon Textract 文档 OCR
 - [x] `aip-data-transcribe-032` — Amazon Transcribe 语音识别与毒性检测
 - [x] `aip-data-comprehend-033` — Amazon Comprehend 文本分析
-- [ ] `aip-data-glue-034` — AWS Glue 数据管道基础
+- [x] `aip-data-glue-034` — AWS Glue 数据管道基础
 - [ ] `aip-data-wrangler-035` — SageMaker Data Wrangler
 - [ ] `aip-data-appflow-036` — AWS AppFlow SaaS 数据集成
 - [ ] `aip-bedrock-finetuning-010` — 监督式微调
@@ -389,9 +389,9 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 ## Current Position
 
 - Persistence root: GitHub `luyi985/aws/AIP`
-- Completed and persisted: 16 / 74
-- Remaining: 58 / 74
-- Current KP state: `aip-data-comprehend-033` — learning, review, user approval, and GitHub persistence complete.
-- Next learning KP: `aip-data-glue-034` — AWS Glue 数据管道基础
+- Completed and persisted: 17 / 74
+- Remaining: 57 / 74
+- Current KP state: `aip-data-glue-034` — learning, review, user approval, and GitHub persistence complete.
+- Next learning KP: `aip-data-wrangler-035` — SageMaker Data Wrangler
 - Blocker: None.
 - Google Drive AIP content is a manual mirror; it is not required for completion.
