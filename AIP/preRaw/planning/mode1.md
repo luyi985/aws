@@ -5,8 +5,8 @@
 - Learning root: `AIP/`
 - KP root: `AIP/preRaw/KP/`
 - KP count: 74
-- Status snapshot: 48 `pending`; 0 `learning`; 0 `review/persistence_pending`; 26 `completed`
-- Learned and user-approved: 26 / 74
+- Status snapshot: 47 `pending`; 0 `learning`; 0 `review/persistence_pending`; 27 `completed`
+- Learned and user-approved: 27 / 74
 - Route objective: learn every prepared KP one at a time in a dependency-valid, conceptually useful order.
 - Last analysis date: 2026-09-17
 - Last progress update: 2026-10-05
@@ -336,7 +336,7 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 - [x] `aip-bedrock-contentfiltering-018` — Guardrails 内容过滤
 - [x] `aip-bedrock-reasoningpolicies-020` — Automated Reasoning Policies
 - [x] `aip-bedrock-lora-011` — LoRA 低秩适配
-- [ ] `aip-bedrock-groundingcheck-019` — 上下文依据检查
+- [x] `aip-bedrock-groundingcheck-019` — 上下文依据检查
 - [ ] `aip-agentic-planning-021` — Bedrock Agent 规划模块
 - [ ] `aip-agentic-qbusiness-027` — Amazon Q Business
 - [ ] `aip-agentic-qdeveloper-028` — Amazon Q Developer
@@ -389,9 +389,9 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 ## Current Position
 
 - Persistence root: GitHub `luyi985/aws/AIP`
-- Completed and persisted: 26 / 74
-- Remaining: 48 / 74
-- Current KP state: `aip-bedrock-lora-011` — learning, review, user approval, and GitHub persistence complete.
-- Next learning KP: `aip-bedrock-groundingcheck-019` — 上下文依据检查
+- Completed and persisted: 27 / 74
+- Remaining: 47 / 74
+- Current KP state: `aip-bedrock-groundingcheck-019` — learning, review, user approval, and GitHub persistence complete.
+- Next learning KP: `aip-agentic-planning-021` — Bedrock Agent 规划模块
 - Blocker: None.
 - Google Drive AIP content is a manual mirror; it is not required for completion.
