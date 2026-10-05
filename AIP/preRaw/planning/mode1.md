@@ -5,11 +5,11 @@
 - Learning root: `AIP/`
 - KP root: `AIP/preRaw/KP/`
 - KP count: 74
-- Status snapshot: 56 `pending`; 0 `learning`; 0 `review/persistence_pending`; 18 `completed`
-- Learned and user-approved: 18 / 74
+- Status snapshot: 55 `pending`; 0 `learning`; 0 `review/persistence_pending`; 19 `completed`
+- Learned and user-approved: 19 / 74
 - Route objective: learn every prepared KP one at a time in a dependency-valid, conceptually useful order.
 - Last analysis date: 2026-09-17
-- Last progress update: 2026-10-04
+- Last progress update: 2026-10-05
 
 ## Knowledge Graph
 
@@ -328,7 +328,7 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 - [x] `aip-data-comprehend-033` — Amazon Comprehend 文本分析
 - [x] `aip-data-glue-034` — AWS Glue 数据管道基础
 - [x] `aip-data-wrangler-035` — SageMaker Data Wrangler
-- [ ] `aip-data-appflow-036` — AWS AppFlow SaaS 数据集成
+- [x] `aip-data-appflow-036` — AWS AppFlow SaaS 数据集成
 - [ ] `aip-bedrock-finetuning-010` — 监督式微调
 - [ ] `aip-bedrock-customimport-013` — 从 SageMaker 导入自定义模型
 - [ ] `aip-bedrock-knowledgebases-014` — Bedrock Knowledge Bases 自动化 RAG
@@ -389,9 +389,9 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 ## Current Position
 
 - Persistence root: GitHub `luyi985/aws/AIP`
-- Completed and persisted: 18 / 74
-- Remaining: 56 / 74
-- Current KP state: `aip-data-wrangler-035` — learning, review, user approval, and GitHub persistence complete.
-- Next learning KP: `aip-data-appflow-036` — Amazon AppFlow
+- Completed and persisted: 19 / 74
+- Remaining: 55 / 74
+- Current KP state: `aip-data-appflow-036` — learning, review, user approval, and GitHub persistence complete.
+- Next learning KP: `aip-bedrock-finetuning-010` — 监督式微调
 - Blocker: None.
 - Google Drive AIP content is a manual mirror; it is not required for completion.
