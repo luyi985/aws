@@ -16,18 +16,18 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 ## Progress
 
-- Completed and persisted: 27 / 74
-- Remaining: 47 / 74
-- Progress: 36.5%
+- Completed and persisted: 28 / 74
+- Remaining: 46 / 74
+- Progress: 37.8%
 
 ## Completed Sequence
 
-`001 → 002 → 005 → 009 → 003 → 004 → 006 → 007 → 008 → 012 → 015 → 016 → 030 → 031 → 032 → 033 → 034 → 035 → 036 → 010 → 013 → 014 → 017 → 018 → 020 → 011 → 019`
+`001 → 002 → 005 → 009 → 003 → 004 → 006 → 007 → 008 → 012 → 015 → 016 → 030 → 031 → 032 → 033 → 034 → 035 → 036 → 010 → 013 → 014 → 017 → 018 → 020 → 011 → 019 → 021`
 
 ## Current Position
 
-- Current learning milestone: `aip-bedrock-groundingcheck-019` completed, reviewed, approved, and persisted.
-- Next learning KP: `aip-agentic-planning-021` — Bedrock Agent 规划模块.
+- Current learning milestone: `aip-agentic-planning-021` completed, reviewed, approved, and persisted.
+- Next learning KP: `aip-agentic-qbusiness-027` — Amazon Q Business.
 - Active persistence debt: None.
 - Dependency blocker: None known.
 
@@ -35,7 +35,7 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 - Target: at least 40%
 - Required completed count: 30 / 74
-- Current completed count: 27 / 74
-- Remaining to target: 3 KPs
+- Current completed count: 28 / 74
+- Remaining to target: 2 KPs
 - Target endpoint on current deterministic route: `aip-agentic-qdeveloper-028`
-- Next KP: `aip-agentic-planning-021`
+- Next KP: `aip-agentic-qbusiness-027`
