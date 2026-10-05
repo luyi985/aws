@@ -5,8 +5,8 @@
 - Learning root: `AIP/`
 - KP root: `AIP/preRaw/KP/`
 - KP count: 74
-- Status snapshot: 54 `pending`; 0 `learning`; 0 `review/persistence_pending`; 20 `completed`
-- Learned and user-approved: 20 / 74
+- Status snapshot: 53 `pending`; 0 `learning`; 0 `review/persistence_pending`; 21 `completed`
+- Learned and user-approved: 21 / 74
 - Route objective: learn every prepared KP one at a time in a dependency-valid, conceptually useful order.
 - Last analysis date: 2026-09-17
 - Last progress update: 2026-10-05
@@ -330,7 +330,7 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 - [x] `aip-data-wrangler-035` — SageMaker Data Wrangler
 - [x] `aip-data-appflow-036` — AWS AppFlow SaaS 数据集成
 - [x] `aip-bedrock-finetuning-010` — 监督式微调
-- [ ] `aip-bedrock-customimport-013` — 从 SageMaker 导入自定义模型
+- [x] `aip-bedrock-customimport-013` — 从 SageMaker 导入自定义模型
 - [ ] `aip-bedrock-knowledgebases-014` — Bedrock Knowledge Bases 自动化 RAG
 - [ ] `aip-bedrock-reranking-017` — Rerank 模型与相关性改进
 - [ ] `aip-bedrock-contentfiltering-018` — Guardrails 内容过滤
@@ -389,9 +389,9 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 ## Current Position
 
 - Persistence root: GitHub `luyi985/aws/AIP`
-- Completed and persisted: 20 / 74
-- Remaining: 54 / 74
-- Current KP state: `aip-bedrock-finetuning-010` — learning, review, user approval, and GitHub persistence complete.
-- Next learning KP: `aip-bedrock-customimport-013` — 从 SageMaker 导入自定义模型
+- Completed and persisted: 21 / 74
+- Remaining: 53 / 74
+- Current KP state: `aip-bedrock-customimport-013` — learning, review, user approval, and GitHub persistence complete.
+- Next learning KP: `aip-bedrock-knowledgebases-014` — Bedrock Knowledge Bases 自动化 RAG
 - Blocker: None.
 - Google Drive AIP content is a manual mirror; it is not required for completion.
