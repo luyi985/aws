@@ -5,8 +5,8 @@
 - Learning root: `AIP/`
 - KP root: `AIP/preRaw/KP/`
 - KP count: 74
-- Status snapshot: 51 `pending`; 0 `learning`; 0 `review/persistence_pending`; 23 `completed`
-- Learned and user-approved: 23 / 74
+- Status snapshot: 50 `pending`; 0 `learning`; 0 `review/persistence_pending`; 24 `completed`
+- Learned and user-approved: 24 / 74
 - Route objective: learn every prepared KP one at a time in a dependency-valid, conceptually useful order.
 - Last analysis date: 2026-09-17
 - Last progress update: 2026-10-05
@@ -333,7 +333,7 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 - [x] `aip-bedrock-customimport-013` — 从 SageMaker 导入自定义模型
 - [x] `aip-bedrock-knowledgebases-014` — Bedrock Knowledge Bases 自动化 RAG
 - [x] `aip-bedrock-reranking-017` — Rerank 模型与相关性改进
-- [ ] `aip-bedrock-contentfiltering-018` — Guardrails 内容过滤
+- [x] `aip-bedrock-contentfiltering-018` — Guardrails 内容过滤
 - [ ] `aip-bedrock-reasoningpolicies-020` — Automated Reasoning Policies
 - [ ] `aip-bedrock-lora-011` — LoRA 低秩适配
 - [ ] `aip-bedrock-groundingcheck-019` — 上下文依据检查
@@ -389,9 +389,9 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 ## Current Position
 
 - Persistence root: GitHub `luyi985/aws/AIP`
-- Completed and persisted: 23 / 74
-- Remaining: 51 / 74
-- Current KP state: `aip-bedrock-reranking-017` — learning, review, user approval, and GitHub persistence complete.
-- Next learning KP: `aip-bedrock-contentfiltering-018` — Guardrails 内容过滤
+- Completed and persisted: 24 / 74
+- Remaining: 50 / 74
+- Current KP state: `aip-bedrock-contentfiltering-018` — learning, review, user approval, and GitHub persistence complete.
+- Next learning KP: `aip-bedrock-reasoningpolicies-020` — Automated Reasoning Policies
 - Blocker: None.
 - Google Drive AIP content is a manual mirror; it is not required for completion.
