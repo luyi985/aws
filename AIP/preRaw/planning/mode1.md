@@ -5,8 +5,8 @@
 - Learning root: `AIP/`
 - KP root: `AIP/preRaw/KP/`
 - KP count: 74
-- Status snapshot: 49 `pending`; 0 `learning`; 0 `review/persistence_pending`; 25 `completed`
-- Learned and user-approved: 25 / 74
+- Status snapshot: 48 `pending`; 0 `learning`; 0 `review/persistence_pending`; 26 `completed`
+- Learned and user-approved: 26 / 74
 - Route objective: learn every prepared KP one at a time in a dependency-valid, conceptually useful order.
 - Last analysis date: 2026-09-17
 - Last progress update: 2026-10-05
@@ -335,7 +335,7 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 - [x] `aip-bedrock-reranking-017` — Rerank 模型与相关性改进
 - [x] `aip-bedrock-contentfiltering-018` — Guardrails 内容过滤
 - [x] `aip-bedrock-reasoningpolicies-020` — Automated Reasoning Policies
-- [ ] `aip-bedrock-lora-011` — LoRA 低秩适配
+- [x] `aip-bedrock-lora-011` — LoRA 低秩适配
 - [ ] `aip-bedrock-groundingcheck-019` — 上下文依据检查
 - [ ] `aip-agentic-planning-021` — Bedrock Agent 规划模块
 - [ ] `aip-agentic-qbusiness-027` — Amazon Q Business
@@ -389,9 +389,9 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 ## Current Position
 
 - Persistence root: GitHub `luyi985/aws/AIP`
-- Completed and persisted: 25 / 74
-- Remaining: 49 / 74
-- Current KP state: `aip-bedrock-reasoningpolicies-020` — learning, review, user approval, and GitHub persistence complete.
-- Next learning KP: `aip-bedrock-lora-011` — LoRA 低秩适配
+- Completed and persisted: 26 / 74
+- Remaining: 48 / 74
+- Current KP state: `aip-bedrock-lora-011` — learning, review, user approval, and GitHub persistence complete.
+- Next learning KP: `aip-bedrock-groundingcheck-019` — 上下文依据检查
 - Blocker: None.
 - Google Drive AIP content is a manual mirror; it is not required for completion.
