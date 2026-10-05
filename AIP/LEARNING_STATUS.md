@@ -1,6 +1,6 @@
 # AIP Learning Status
 
-Last synced: 2026-10-04
+Last synced: 2026-10-05
 Primary mode: Mode 1
 Source scope: all KPs in `AIP/preRaw/KP/`
 Total KPs: 74
@@ -16,18 +16,18 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 ## Progress
 
-- Completed and persisted: 18 / 74
-- Remaining: 56 / 74
-- Progress: 24.3%
+- Completed and persisted: 19 / 74
+- Remaining: 55 / 74
+- Progress: 25.7%
 
 ## Completed Sequence
 
-`001 → 002 → 005 → 009 → 003 → 004 → 006 → 007 → 008 → 012 → 015 → 016 → 030 → 031 → 032 → 033 → 034 → 035`
+`001 → 002 → 005 → 009 → 003 → 004 → 006 → 007 → 008 → 012 → 015 → 016 → 030 → 031 → 032 → 033 → 034 → 035 → 036`
 
 ## Current Position
 
-- Current learning milestone: `aip-data-wrangler-035` completed, reviewed, approved, and persisted.
-- Next learning KP: `aip-data-appflow-036` — Amazon AppFlow.
+- Current learning milestone: `aip-data-appflow-036` completed, reviewed, approved, and persisted.
+- Next learning KP: `aip-bedrock-finetuning-010` — 监督式微调.
 - Active persistence debt: None.
 - Dependency blocker: None known.
 
@@ -35,7 +35,7 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 - Target: at least 40%
 - Required completed count: 30 / 74
-- Current completed count: 18 / 74
-- Remaining to target: 12 KPs
+- Current completed count: 19 / 74
+- Remaining to target: 11 KPs
 - Target endpoint on current deterministic route: `aip-agentic-qdeveloper-028`
-- Next KP: `aip-data-appflow-036`
+- Next KP: `aip-bedrock-finetuning-010`
