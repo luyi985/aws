@@ -16,18 +16,18 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 ## Progress
 
-- Completed and persisted: 23 / 74
-- Remaining: 51 / 74
-- Progress: 31.1%
+- Completed and persisted: 24 / 74
+- Remaining: 50 / 74
+- Progress: 32.4%
 
 ## Completed Sequence
 
-`001 → 002 → 005 → 009 → 003 → 004 → 006 → 007 → 008 → 012 → 015 → 016 → 030 → 031 → 032 → 033 → 034 → 035 → 036 → 010 → 013 → 014 → 017`
+`001 → 002 → 005 → 009 → 003 → 004 → 006 → 007 → 008 → 012 → 015 → 016 → 030 → 031 → 032 → 033 → 034 → 035 → 036 → 010 → 013 → 014 → 017 → 018`
 
 ## Current Position
 
-- Current learning milestone: `aip-bedrock-reranking-017` completed, reviewed, approved, and persisted.
-- Next learning KP: `aip-bedrock-contentfiltering-018` — Guardrails 内容过滤.
+- Current learning milestone: `aip-bedrock-contentfiltering-018` completed, reviewed, approved, and persisted.
+- Next learning KP: `aip-bedrock-reasoningpolicies-020` — Automated Reasoning Policies.
 - Active persistence debt: None.
 - Dependency blocker: None known.
 
@@ -35,7 +35,7 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 - Target: at least 40%
 - Required completed count: 30 / 74
-- Current completed count: 23 / 74
-- Remaining to target: 7 KPs
+- Current completed count: 24 / 74
+- Remaining to target: 6 KPs
 - Target endpoint on current deterministic route: `aip-agentic-qdeveloper-028`
-- Next KP: `aip-bedrock-contentfiltering-018`
+- Next KP: `aip-bedrock-reasoningpolicies-020`
