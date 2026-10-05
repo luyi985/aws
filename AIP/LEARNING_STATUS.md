@@ -16,18 +16,18 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 ## Progress
 
-- Completed and persisted: 17 / 74
-- Remaining: 57 / 74
-- Progress: 23.0%
+- Completed and persisted: 18 / 74
+- Remaining: 56 / 74
+- Progress: 24.3%
 
 ## Completed Sequence
 
-`001 → 002 → 005 → 009 → 003 → 004 → 006 → 007 → 008 → 012 → 015 → 016 → 030 → 031 → 032 → 033 → 034`
+`001 → 002 → 005 → 009 → 003 → 004 → 006 → 007 → 008 → 012 → 015 → 016 → 030 → 031 → 032 → 033 → 034 → 035`
 
 ## Current Position
 
-- Current learning milestone: `aip-data-glue-034` completed, reviewed, approved, and persisted.
-- Next learning KP: `aip-data-wrangler-035` — SageMaker Data Wrangler.
+- Current learning milestone: `aip-data-wrangler-035` completed, reviewed, approved, and persisted.
+- Next learning KP: `aip-data-appflow-036` — Amazon AppFlow.
 - Active persistence debt: None.
 - Dependency blocker: None known.
 
@@ -35,7 +35,7 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 - Target: at least 40%
 - Required completed count: 30 / 74
-- Current completed count: 17 / 74
-- Remaining to target: 13 KPs
+- Current completed count: 18 / 74
+- Remaining to target: 12 KPs
 - Target endpoint on current deterministic route: `aip-agentic-qdeveloper-028`
-- Next KP: `aip-data-wrangler-035`
+- Next KP: `aip-data-appflow-036`
