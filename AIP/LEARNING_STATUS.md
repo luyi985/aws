@@ -16,18 +16,18 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 ## Progress
 
-- Completed and persisted: 20 / 74
-- Remaining: 54 / 74
-- Progress: 27.0%
+- Completed and persisted: 21 / 74
+- Remaining: 53 / 74
+- Progress: 28.4%
 
 ## Completed Sequence
 
-`001 → 002 → 005 → 009 → 003 → 004 → 006 → 007 → 008 → 012 → 015 → 016 → 030 → 031 → 032 → 033 → 034 → 035 → 036 → 010`
+`001 → 002 → 005 → 009 → 003 → 004 → 006 → 007 → 008 → 012 → 015 → 016 → 030 → 031 → 032 → 033 → 034 → 035 → 036 → 010 → 013`
 
 ## Current Position
 
-- Current learning milestone: `aip-bedrock-finetuning-010` completed, reviewed, approved, and persisted.
-- Next learning KP: `aip-bedrock-customimport-013` — 从 SageMaker 导入自定义模型.
+- Current learning milestone: `aip-bedrock-customimport-013` completed, reviewed, approved, and persisted.
+- Next learning KP: `aip-bedrock-knowledgebases-014` — Bedrock Knowledge Bases 自动化 RAG.
 - Active persistence debt: None.
 - Dependency blocker: None known.
 
@@ -35,7 +35,7 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 - Target: at least 40%
 - Required completed count: 30 / 74
-- Current completed count: 20 / 74
-- Remaining to target: 10 KPs
+- Current completed count: 21 / 74
+- Remaining to target: 9 KPs
 - Target endpoint on current deterministic route: `aip-agentic-qdeveloper-028`
-- Next KP: `aip-bedrock-customimport-013`
+- Next KP: `aip-bedrock-knowledgebases-014`
