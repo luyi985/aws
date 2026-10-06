@@ -16,18 +16,18 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 ## Progress
 
-- Completed and persisted: 30 / 74
-- Remaining: 44 / 74
-- Progress: 40.5%
+- Completed and persisted: 31 / 74
+- Remaining: 43 / 74
+- Progress: 41.9%
 
 ## Completed Sequence
 
-`001 → 002 → 005 → 009 → 003 → 004 → 006 → 007 → 008 → 012 → 015 → 016 → 030 → 031 → 032 → 033 → 034 → 035 → 036 → 010 → 013 → 014 → 017 → 018 → 020 → 011 → 019 → 021 → 027 → 028`
+`001 → 002 → 005 → 009 → 003 → 004 → 006 → 007 → 008 → 012 → 015 → 016 → 030 → 031 → 032 → 033 → 034 → 035 → 036 → 010 → 013 → 014 → 017 → 018 → 020 → 011 → 019 → 021 → 027 → 028 → 029`
 
 ## Current Position
 
-- Current learning milestone: `aip-agentic-qdeveloper-028` completed, reviewed, approved, and persisted.
-- Next learning KP: `aip-agentic-qapps-029` — Amazon Q Apps 无代码应用生成.
+- Current learning milestone: `aip-agentic-qapps-029` completed, reviewed, approved, and persisted.
+- Next learning KP: `aip-agentic-actiongroups-022` — Bedrock Agent Action Groups.
 - Active persistence debt: None.
 - Dependency blocker: None known.
 
@@ -35,7 +35,7 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 - Target: at least 40%
 - Required completed count: 30 / 74
-- Current completed count: 30 / 74
+- Current completed count: 31 / 74
 - Remaining to target: 0 KPs
 - Target endpoint on current deterministic route: `aip-agentic-qdeveloper-028`
-- Next KP: `aip-agentic-qapps-029`
+- Next KP: `aip-agentic-actiongroups-022`
