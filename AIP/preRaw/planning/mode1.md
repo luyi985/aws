@@ -5,8 +5,8 @@
 - Learning root: `AIP/`
 - KP root: `AIP/preRaw/KP/`
 - KP count: 74
-- Status snapshot: 43 `pending`; 0 `learning`; 0 `review/persistence_pending`; 31 `completed`
-- Learned and user-approved: 31 / 74
+- Status snapshot: 42 `pending`; 0 `learning`; 0 `review/persistence_pending`; 32 `completed`
+- Learned and user-approved: 32 / 74
 - Route objective: learn every prepared KP one at a time in a dependency-valid, conceptually useful order.
 - Last analysis date: 2026-09-17
 - Last progress update: 2026-10-05
@@ -341,7 +341,7 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 - [x] `aip-agentic-qbusiness-027` — Amazon Q Business
 - [x] `aip-agentic-qdeveloper-028` — Amazon Q Developer
 - [x] `aip-agentic-qapps-029` — Amazon Q Apps 无代码应用生成
-- [ ] `aip-agentic-actiongroups-022` — Bedrock Agent Action Groups
+- [x] `aip-agentic-actiongroups-022` — Bedrock Agent Action Groups
 - [ ] `aip-agentic-memory-023` — Agent 短期与长期记忆
 - [ ] `aip-agentic-agentcore-024` — AgentCore 的扩展与运行支撑
 - [ ] `aip-agentic-strands-025` — Strands SDK 代理开发框架
@@ -389,9 +389,9 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 ## Current Position
 
 - Persistence root: GitHub `luyi985/aws/AIP`
-- Completed and persisted: 31 / 74
-- Remaining: 43 / 74
-- Current KP state: `aip-agentic-qapps-029` — learning, review, user approval, and GitHub persistence complete.
-- Next learning KP: `aip-agentic-actiongroups-022` — Bedrock Agent Action Groups
+- Completed and persisted: 32 / 74
+- Remaining: 42 / 74
+- Current KP state: `aip-agentic-actiongroups-022` — learning, review, user approval, and GitHub persistence complete.
+- Next learning KP: `aip-agentic-memory-023` — Agent 短期与长期记忆
 - Blocker: None.
 - Google Drive AIP content is a manual mirror; it is not required for completion.
