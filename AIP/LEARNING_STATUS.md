@@ -1,6 +1,6 @@
 # AIP Learning Status
 
-Last synced: 2026-10-05
+Last synced: 2026-10-09
 Primary mode: Mode 1
 Source scope: all KPs in `AIP/preRaw/KP/`
 Total KPs: 74
@@ -16,18 +16,18 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 ## Progress
 
-- Completed and persisted: 33 / 74
-- Remaining: 41 / 74
-- Progress: 44.6%
+- Completed and persisted: 34 / 74
+- Remaining: 40 / 74
+- Progress: 45.9%
 
 ## Completed Sequence
 
-`001 → 002 → 005 → 009 → 003 → 004 → 006 → 007 → 008 → 012 → 015 → 016 → 030 → 031 → 032 → 033 → 034 → 035 → 036 → 010 → 013 → 014 → 017 → 018 → 020 → 011 → 019 → 021 → 027 → 028 → 029 → 022 → 023`
+`001 → 002 → 005 → 009 → 003 → 004 → 006 → 007 → 008 → 012 → 015 → 016 → 030 → 031 → 032 → 033 → 034 → 035 → 036 → 010 → 013 → 014 → 017 → 018 → 020 → 011 → 019 → 021 → 027 → 028 → 029 → 022 → 023 → 024`
 
 ## Current Position
 
-- Current learning milestone: `aip-agentic-memory-023` completed, reviewed, approved, and persisted.
-- Next learning KP: `aip-agentic-agentcore-024` — AgentCore 的扩展与运行支撑.
+- Current learning milestone: `aip-agentic-agentcore-024` completed, reviewed, approved, and persisted.
+- Next learning KP: `aip-agentic-strands-025` — Strands SDK 代理开发框架.
 - Active persistence debt: None.
 - Dependency blocker: None known.
 
@@ -35,7 +35,7 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 - Target: at least 40%
 - Required completed count: 30 / 74
-- Current completed count: 33 / 74
+- Current completed count: 34 / 74
 - Remaining to target: 0 KPs
 - Target endpoint on current deterministic route: `aip-agentic-qdeveloper-028`
-- Next KP: `aip-agentic-agentcore-024`
+- Next KP: `aip-agentic-strands-025`
