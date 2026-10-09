@@ -81,3 +81,24 @@ Continued Pre-training 或 Fine-tuning 是在已有模型基础上继续调整�
 ## Open Questions
 
 - None
+
+## Exam-Level Review — 2026-10-09
+
+Result: L4 passed in this review; delayed retention not tested.
+
+Initial confusion: Transformer versus next-token prediction; general pre-training versus domain adaptation.
+
+Corrected understanding: Transformer is architecture; self-attention builds contextual representations; next-token prediction is one task. General pre-training develops broad capabilities. Continued pre-training updates weights with domain data. RAG retrieves external knowledge without retraining the model.
+
+Evidence: Q2=B, Q3=A+C, Q4=B, Q5=B, final scenario=C. The learner explained prioritizing up-to-date RAG and avoiding unnecessary training cost, with domain adaptation conditional on evaluation. Exclusion rationale for other final choices was supplied by the assistant, not the learner.
+
+State: understanding validated; connection related; application transferred in hypothetical scenario; retention later untested.
+
+Original sources: AIP/preRaw/NotebookLM Mind Map.png (I. Foundational AI Concepts > Foundation Models > Transformer Architecture); AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf (p.17); AIP/preRaw/AIPStudyGuide.pdf (p.1).
+
+AWS references:
+- https://docs.aws.amazon.com/wellarchitected/latest/generative-ai-lens/genops05-bp01.html
+- https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base.html
+- https://docs.aws.amazon.com/nova/latest/nova2-userguide/nova-cpt.html
+
+Next: aip-foundations-modalities-002; review KP 001 later for retention.
