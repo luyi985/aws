@@ -16,18 +16,18 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 ## Progress
 
-- Completed and persisted: 36 / 74
-- Remaining: 38 / 74
-- Progress: 48.6%
+- Completed and persisted: 37 / 74
+- Remaining: 37 / 74
+- Progress: 50.0%
 
 ## Completed Sequence
 
-`001 → 002 → 005 → 009 → 003 → 004 → 006 → 007 → 008 → 012 → 015 → 016 → 030 → 031 → 032 → 033 → 034 → 035 → 036 → 010 → 013 → 014 → 017 → 018 → 020 → 011 → 019 → 021 → 027 → 028 → 029 → 022 → 023 → 024 → 025 → 026`
+`001 → 002 → 005 → 009 → 003 → 004 → 006 → 007 → 008 → 012 → 015 → 016 → 030 → 031 → 032 → 033 → 034 → 035 → 036 → 010 → 013 → 014 → 017 → 018 → 020 → 011 → 019 → 021 → 027 → 028 → 029 → 022 → 023 → 024 → 025 → 026 → 037`
 
 ## Current Position
 
-- Current learning milestone: `aip-agentic-mcp-026` completed, reviewed, approved, and persisted.
-- Next learning KP: `aip-operations-tokenefficiency-037` — Token 效率与上下文裁剪.
+- Current learning milestone: `aip-operations-tokenefficiency-037` completed, reviewed, approved, and persisted.
+- Next learning KP: `aip-operations-modelrouting-038` — 静态与动态模型路由.
 - Active persistence debt: None.
 - Dependency blocker: None known.
 
@@ -35,7 +35,7 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 - Target: at least 40%
 - Required completed count: 30 / 74
-- Current completed count: 36 / 74
+- Current completed count: 37 / 74
 - Remaining to target: 0 KPs
 - Target endpoint on current deterministic route: `aip-agentic-qdeveloper-028`
-- Next KP: `aip-operations-tokenefficiency-037`
+- Next KP: `aip-operations-modelrouting-038`
