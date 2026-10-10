@@ -1,6 +1,6 @@
 # AIP Learning Status
 
-Last synced: 2026-10-09
+Last synced: 2026-10-11
 Primary mode: Mode 1
 Source scope: all KPs in `AIP/preRaw/KP/`
 Total KPs: 74
@@ -33,9 +33,9 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 ## Next Session Target
 
-- Target: at least 40%
-- Required completed count: 30 / 74
+- Target: at least 55%
+- Required completed count: 41 / 74
 - Current completed count: 37 / 74
-- Remaining to target: 0 KPs
-- Target endpoint on current deterministic route: `aip-agentic-qdeveloper-028`
+- Remaining to target: 4 KPs
+- Target endpoint on current deterministic route: `aip-operations-promptcaching-040`
 - Next KP: `aip-operations-modelrouting-038`
