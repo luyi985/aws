@@ -5,11 +5,11 @@
 - Learning root: `AIP/`
 - KP root: `AIP/preRaw/KP/`
 - KP count: 74
-- Status snapshot: 37 `pending`; 0 `learning`; 0 `review/persistence_pending`; 37 `completed`
-- Learned and user-approved: 37 / 74
+- Status snapshot: 36 `pending`; 0 `learning`; 0 `review/persistence_pending`; 38 `completed`
+- Learned and user-approved: 38 / 74
 - Route objective: learn every prepared KP one at a time in a dependency-valid, conceptually useful order.
 - Last analysis date: 2026-09-17
-- Last progress update: 2026-10-09
+- Last progress update: 2026-10-11
 
 ## Knowledge Graph
 
@@ -347,7 +347,7 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 - [x] `aip-agentic-strands-025` — Strands SDK 代理开发框架
 - [x] `aip-agentic-mcp-026` — Model Context Protocol 工具接口
 - [x] `aip-operations-tokenefficiency-037` — Token 效率与上下文裁剪
-- [ ] `aip-operations-modelrouting-038` — 静态与动态模型路由
+- [x] `aip-operations-modelrouting-038` — 静态与动态模型路由
 - [ ] `aip-operations-backoff-043` — 指数退避与抖动
 - [ ] `aip-operations-crossregion-039` — Cross-Region Inference
 - [ ] `aip-operations-promptcaching-040` — Prompt Caching 与静态前缀
@@ -389,9 +389,9 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 ## Current Position
 
 - Persistence root: GitHub `luyi985/aws/AIP`
-- Completed and persisted: 37 / 74
-- Remaining: 37 / 74
-- Current KP state: `aip-operations-tokenefficiency-037` — learning, review, user approval, and GitHub persistence complete.
-- Next learning KP: `aip-operations-modelrouting-038` — 静态与动态模型路由
+- Completed and persisted: 38 / 74
+- Remaining: 36 / 74
+- Current KP state: `aip-operations-modelrouting-038` — learning, review, user approval, and GitHub persistence complete.
+- Next learning KP: `aip-operations-backoff-043` — 指数退避与抖动
 - Blocker: None.
 - Google Drive AIP content is a manual mirror; it is not required for completion.
