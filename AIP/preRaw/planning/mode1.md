@@ -5,8 +5,8 @@
 - Learning root: `AIP/`
 - KP root: `AIP/preRaw/KP/`
 - KP count: 74
-- Status snapshot: 35 `pending`; 0 `learning`; 0 `review/persistence_pending`; 39 `completed`
-- Learned and user-approved: 39 / 74
+- Status snapshot: 34 `pending`; 0 `learning`; 0 `review/persistence_pending`; 40 `completed`
+- Learned and user-approved: 40 / 74
 - Route objective: learn every prepared KP one at a time in a dependency-valid, conceptually useful order.
 - Last analysis date: 2026-09-17
 - Last progress update: 2026-10-11
@@ -349,7 +349,7 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 - [x] `aip-operations-tokenefficiency-037` — Token 效率与上下文裁剪
 - [x] `aip-operations-modelrouting-038` — 静态与动态模型路由
 - [x] `aip-operations-backoff-043` — 指数退避与抖动
-- [ ] `aip-operations-crossregion-039` — Cross-Region Inference
+- [x] `aip-operations-crossregion-039` — Cross-Region Inference
 - [ ] `aip-operations-promptcaching-040` — Prompt Caching 与静态前缀
 - [ ] `aip-operations-semanticcache-041` — ElastiCache 语义缓存
 - [ ] `aip-operations-latency-042` — 延迟优化推理与 TTFT、OTPS
@@ -389,9 +389,9 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 ## Current Position
 
 - Persistence root: GitHub `luyi985/aws/AIP`
-- Completed and persisted: 39 / 74
-- Remaining: 35 / 74
-- Current KP state: `aip-operations-backoff-043` — learning, review, user approval, and GitHub persistence complete.
-- Next learning KP: `aip-operations-crossregion-039` — Cross-Region Inference
+- Completed and persisted: 40 / 74
+- Remaining: 34 / 74
+- Current KP state: `aip-operations-crossregion-039` — learning, review, user approval, and GitHub persistence complete.
+- Next learning KP: `aip-operations-promptcaching-040` — Prompt Caching 与静态前缀
 - Blocker: None.
 - Google Drive AIP content is a manual mirror; it is not required for completion.
