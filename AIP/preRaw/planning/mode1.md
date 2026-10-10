@@ -5,8 +5,8 @@
 - Learning root: `AIP/`
 - KP root: `AIP/preRaw/KP/`
 - KP count: 74
-- Status snapshot: 38 `pending`; 0 `learning`; 0 `review/persistence_pending`; 36 `completed`
-- Learned and user-approved: 36 / 74
+- Status snapshot: 37 `pending`; 0 `learning`; 0 `review/persistence_pending`; 37 `completed`
+- Learned and user-approved: 37 / 74
 - Route objective: learn every prepared KP one at a time in a dependency-valid, conceptually useful order.
 - Last analysis date: 2026-09-17
 - Last progress update: 2026-10-09
@@ -346,7 +346,7 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 - [x] `aip-agentic-agentcore-024` — AgentCore 的扩展与运行支撑
 - [x] `aip-agentic-strands-025` — Strands SDK 代理开发框架
 - [x] `aip-agentic-mcp-026` — Model Context Protocol 工具接口
-- [ ] `aip-operations-tokenefficiency-037` — Token 效率与上下文裁剪
+- [x] `aip-operations-tokenefficiency-037` — Token 效率与上下文裁剪
 - [ ] `aip-operations-modelrouting-038` — 静态与动态模型路由
 - [ ] `aip-operations-backoff-043` — 指数退避与抖动
 - [ ] `aip-operations-crossregion-039` — Cross-Region Inference
@@ -389,9 +389,9 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 ## Current Position
 
 - Persistence root: GitHub `luyi985/aws/AIP`
-- Completed and persisted: 36 / 74
-- Remaining: 38 / 74
-- Current KP state: `aip-agentic-mcp-026` — learning, review, user approval, and GitHub persistence complete.
-- Next learning KP: `aip-operations-tokenefficiency-037` — Token 效率与上下文裁剪
+- Completed and persisted: 37 / 74
+- Remaining: 37 / 74
+- Current KP state: `aip-operations-tokenefficiency-037` — learning, review, user approval, and GitHub persistence complete.
+- Next learning KP: `aip-operations-modelrouting-038` — 静态与动态模型路由
 - Blocker: None.
 - Google Drive AIP content is a manual mirror; it is not required for completion.
