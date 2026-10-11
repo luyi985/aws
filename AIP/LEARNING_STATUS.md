@@ -16,26 +16,26 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 ## Progress
 
-- Completed and persisted: 40 / 74
-- Remaining: 34 / 74
-- Progress: 54.1%
+- Completed and persisted: 41 / 74
+- Remaining: 33 / 74
+- Progress: 55.4%
 
 ## Completed Sequence
 
-`001 → 002 → 005 → 009 → 003 → 004 → 006 → 007 → 008 → 012 → 015 → 016 → 030 → 031 → 032 → 033 → 034 → 035 → 036 → 010 → 013 → 014 → 017 → 018 → 020 → 011 → 019 → 021 → 027 → 028 → 029 → 022 → 023 → 024 → 025 → 026 → 037 → 038 → 043 → 039`
+`001 → 002 → 005 → 009 → 003 → 004 → 006 → 007 → 008 → 012 → 015 → 016 → 030 → 031 → 032 → 033 → 034 → 035 → 036 → 010 → 013 → 014 → 017 → 018 → 020 → 011 → 019 → 021 → 027 → 028 → 029 → 022 → 023 → 024 → 025 → 026 → 037 → 038 → 043 → 039 → 040`
 
 ## Current Position
 
-- Current learning milestone: `aip-operations-crossregion-039` completed, reviewed, approved, and persisted.
-- Next learning KP: `aip-operations-promptcaching-040` — Prompt Caching 与静态前缀.
+- Current learning milestone: `aip-operations-promptcaching-040` completed, reviewed, approved, and persisted.
+- Next learning KP: `aip-operations-semanticcache-041` — ElastiCache 语义缓存.
 - Active persistence debt: None.
 - Dependency blocker: None known.
 
 ## Next Session Target
 
-- Target: at least 55%
+- Target: at least 55% — achieved
 - Required completed count: 41 / 74
-- Current completed count: 40 / 74
-- Remaining to target: 1 KP
+- Current completed count: 41 / 74
+- Remaining to target: 0 KPs
 - Target endpoint on current deterministic route: `aip-operations-promptcaching-040`
-- Next KP: `aip-operations-promptcaching-040`
+- Next KP: `aip-operations-semanticcache-041`
