@@ -5,8 +5,8 @@
 - Learning root: `AIP/`
 - KP root: `AIP/preRaw/KP/`
 - KP count: 74
-- Status snapshot: 34 `pending`; 0 `learning`; 0 `review/persistence_pending`; 40 `completed`
-- Learned and user-approved: 40 / 74
+- Status snapshot: 33 `pending`; 0 `learning`; 0 `review/persistence_pending`; 41 `completed`
+- Learned and user-approved: 41 / 74
 - Route objective: learn every prepared KP one at a time in a dependency-valid, conceptually useful order.
 - Last analysis date: 2026-09-17
 - Last progress update: 2026-10-11
@@ -350,7 +350,7 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 - [x] `aip-operations-modelrouting-038` — 静态与动态模型路由
 - [x] `aip-operations-backoff-043` — 指数退避与抖动
 - [x] `aip-operations-crossregion-039` — Cross-Region Inference
-- [ ] `aip-operations-promptcaching-040` — Prompt Caching 与静态前缀
+- [x] `aip-operations-promptcaching-040` — Prompt Caching 与静态前缀
 - [ ] `aip-operations-semanticcache-041` — ElastiCache 语义缓存
 - [ ] `aip-operations-latency-042` — 延迟优化推理与 TTFT、OTPS
 - [ ] `aip-operations-circuitbreaker-044` — Step Functions 与 DynamoDB 熔断器
@@ -389,9 +389,9 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 ## Current Position
 
 - Persistence root: GitHub `luyi985/aws/AIP`
-- Completed and persisted: 40 / 74
-- Remaining: 34 / 74
-- Current KP state: `aip-operations-crossregion-039` — learning, review, user approval, and GitHub persistence complete.
-- Next learning KP: `aip-operations-promptcaching-040` — Prompt Caching 与静态前缀
+- Completed and persisted: 41 / 74
+- Remaining: 33 / 74
+- Current KP state: `aip-operations-promptcaching-040` — learning, review, user approval, and GitHub persistence complete.
+- Next learning KP: `aip-operations-semanticcache-041` — ElastiCache 语义缓存
 - Blocker: None.
 - Google Drive AIP content is a manual mirror; it is not required for completion.
