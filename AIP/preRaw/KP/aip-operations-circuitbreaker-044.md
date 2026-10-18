@@ -1,7 +1,7 @@
 ---
 id: aip-operations-circuitbreaker-044
 title: Step Functions 与 DynamoDB 熔断器
-status: learning
+status: review
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — V. Operational Efficiency > Resiliency Patterns > Circuit Breaker Pattern (Step Functions + DynamoDB)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF p. 371, ‘Step Functions: Circuit Breakers’"
