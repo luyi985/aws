@@ -1,7 +1,8 @@
 ---
 id: aip-operations-latency-042
 title: 延迟优化推理与 TTFT、OTPS
-status: review
+status: completed
+learned_note: raw/aip-operations-latency-042.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — V. Operational Efficiency > Performance & Caching > Latency Optimized Inference (TTFT, OTPS)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF pp. 286 and 295, ‘Other Stuff CloudWatch Monitors’ and ‘Building Responsive AI Systems’"
