@@ -260,6 +260,164 @@ Circuit Breaker
 
 两者通常可以组合：transient failure 用 exponential backoff；persistent failure 则打开 circuit。
 
+### Circuit State Is Application-Defined
+
+`CLOSED / OPEN / HALF_OPEN` 在这里是 circuit breaker 的 application/domain state，不是 Step Functions 内置的 state type。
+
+例如可以在 DynamoDB 保存：
+
+```json
+{
+  "service": "model-A",
+  "circuitState": "OPEN",
+  "failureCount": 5,
+  "openedAt": "2026-10-18T18:00:00Z"
+}
+```
+
+名称本身也可以换成：
+
+```text
+HEALTHY / BLOCKED / PROBING
+```
+
+只要应用定义的状态转换逻辑保持一致即可。
+
+因此需要区分：
+
+```text
+Step Functions state types
+→ Task / Choice / Wait / Map / Parallel / Pass / Succeed / Fail
+
+Circuit breaker domain state
+→ CLOSED / OPEN / HALF_OPEN
+```
+
+### How Step Functions Evaluates Circuit State
+
+一种实现是让 Lambda 读取 DynamoDB 并判断：
+
+```text
+Step Functions
+→ Lambda reads DynamoDB
+→ evaluates circuit state
+→ returns allowed/state
+→ Choice routes execution
+```
+
+例如 Lambda 返回：
+
+```json
+{
+  "allowed": false,
+  "state": "OPEN"
+}
+```
+
+然后 Step Functions 使用 `Choice` 决定后续路径。
+
+但 Lambda 不是必需的。Step Functions 也可以通过 AWS service integration 直接读取 DynamoDB，然后用 `Choice` 根据运行时数据做分支：
+
+```text
+GetItem from DynamoDB
+→ Choice
+   ├─ OPEN      → Fallback
+   ├─ HALF_OPEN → Probe
+   └─ CLOSED    → CallModel
+```
+
+因此：
+
+```text
+DynamoDB
+→ persist shared domain state
+
+Choice
+→ runtime routing based on that state
+
+Lambda
+→ optional business-logic layer
+```
+
+### Task State vs Actual Executor
+
+Step Functions 的 `Task` 是 workflow 中的 orchestration state；真正执行工作的可以是 Lambda 或受支持的 AWS service / API integration。
+
+```text
+Task State
+→ describes the unit of work / integration
+
+Lambda or another service
+→ performs the actual work
+```
+
+在使用 Lambda 的例子中，可以近似理解为：
+
+```text
+LangGraph node function
+≈ Lambda business logic
+
+Step Functions Task state
+≈ orchestration node that invokes the work
+```
+
+但 Step Functions 并不要求每一个 Task 都经过 Lambda。
+
+### Dynamic Routing and Parallelism
+
+Step Functions 的 state machine structure 通常是预先定义的，但每次 execution 实际走哪条路径可以根据 runtime data 动态决定：
+
+```text
+predefined state machine
++
+runtime dynamic routing
+```
+
+例如：
+
+```text
+Choice
+→ condition A → State A
+→ condition B → State B
+```
+
+Step Functions 也不只支持串行执行：
+
+```text
+Parallel
+→ run different branches concurrently
+
+Map
+→ process items through the same workflow pattern, with configurable concurrency
+```
+
+这使它既能表示顺序控制流，也能表示条件分支和并行工作流。
+
+### Step Functions vs LangGraph
+
+两者在 workflow 表达能力上有重叠，但抽象中心不同：
+
+```text
+Step Functions
+→ AWS-managed workflow orchestration
+→ deterministic/business workflow 更自然
+→ AWS service integration 强
+→ AWS platform dependency 更高
+
+LangGraph
+→ application-level graph framework
+→ agent / LLM-driven control flow 更自然
+→ deployment portability 通常更高
+```
+
+它们也可以组合：
+
+```text
+Step Functions
+→ outer reliable business workflow
+→ invoke a LangGraph agent as one task
+```
+
 ## Concept Relationships
 
 Circuit Breaker 的状态转换为：
@@ -363,6 +521,31 @@ OPEN
 
 并理解 OPEN → HALF_OPEN 可以通过下一次请求触发的 lazy transition 完成，而不是必须依赖后台任务主动恢复。
 
+用户进一步确认了 circuit breaker 状态与 Step Functions state type 的边界：
+
+```text
+CLOSED / OPEN / HALF_OPEN
+→ application-defined circuit state
+
+Task / Choice / Wait / Map / Parallel / ...
+→ Step Functions state types
+```
+
+并建立了一个更精确的执行模型：
+
+```text
+DynamoDB
+→ store shared circuit state
+
+Step Functions Choice
+→ evaluate runtime data and route
+
+Lambda
+→ optional executor / business-logic layer, not required for every decision
+```
+
+用户也确认 Step Functions 的 execution path 可以根据 runtime data 动态变化，并且可以通过 `Parallel` 和 `Map` 支持并行/并发执行；与 LangGraph 相比，两者有能力重叠，但 Step Functions 更偏 AWS-managed business workflow orchestration，LangGraph 更偏 application-level agent/LLM graph。
+
 最终 mental model：
 
 ```text
@@ -395,3 +578,12 @@ HALF_OPEN
 
 - Inherited from source KP; underlying source not re-opened in this session:
   `../preRaw/AIPStudyGuide.pdf — PDF p. 7, ‘System Resiliency’`
+
+- Directly consulted in this session:
+  `https://docs.aws.amazon.com/step-functions/latest/dg/concepts-amazon-states-language.html` — AWS Step Functions Developer Guide, Amazon States Language and state-machine definition.
+
+- Directly consulted in this session:
+  `https://docs.aws.amazon.com/step-functions/latest/dg/concepts-statemachines.html` — AWS Step Functions Developer Guide, workflow states, Task states, Choice/Wait/Map/Parallel behavior.
+
+- Directly consulted in this session:
+  `https://docs.aws.amazon.com/step-functions/latest/dg/state-task.html` — AWS Step Functions Developer Guide, Task state and service integrations.
