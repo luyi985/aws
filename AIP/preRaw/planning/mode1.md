@@ -352,7 +352,7 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 - [x] `aip-operations-crossregion-039` — Cross-Region Inference
 - [x] `aip-operations-promptcaching-040` — Prompt Caching 与静态前缀
 - [x] `aip-operations-semanticcache-041` — ElastiCache 语义缓存
-- [ ] `aip-operations-latency-042` — 延迟优化推理与 TTFT、OTPS
+- [x] `aip-operations-latency-042` — 延迟优化推理与 TTFT、OTPS
 - [ ] `aip-operations-circuitbreaker-044` — Step Functions 与 DynamoDB 熔断器
 - [ ] `aip-governance-evaluationtypes-045` — 自动评估与人工评估
 - [ ] `aip-security-iampolicies-048` — IAM Role 与资源策略
@@ -389,9 +389,9 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 ## Current Position
 
 - Persistence root: GitHub `luyi985/aws/AIP`
-- Completed and persisted: 42 / 74
-- Remaining: 32 / 74
-- Current KP state: `aip-operations-semanticcache-041` — learning, review, user approval, and GitHub persistence complete.
-- Next learning KP: `aip-operations-latency-042` — 延迟优化推理与 TTFT、OTPS
+- Completed and persisted: 43 / 74
+- Remaining: 31 / 74
+- Current KP state: `aip-operations-latency-042` — learning, review, user approval, and GitHub persistence complete.
+- Next learning KP: `aip-operations-circuitbreaker-044` — Step Functions 与 DynamoDB 熔断器
 - Blocker: None.
 - Google Drive AIP content is a manual mirror; it is not required for completion.
