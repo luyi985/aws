@@ -1,7 +1,7 @@
 ---
 id: aip-operations-semanticcache-041
 title: ElastiCache 语义缓存
-status: learning
+status: review
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — V. Operational Efficiency > Performance & Caching > Semantic Caching (ElastiCache)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF p. 292, ‘Intelligent Caching Systems: Semantic Caching’"
