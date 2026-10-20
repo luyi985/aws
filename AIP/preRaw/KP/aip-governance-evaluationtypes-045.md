@@ -1,7 +1,8 @@
 ---
 id: aip-governance-evaluationtypes-045
 title: 自动评估与人工评估
-status: review
+status: completed
+learned_note: raw/aip-governance-evaluationtypes-045.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — VI. Governance, Security & QA > Evaluation (QA) > Automatic vs. Human Evaluation"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF pp. 421 and 429, ‘Human Evaluation’ and ‘Bedrock Model Evaluations’"
