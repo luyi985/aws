@@ -1,7 +1,7 @@
 ---
 id: aip-security-kmsencryption-049
 title: KMS 与静态、传输中加密边界
-status: pending
+status: learning
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — VI. Governance, Security & QA > Security & Identity > KMS (Encryption at Rest/Transit)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF pp. 492-497, encryption and AWS KMS slides"
