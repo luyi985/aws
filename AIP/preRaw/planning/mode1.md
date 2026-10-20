@@ -355,7 +355,7 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 - [x] `aip-operations-latency-042` — 延迟优化推理与 TTFT、OTPS
 - [x] `aip-operations-circuitbreaker-044` — Step Functions 与 DynamoDB 熔断器
 - [x] `aip-governance-evaluationtypes-045` — 自动评估与人工评估
-- [ ] `aip-security-iampolicies-048` — IAM Role 与资源策略
+- [x] `aip-security-iampolicies-048` — IAM Role 与资源策略
 - [ ] `aip-security-kmsencryption-049` — KMS 与静态、传输中加密边界
 - [ ] `aip-security-privateconnectivity-050` — VPC 与 PrivateLink 私有连接
 - [ ] `aip-security-macie-051` — Amazon Macie 敏感数据发现
@@ -389,9 +389,9 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 ## Current Position
 
 - Persistence root: GitHub `luyi985/aws/AIP`
-- Completed and persisted: 45 / 74
-- Remaining: 29 / 74
-- Current KP state: `aip-governance-evaluationtypes-045` — learning, review, user approval, and GitHub persistence complete.
-- Next learning KP: `aip-security-iampolicies-048` — IAM Role 与资源策略
+- Completed and persisted: 46 / 74
+- Remaining: 28 / 74
+- Current KP state: `aip-security-iampolicies-048` — learning, review, user approval, and GitHub persistence complete.
+- Next learning KP: `aip-security-kmsencryption-049` — KMS 与静态、传输中加密边界
 - Blocker: None.
 - Google Drive AIP content is a manual mirror; it is not required for completion.
