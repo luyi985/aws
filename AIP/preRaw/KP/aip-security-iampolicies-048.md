@@ -1,7 +1,7 @@
 ---
 id: aip-security-iampolicies-048
 title: IAM Role 与资源策略
-status: learning
+status: review
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — VI. Governance, Security & QA > Security & Identity > IAM Roles & Resource-based Policies"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF pp. 134 and 484, ‘Amazon OpenSearch Security’ and ‘IAM Roles for Services’"
