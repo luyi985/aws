@@ -16,26 +16,26 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 ## Progress
 
-- Completed and persisted: 45 / 74
-- Remaining: 29 / 74
-- Progress: 60.8%
+- Completed and persisted: 46 / 74
+- Remaining: 28 / 74
+- Progress: 62.2%
 
 ## Completed Sequence
 
-`001 → 002 → 005 → 009 → 003 → 004 → 006 → 007 → 008 → 012 → 015 → 016 → 030 → 031 → 032 → 033 → 034 → 035 → 036 → 010 → 013 → 014 → 017 → 018 → 020 → 011 → 019 → 021 → 027 → 028 → 029 → 022 → 023 → 024 → 025 → 026 → 037 → 038 → 043 → 039 → 040 → 041 → 042 → 044 → 045`
+`001 → 002 → 005 → 009 → 003 → 004 → 006 → 007 → 008 → 012 → 015 → 016 → 030 → 031 → 032 → 033 → 034 → 035 → 036 → 010 → 013 → 014 → 017 → 018 → 020 → 011 → 019 → 021 → 027 → 028 → 029 → 022 → 023 → 024 → 025 → 026 → 037 → 038 → 043 → 039 → 040 → 041 → 042 → 044 → 045 → 048`
 
 ## Current Position
 
-- Current learning milestone: `aip-governance-evaluationtypes-045` completed, reviewed, approved, and persisted.
-- Next learning KP: `aip-security-iampolicies-048` — IAM Role 与资源策略.
+- Current learning milestone: `aip-security-iampolicies-048` completed, reviewed, approved, and persisted.
+- Next learning KP: `aip-security-kmsencryption-049` — KMS 与静态、传输中加密边界.
 - Active persistence debt: None.
 - Dependency blocker: None known.
 
 ## Next Session Target
 
-- Target: at least 60%
-- Required completed count: 45 / 74
-- Current completed count: 45 / 74
-- Remaining to target: 0 KPs
-- Target endpoint on current deterministic route: `aip-governance-evaluationtypes-045`
-- Next KP: `aip-security-iampolicies-048`
+- Target: at least 65%
+- Required completed count: 49 / 74
+- Current completed count: 46 / 74
+- Remaining to target: 3 KPs
+- Target endpoint on current deterministic route: `aip-security-macie-051`
+- Next KP: `aip-security-kmsencryption-049`
