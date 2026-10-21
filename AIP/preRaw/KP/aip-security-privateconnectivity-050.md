@@ -1,7 +1,8 @@
 ---
 id: aip-security-privateconnectivity-050
 title: VPC 与 PrivateLink 私有连接
-status: pending
+status: completed
+learned_note: raw/aip-security-privateconnectivity-050.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — VI. Governance, Security & QA > Security & Identity > VPC & PrivateLink (Secure Model Communication)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF p. 522, ‘AWS PrivateLink (VPC Endpoint Services)’"
