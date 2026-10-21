@@ -5,11 +5,11 @@
 - Learning root: `AIP/`
 - KP root: `AIP/preRaw/KP/`
 - KP count: 74
-- Status snapshot: 33 `pending`; 0 `learning`; 0 `review/persistence_pending`; 41 `completed`
-- Learned and user-approved: 41 / 74
+- Status snapshot: 27 `pending`; 0 `learning`; 0 `review/persistence_pending`; 47 `completed`
+- Learned and user-approved: 47 / 74
 - Route objective: learn every prepared KP one at a time in a dependency-valid, conceptually useful order.
 - Last analysis date: 2026-09-17
-- Last progress update: 2026-10-11
+- Last progress update: 2026-10-21
 
 ## Knowledge Graph
 
@@ -356,7 +356,7 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 - [x] `aip-operations-circuitbreaker-044` — Step Functions 与 DynamoDB 熔断器
 - [x] `aip-governance-evaluationtypes-045` — 自动评估与人工评估
 - [x] `aip-security-iampolicies-048` — IAM Role 与资源策略
-- [ ] `aip-security-kmsencryption-049` — KMS 与静态、传输中加密边界
+- [x] `aip-security-kmsencryption-049` — KMS 与静态、传输中加密边界
 - [ ] `aip-security-privateconnectivity-050` — VPC 与 PrivateLink 私有连接
 - [ ] `aip-security-macie-051` — Amazon Macie 敏感数据发现
 - [ ] `aip-governance-responsibleai-052` — Responsible AI 的公平、可解释与安全支柱
@@ -389,9 +389,9 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 ## Current Position
 
 - Persistence root: GitHub `luyi985/aws/AIP`
-- Completed and persisted: 46 / 74
-- Remaining: 28 / 74
-- Current KP state: `aip-security-iampolicies-048` — learning, review, user approval, and GitHub persistence complete.
-- Next learning KP: `aip-security-kmsencryption-049` — KMS 与静态、传输中加密边界
+- Completed and persisted: 47 / 74
+- Remaining: 27 / 74
+- Current KP state: `aip-security-kmsencryption-049` — learning, review, user approval, and GitHub persistence complete.
+- Next learning KP: `aip-security-privateconnectivity-050` — VPC 与 PrivateLink 私有连接
 - Blocker: None.
 - Google Drive AIP content is a manual mirror; it is not required for completion.
