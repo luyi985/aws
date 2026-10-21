@@ -1,7 +1,8 @@
 ---
 id: aip-security-macie-051
 title: Amazon Macie 敏感数据发现
-status: pending
+status: completed
+learned_note: raw/aip-security-macie-051.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — VI. Governance, Security & QA > Security & Identity > Amazon Macie (Sensitive Data Discovery)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF p. 499, ‘AWS Macie’"
