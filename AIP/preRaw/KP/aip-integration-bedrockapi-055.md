@@ -1,7 +1,7 @@
 ---
 id: aip-integration-bedrockapi-055
 title: Bedrock API surfaces 与运行时调用
-status: pending
+status: learning
 sources:
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — AIP-C01 course slides / detailed coverage"
   - "AIP/preRaw/AIPStudyGuide.pdf — AIP-C01 Study Guide (Detailed)"
