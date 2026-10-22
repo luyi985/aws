@@ -1,7 +1,8 @@
 ---
 id: aip-governance-clarify-053
 title: SageMaker Clarify 偏差检测
-status: learning
+status: completed
+learned_note: raw/aip-governance-clarify-053.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — VI. Governance, Security & QA > Governance > SageMaker Clarify (Bias Detection)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF pp. 327-328 and 433, SageMaker Clarify slides"
