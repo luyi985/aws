@@ -33,11 +33,11 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 ## Next Session Target
 
-- Target: at least 70%
-- Required completed count: 52 / 74
+- Target: at least 75%
+- Required completed count: 56 / 74
 - Current completed count: 52 / 74
-- Remaining to target: 0 KPs (target achieved)
-- Target endpoint on current deterministic route: `aip-governance-lineage-054`
+- Remaining to target: 4 KPs
+- Target endpoint on current deterministic route: `aip-sagemaker-deployment-061`
 - Next KP: `aip-integration-bedrockapi-055`
 
 ## Review Queue
