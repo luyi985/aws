@@ -363,7 +363,7 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 - [ ] `aip-governance-lineage-054` — SageMaker Lineage Tracking 与 MLOps 审计
 - [ ] `aip-governance-evaluationmetrics-046` — ROUGE、BERTScore、Faithfulness 与 Correctness
 - [ ] `aip-governance-llmjudge-047` — LLM-as-a-Judge
-- [ ] `aip-governance-clarify-053` — SageMaker Clarify 偏差检测
+- [x] `aip-governance-clarify-053` — SageMaker Clarify 偏差检测
 
 - [ ] `aip-integration-bedrockapi-055` — Bedrock API surfaces 与运行时调用
 - [ ] `aip-integration-bedrockflows-059` — Bedrock Flows 工作流编排
@@ -389,10 +389,10 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 ## Current Position
 
 - Persistence root: GitHub `luyi985/aws/AIP`
-- Completed and persisted: 50 / 74
-- Remaining: 24 / 74
-- Current KP state: `aip-governance-responsibleai-052` — learning, review, user approval, and GitHub persistence complete.
-- Next learning KP: `aip-governance-clarify-053` — Clarify 与偏差检测
+- Completed and persisted: 51 / 74
+- Remaining: 23 / 74
+- Current KP state: `aip-governance-clarify-053` — learning, review, user approval, and GitHub persistence complete.
+- Next learning KP: `aip-governance-lineage-054` — 数据与模型血缘追踪
 - Blocker: None.
 - Google Drive AIP content is a manual mirror; it is not required for completion.
 
