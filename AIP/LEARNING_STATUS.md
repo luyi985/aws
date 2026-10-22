@@ -16,18 +16,18 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 ## Progress
 
-- Completed and persisted: 49 / 74
-- Remaining: 25 / 74
-- Progress: 66.2%
+- Completed and persisted: 50 / 74
+- Remaining: 24 / 74
+- Progress: 67.6%
 
 ## Completed Sequence
 
-`001 → 002 → 005 → 009 → 003 → 004 → 006 → 007 → 008 → 012 → 015 → 016 → 030 → 031 → 032 → 033 → 034 → 035 → 036 → 010 → 013 → 014 → 017 → 018 → 020 → 011 → 019 → 021 → 027 → 028 → 029 → 022 → 023 → 024 → 025 → 026 → 037 → 038 → 043 → 039 → 040 → 041 → 042 → 044 → 045 → 048 → 049 → 050 → 051`
+`001 → 002 → 005 → 009 → 003 → 004 → 006 → 007 → 008 → 012 → 015 → 016 → 030 → 031 → 032 → 033 → 034 → 035 → 036 → 010 → 013 → 014 → 017 → 018 → 020 → 011 → 019 → 021 → 027 → 028 → 029 → 022 → 023 → 024 → 025 → 026 → 037 → 038 → 043 → 039 → 040 → 041 → 042 → 044 → 045 → 048 → 049 → 050 → 051 → 052`
 
 ## Current Position
 
-- Current learning milestone: `aip-security-macie-051` completed, reviewed, approved, and persisted.
-- Next learning KP: `aip-governance-responsibleai-052` — Responsible AI 的公平、可解释与安全支柱.
+- Current learning milestone: `aip-governance-responsibleai-052` completed, reviewed, approved, and persisted.
+- Next learning KP: `aip-governance-clarify-053` — Clarify 与偏差检测.
 - Active persistence debt: None.
 - Dependency blocker: None known.
 
@@ -35,10 +35,10 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 - Target: at least 70%
 - Required completed count: 52 / 74
-- Current completed count: 49 / 74
-- Remaining to target: 3 KPs
+- Current completed count: 50 / 74
+- Remaining to target: 2 KPs
 - Target endpoint on current deterministic route: `aip-governance-lineage-054`
-- Next KP: `aip-governance-responsibleai-052`
+- Next KP: `aip-governance-clarify-053`
 
 ## Review Queue
 
