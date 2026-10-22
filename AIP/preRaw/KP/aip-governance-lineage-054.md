@@ -1,7 +1,7 @@
 ---
 id: aip-governance-lineage-054
 title: SageMaker Lineage Tracking 与 MLOps 审计
-status: pending
+status: learning
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — VI. Governance, Security & QA > Governance > SageMaker Lineage Tracking (MLOps Auditing)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF pp. 333-336, ‘SageMaker ML Lineage Tracking’"
