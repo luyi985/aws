@@ -33,11 +33,11 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 ## Next Session Target
 
-- Target: at least 65%
-- Required completed count: 49 / 74
+- Target: at least 70%
+- Required completed count: 52 / 74
 - Current completed count: 49 / 74
-- Remaining to target: 0 KPs (target achieved)
-- Target endpoint on current deterministic route: `aip-security-macie-051`
+- Remaining to target: 3 KPs
+- Target endpoint on current deterministic route: `aip-governance-lineage-054`
 - Next KP: `aip-governance-responsibleai-052`
 
 ## Review Queue
