@@ -1,7 +1,8 @@
 ---
 id: aip-governance-responsibleai-052
 title: Responsible AI 的公平、可解释与安全支柱
-status: learning
+status: completed
+learned_note: raw/aip-governance-responsibleai-052.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — VI. Governance, Security & QA > Governance > Responsible AI Pillars (Fairness, Explainability, Safety)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF pp. 432-433, ‘Responsible AI: Core Dimensions’ and ‘AWS Tools for Responsible AI’"
