@@ -360,7 +360,7 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 - [x] `aip-security-privateconnectivity-050` — VPC 与 PrivateLink 私有连接
 - [x] `aip-security-macie-051` — Amazon Macie 敏感数据发现
 - [x] `aip-governance-responsibleai-052` — Responsible AI 的公平、可解释与安全支柱
-- [ ] `aip-governance-lineage-054` — SageMaker Lineage Tracking 与 MLOps 审计
+- [x] `aip-governance-lineage-054` — SageMaker Lineage Tracking 与 MLOps 审计
 - [ ] `aip-governance-evaluationmetrics-046` — ROUGE、BERTScore、Faithfulness 与 Correctness
 - [ ] `aip-governance-llmjudge-047` — LLM-as-a-Judge
 - [x] `aip-governance-clarify-053` — SageMaker Clarify 偏差检测
@@ -389,10 +389,10 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 ## Current Position
 
 - Persistence root: GitHub `luyi985/aws/AIP`
-- Completed and persisted: 51 / 74
-- Remaining: 23 / 74
-- Current KP state: `aip-governance-clarify-053` — learning, review, user approval, and GitHub persistence complete.
-- Next learning KP: `aip-governance-lineage-054` — 数据与模型血缘追踪
+- Completed and persisted: 52 / 74
+- Remaining: 22 / 74
+- Current KP state: `aip-governance-lineage-054` — learning, review, user approval, and GitHub persistence complete.
+- Next learning KP: `aip-integration-bedrockapi-055` — Bedrock Runtime API
 - Blocker: None.
 - Google Drive AIP content is a manual mirror; it is not required for completion.
 
