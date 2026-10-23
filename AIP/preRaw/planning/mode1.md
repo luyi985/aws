@@ -366,7 +366,7 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 - [x] `aip-governance-clarify-053` — SageMaker Clarify 偏差检测
 
 - [x] `aip-integration-bedrockapi-055` — Bedrock API surfaces 与运行时调用
-- [ ] `aip-integration-bedrockflows-059` — Bedrock Flows 工作流编排
+- [x] `aip-integration-bedrockflows-059` — Bedrock Flows 工作流编排
 - [ ] `aip-operations-provisionedthroughput-060` — Bedrock Provisioned Throughput 与容量规划
 - [ ] `aip-sagemaker-deployment-061` — SageMaker 实时 Endpoint 与 Batch Transform
 - [ ] `aip-security-promptinjection-063` — Prompt Injection、Jailbreak 与输入防护
@@ -389,10 +389,10 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 ## Current Position
 
 - Persistence root: GitHub `luyi985/aws/AIP`
-- Completed and persisted: 53 / 74
-- Remaining: 21 / 74
-- Current KP state: `aip-integration-bedrockapi-055` — learning, review, user approval, and GitHub persistence complete.
-- Next learning KP: `aip-integration-bedrockflows-059` — Bedrock Flows 工作流编排
+- Completed and persisted: 54 / 74
+- Remaining: 20 / 74
+- Current KP state: `aip-integration-bedrockflows-059` — learning, review, user approval, and GitHub persistence complete.
+- Next learning KP: `aip-operations-provisionedthroughput-060` — Bedrock Provisioned Throughput 与容量规划
 - Blocker: None.
 - Google Drive AIP content is a manual mirror; it is not required for completion.
 
