@@ -1,7 +1,7 @@
 ---
 id: aip-sagemaker-deployment-061
 title: SageMaker 实时 Endpoint 与 Batch Transform
-status: learning
+status: review
 sources:
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — AIP-C01 course slides / detailed coverage"
   - "AIP/preRaw/AIPStudyGuide.pdf — AIP-C01 Study Guide (Detailed)"
