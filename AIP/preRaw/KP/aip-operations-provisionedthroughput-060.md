@@ -1,7 +1,8 @@
 ---
 id: aip-operations-provisionedthroughput-060
 title: Bedrock Provisioned Throughput 与容量规划
-status: pending
+status: completed
+learned_note: raw/aip-operations-provisionedthroughput-060.md
 sources:
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — AIP-C01 course slides / detailed coverage"
   - "AIP/preRaw/AIPStudyGuide.pdf — AIP-C01 Study Guide (Detailed)"
