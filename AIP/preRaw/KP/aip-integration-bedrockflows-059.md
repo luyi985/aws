@@ -1,7 +1,7 @@
 ---
 id: aip-integration-bedrockflows-059
 title: Bedrock Flows 工作流编排
-status: learning
+status: review
 sources:
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — AIP-C01 course slides / detailed coverage"
   - "AIP/preRaw/AIPStudyGuide.pdf — AIP-C01 Study Guide (Detailed)"
