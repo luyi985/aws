@@ -1,7 +1,8 @@
 ---
 id: aip-integration-bedrockapi-055
 title: Bedrock API surfaces 与运行时调用
-status: review
+status: completed
+learned_note: raw/aip-integration-bedrockapi-055.md
 sources:
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — AIP-C01 course slides / detailed coverage"
   - "AIP/preRaw/AIPStudyGuide.pdf — AIP-C01 Study Guide (Detailed)"
