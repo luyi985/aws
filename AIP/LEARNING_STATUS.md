@@ -16,18 +16,18 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 ## Progress
 
-- Completed and persisted: 54 / 74
-- Remaining: 20 / 74
-- Progress: 73.0%
+- Completed and persisted: 55 / 74
+- Remaining: 19 / 74
+- Progress: 74.3%
 
 ## Completed Sequence
 
-`001 → 002 → 005 → 009 → 003 → 004 → 006 → 007 → 008 → 012 → 015 → 016 → 030 → 031 → 032 → 033 → 034 → 035 → 036 → 010 → 013 → 014 → 017 → 018 → 020 → 011 → 019 → 021 → 027 → 028 → 029 → 022 → 023 → 024 → 025 → 026 → 037 → 038 → 043 → 039 → 040 → 041 → 042 → 044 → 045 → 048 → 049 → 050 → 051 → 052 → 053 → 054 → 055 → 059`
+`001 → 002 → 005 → 009 → 003 → 004 → 006 → 007 → 008 → 012 → 015 → 016 → 030 → 031 → 032 → 033 → 034 → 035 → 036 → 010 → 013 → 014 → 017 → 018 → 020 → 011 → 019 → 021 → 027 → 028 → 029 → 022 → 023 → 024 → 025 → 026 → 037 → 038 → 043 → 039 → 040 → 041 → 042 → 044 → 045 → 048 → 049 → 050 → 051 → 052 → 053 → 054 → 055 → 059 → 060`
 
 ## Current Position
 
-- Current learning milestone: `aip-integration-bedrockflows-059` completed, reviewed, approved, and persisted.
-- Next learning KP: `aip-operations-provisionedthroughput-060` — Bedrock Provisioned Throughput 与容量规划.
+- Current learning milestone: `aip-operations-provisionedthroughput-060` completed, reviewed, approved, and persisted.
+- Next learning KP: `aip-sagemaker-deployment-061` — SageMaker 实时 Endpoint 与 Batch Transform.
 - Active persistence debt: None.
 - Dependency blocker: None known.
 
@@ -35,10 +35,10 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 - Target: at least 75%
 - Required completed count: 56 / 74
-- Current completed count: 54 / 74
-- Remaining to target: 2 KPs
+- Current completed count: 55 / 74
+- Remaining to target: 1 KP
 - Target endpoint on current deterministic route: `aip-sagemaker-deployment-061`
-- Next KP: `aip-operations-provisionedthroughput-060`
+- Next KP: `aip-sagemaker-deployment-061`
 
 ## Review Queue
 
