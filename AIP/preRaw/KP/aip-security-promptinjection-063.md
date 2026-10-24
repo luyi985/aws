@@ -1,7 +1,8 @@
 ---
 id: aip-security-promptinjection-063
 title: Prompt Injection、Jailbreak 与输入防护
-status: review
+status: completed
+learned_note: raw/aip-security-promptinjection-063.md
 sources:
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — AIP-C01 course slides / detailed coverage"
   - "AIP/preRaw/AIPStudyGuide.pdf — AIP-C01 Study Guide (Detailed)"
