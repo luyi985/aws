@@ -1,7 +1,7 @@
 ---
 id: aip-governance-audit-066
 title: CloudTrail、审计日志与数据保留
-status: pending
+status: learning
 sources:
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — AIP-C01 course slides / detailed coverage"
   - "AIP/preRaw/AIPStudyGuide.pdf — AIP-C01 Study Guide (Detailed)"
