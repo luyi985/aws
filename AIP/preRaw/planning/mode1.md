@@ -370,7 +370,7 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 - [x] `aip-operations-provisionedthroughput-060` — Bedrock Provisioned Throughput 与容量规划
 - [x] `aip-sagemaker-deployment-061` — SageMaker 实时 Endpoint 与 Batch Transform
 - [x] `aip-security-promptinjection-063` — Prompt Injection、Jailbreak 与输入防护
-- [ ] `aip-security-dataredaction-064` — PII 检测、Token-level Redaction 与数据最小化
+- [x] `aip-security-dataredaction-064` — PII 检测、Token-level Redaction 与数据最小化
 - [ ] `aip-security-appsecurity-065` — Secrets Manager、Cognito 与 WAF 的应用安全角色
 - [ ] `aip-governance-audit-066` — CloudTrail、审计日志与数据保留
 - [ ] `aip-observability-bedrock-067` — Bedrock CloudWatch 指标、Invocation Logging 与 Dashboard
@@ -389,10 +389,10 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 ## Current Position
 
 - Persistence root: GitHub `luyi985/aws/AIP`
-- Completed and persisted: 57 / 74
-- Remaining: 17 / 74
-- Current KP state: `aip-security-promptinjection-063` — learning, review, user approval, and GitHub persistence complete.
-- Next learning KP: `aip-security-dataredaction-064` — PII 检测、Token-level Redaction 与数据最小化
+- Completed and persisted: 58 / 74
+- Remaining: 16 / 74
+- Current KP state: `aip-security-dataredaction-064` — learning, review, user approval, and GitHub persistence complete.
+- Next learning KP: `aip-security-appsecurity-065` — Application Security
 - Blocker: None.
 - Google Drive AIP content is a manual mirror; it is not required for completion.
 
