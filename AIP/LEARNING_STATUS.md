@@ -16,9 +16,9 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 ## Progress
 
-- Completed and persisted: 58 / 74
-- Remaining: 16 / 74
-- Progress: 78.4%
+- Completed and persisted: 59 / 74
+- Remaining: 15 / 74
+- Progress: 79.7%
 
 ## Completed Sequence
 
@@ -26,8 +26,8 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 ## Current Position
 
-- Current learning milestone: `aip-security-dataredaction-064` completed, reviewed, approved, and persisted.
-- Next learning KP: `aip-security-appsecurity-065` — Secrets Manager、Cognito 与 WAF 的应用安全角色.
+- Current learning milestone: `aip-security-appsecurity-065` completed, reviewed, approved, and persisted.
+- Next learning KP: `aip-governance-audit-066` — CloudTrail、审计日志与数据保留.
 - Active persistence debt: None.
 - Dependency blocker: None known.
 
@@ -35,10 +35,10 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 - Target: at least 80%
 - Required completed count: 60 / 74
-- Current completed count: 58 / 74
-- Remaining to target: 2 KPs
+- Current completed count: 59 / 74
+- Remaining to target: 1 KP
 - Target endpoint on current deterministic route: `aip-security-appsecurity-065`
-- Next KP: `aip-security-appsecurity-065`
+- Next KP: `aip-governance-audit-066`
 
 ## Review Queue
 
