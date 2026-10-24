@@ -1,7 +1,7 @@
 ---
 id: aip-security-dataredaction-064
 title: PII 检测、Token-level Redaction 与数据最小化
-status: learning
+status: review
 sources:
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — AIP-C01 course slides / detailed coverage"
   - "AIP/preRaw/AIPStudyGuide.pdf — AIP-C01 Study Guide (Detailed)"
