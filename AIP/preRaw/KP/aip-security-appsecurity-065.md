@@ -1,7 +1,7 @@
 ---
 id: aip-security-appsecurity-065
 title: Secrets Manager、Cognito 与 WAF 的应用安全角色
-status: pending
+status: learning
 sources:
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — AIP-C01 course slides / detailed coverage"
   - "AIP/preRaw/AIPStudyGuide.pdf — AIP-C01 Study Guide (Detailed)"
