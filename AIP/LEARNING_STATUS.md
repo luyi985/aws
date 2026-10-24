@@ -35,7 +35,7 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 - Target: at least 80%
 - Required completed count: 60 / 74
-- Current completed count: 57 / 74
+- Current completed count: 58 / 74
 - Remaining to target: 2 KPs
 - Target endpoint on current deterministic route: `aip-security-appsecurity-065`
 - Next KP: `aip-security-appsecurity-065`
