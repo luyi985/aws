@@ -16,9 +16,9 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 ## Progress
 
-- Completed and persisted: 59 / 74
-- Remaining: 15 / 74
-- Progress: 79.7%
+- Completed and persisted: 60 / 74
+- Remaining: 14 / 74
+- Progress: 81.1%
 
 ## Completed Sequence
 
@@ -26,8 +26,8 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 ## Current Position
 
-- Current learning milestone: `aip-security-appsecurity-065` completed, reviewed, approved, and persisted.
-- Next learning KP: `aip-governance-audit-066` — CloudTrail、审计日志与数据保留.
+- Current learning milestone: `aip-governance-audit-066` completed, reviewed, approved, and persisted.
+- Next learning KP: `aip-governance-audit-067` — next route pending verification.
 - Active persistence debt: None.
 - Dependency blocker: None known.
 
@@ -35,10 +35,10 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 - Target: at least 80%
 - Required completed count: 60 / 74
-- Current completed count: 59 / 74
-- Remaining to target: 1 KP
+- Current completed count: 60 / 74
+- Remaining to target: 0 KPs
 - Target endpoint on current deterministic route: `aip-security-appsecurity-065`
-- Next KP: `aip-governance-audit-066`
+- Next KP: `aip-governance-audit-067`
 
 ## Review Queue
 
