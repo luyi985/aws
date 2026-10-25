@@ -392,7 +392,7 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 - Completed and persisted: 60 / 74
 - Remaining: 14 / 74
 - Current KP state: `aip-governance-audit-066` — learning, review, user approval, and GitHub persistence complete.
-- Next learning KP: `aip-governance-audit-067` — pending verification
+- Next learning KP: `aip-observability-bedrock-067` — Bedrock CloudWatch 指标、Invocation Logging 与 Dashboard
 - Blocker: None.
 - Google Drive AIP content is a manual mirror; it is not required for completion.
 
