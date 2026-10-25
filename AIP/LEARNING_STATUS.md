@@ -27,7 +27,7 @@ Persistence root: GitHub `luyi985/aws/AIP`
 ## Current Position
 
 - Current learning milestone: `aip-governance-audit-066` completed, reviewed, approved, and persisted.
-- Next learning KP: `aip-governance-audit-067` — next route pending verification.
+- Next learning KP: `aip-observability-bedrock-067` — Bedrock CloudWatch 指标、Invocation Logging 与 Dashboard.
 - Active persistence debt: None.
 - Dependency blocker: None known.
 
@@ -38,7 +38,7 @@ Persistence root: GitHub `luyi985/aws/AIP`
 - Current completed count: 60 / 74
 - Remaining to target: 0 KPs
 - Target endpoint on current deterministic route: `aip-security-appsecurity-065`
-- Next KP: `aip-governance-audit-067`
+- Next KP: `aip-observability-bedrock-067`
 
 ## Review Queue
 
