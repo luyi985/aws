@@ -372,7 +372,7 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 - [x] `aip-security-promptinjection-063` — Prompt Injection、Jailbreak 与输入防护
 - [x] `aip-security-dataredaction-064` — PII 检测、Token-level Redaction 与数据最小化
 - [x] `aip-security-appsecurity-065` — Secrets Manager、Cognito 与 WAF 的应用安全角色
-- [ ] `aip-governance-audit-066` — CloudTrail、审计日志与数据保留
+- [x] `aip-governance-audit-066` — CloudTrail、审计日志与数据保留
 - [ ] `aip-observability-bedrock-067` — Bedrock CloudWatch 指标、Invocation Logging 与 Dashboard
 - [ ] `aip-testing-regression-070` — Golden Dataset、回归测试、Canary 与 A/B 验证
 - [ ] `aip-testing-ragtroubleshooting-071` — RAG 评估与检索故障定位
@@ -389,10 +389,10 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 ## Current Position
 
 - Persistence root: GitHub `luyi985/aws/AIP`
-- Completed and persisted: 59 / 74
-- Remaining: 15 / 74
-- Current KP state: `aip-security-appsecurity-065` — learning, review, user approval, and GitHub persistence complete.
-- Next learning KP: `aip-governance-audit-066` — CloudTrail、审计日志与数据保留
+- Completed and persisted: 60 / 74
+- Remaining: 14 / 74
+- Current KP state: `aip-governance-audit-066` — learning, review, user approval, and GitHub persistence complete.
+- Next learning KP: `aip-governance-audit-067` — pending verification
 - Blocker: None.
 - Google Drive AIP content is a manual mirror; it is not required for completion.
 
