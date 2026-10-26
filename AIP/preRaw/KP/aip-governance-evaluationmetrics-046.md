@@ -1,7 +1,7 @@
 ---
 id: aip-governance-evaluationmetrics-046
 title: ROUGE、BERTScore、Faithfulness 与 Correctness
-status: pending
+status: review
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — VI. Governance, Security & QA > Evaluation (QA) > Metrics (ROUGE, BERTScore, Faithfulness, Correctness)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF pp. 425, 427, and 430, ‘ROUGE’, ‘BERTscore’, and ‘Bedrock Model Evaluations’"
