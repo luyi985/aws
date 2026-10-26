@@ -361,7 +361,7 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 - [x] `aip-security-macie-051` — Amazon Macie 敏感数据发现
 - [x] `aip-governance-responsibleai-052` — Responsible AI 的公平、可解释与安全支柱
 - [x] `aip-governance-lineage-054` — SageMaker Lineage Tracking 与 MLOps 审计
-- [ ] `aip-governance-evaluationmetrics-046` — ROUGE、BERTScore、Faithfulness 与 Correctness
+- [x] `aip-governance-evaluationmetrics-046` — ROUGE、BERTScore、Faithfulness 与 Correctness
 - [ ] `aip-governance-llmjudge-047` — LLM-as-a-Judge
 - [x] `aip-governance-clarify-053` — SageMaker Clarify 偏差检测
 
@@ -389,9 +389,9 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 ## Current Position
 
 - Persistence root: GitHub `luyi985/aws/AIP`
-- Completed and persisted: 61 / 74
-- Remaining: 13 / 74
-- Current KP state: `aip-observability-bedrock-067` — learning, review, user approval, and GitHub persistence complete.
+- Completed and persisted: 62 / 74
+- Remaining: 12 / 74
+- Current KP state: `aip-governance-evaluationmetrics-046` — learning, review, user approval, and GitHub persistence complete.
 - Next learning KP: `aip-testing-regression-070` — Golden Dataset、回归测试、Canary 与 A/B 验证
 - Blocker: None.
 - Google Drive AIP content is a manual mirror; it is not required for completion.
