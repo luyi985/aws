@@ -16,9 +16,9 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 ## Progress
 
-- Completed and persisted: 60 / 74
-- Remaining: 14 / 74
-- Progress: 81.1%
+- Completed and persisted: 61 / 74
+- Remaining: 13 / 74
+- Progress: 82.4%
 
 ## Completed Sequence
 
@@ -26,8 +26,8 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 ## Current Position
 
-- Current learning milestone: `aip-governance-audit-066` completed, reviewed, approved, and persisted.
-- Next learning KP: `aip-observability-bedrock-067` — Bedrock CloudWatch 指标、Invocation Logging 与 Dashboard.
+- Current learning milestone: `aip-observability-bedrock-067` completed, reviewed, approved, and persisted.
+- Next learning KP: `aip-testing-regression-070` — Golden Dataset、回归测试、Canary 与 A/B 验证.
 - Active persistence debt: None.
 - Dependency blocker: None known.
 
@@ -35,10 +35,10 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 - Target: at least 85%
 - Required completed count: 63 / 74
-- Current completed count: 60 / 74
-- Remaining to target: 3 KPs
+- Current completed count: 61 / 74
+- Remaining to target: 2 KPs
 - Target endpoint on current deterministic route: `aip-testing-ragtroubleshooting-071`
-- Next KP: `aip-observability-bedrock-067`
+- Next KP: `aip-testing-regression-070`
 
 ## Review Queue
 
