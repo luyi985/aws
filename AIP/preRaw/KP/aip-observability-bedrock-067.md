@@ -1,7 +1,8 @@
 ---
 id: aip-observability-bedrock-067
 title: Bedrock CloudWatch 指标、Invocation Logging 与 Dashboard
-status: review
+status: completed
+learned_note: raw/aip-observability-bedrock-067.md
 sources:
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — AIP-C01 course slides / detailed coverage"
   - "AIP/preRaw/AIPStudyGuide.pdf — AIP-C01 Study Guide (Detailed)"
