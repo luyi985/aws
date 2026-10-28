@@ -52,3 +52,13 @@ function deploy_lambda() {
     --profile yi-dev \
     --query '{Name:FunctionName,State:State,Runtime:Runtime,Handler:Handler}'
 }
+
+function invoke_lambda() {
+   aws lambda invoke \
+    --function-name mcp-get-order \
+    --cli-binary-format raw-in-base64-out \
+    --payload '{"order_id":"ORDER-001"}' \
+    --region ap-southeast-2 \
+    --profile yi-dev \
+    artifacts/get-order-response.json
+}
