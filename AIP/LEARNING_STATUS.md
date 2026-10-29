@@ -33,11 +33,11 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 ## Next Session Target
 
-- Target: at least 85%
-- Required completed count: 63 / 74
+- Target: at least 90%
+- Required completed count: 67 / 74
 - Current completed count: 63 / 74
-- Remaining to target: 0 KPs
-- Target endpoint on current deterministic route: `aip-testing-regression-070`
+- Remaining to target: 4 KPs
+- Target endpoint on current deterministic route: `aip-integration-streaming-056`
 - Next KP: `aip-testing-ragtroubleshooting-071`
 
 ## Review Queue
