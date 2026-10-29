@@ -16,9 +16,9 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 ## Progress
 
-- Completed and persisted: 62 / 74
-- Remaining: 12 / 74
-- Progress: 83.8%
+- Completed and persisted: 63 / 74
+- Remaining: 11 / 74
+- Progress: 85.1%
 
 ## Completed Sequence
 
@@ -26,8 +26,8 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 ## Current Position
 
-- Current learning milestone: `aip-governance-evaluationmetrics-046` completed, reviewed, approved, and persisted.
-- Next learning KP: `aip-testing-regression-070` — Golden Dataset、回归测试、Canary 与 A/B 验证.
+- Current learning milestone: `aip-testing-regression-070` completed, reviewed, approved, and persisted.
+- Next learning KP: `aip-testing-ragtroubleshooting-071` — RAG 评估与检索故障定位.
 - Active persistence debt: None.
 - Dependency blocker: None known.
 
@@ -35,10 +35,10 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 - Target: at least 85%
 - Required completed count: 63 / 74
-- Current completed count: 62 / 74
-- Remaining to target: 1 KP
-- Target endpoint on current deterministic route: `aip-testing-ragtroubleshooting-071`
-- Next KP: `aip-testing-regression-070`
+- Current completed count: 63 / 74
+- Remaining to target: 0 KPs
+- Target endpoint on current deterministic route: `aip-testing-regression-070`
+- Next KP: `aip-testing-ragtroubleshooting-071`
 
 ## Review Queue
 
