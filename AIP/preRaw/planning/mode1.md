@@ -374,7 +374,7 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 - [x] `aip-security-appsecurity-065` — Secrets Manager、Cognito 与 WAF 的应用安全角色
 - [x] `aip-governance-audit-066` — CloudTrail、审计日志与数据保留
 - [x] `aip-observability-bedrock-067` — Bedrock CloudWatch 指标、Invocation Logging 与 Dashboard
-- [ ] `aip-testing-regression-070` — Golden Dataset、回归测试、Canary 与 A/B 验证
+- [x] `aip-testing-regression-070` — Golden Dataset、回归测试、Canary 与 A/B 验证
 - [ ] `aip-testing-ragtroubleshooting-071` — RAG 评估与检索故障定位
 - [ ] `aip-agentic-multiagent-hitl-073` — Multi-agent Workflow 与 Human-in-the-Loop
 - [ ] `aip-troubleshooting-context-074` — Context Window、截断与 Prompt 回归排障
@@ -389,10 +389,10 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 ## Current Position
 
 - Persistence root: GitHub `luyi985/aws/AIP`
-- Completed and persisted: 62 / 74
-- Remaining: 12 / 74
-- Current KP state: `aip-governance-evaluationmetrics-046` — learning, review, user approval, and GitHub persistence complete.
-- Next learning KP: `aip-testing-regression-070` — Golden Dataset、回归测试、Canary 与 A/B 验证
+- Completed and persisted: 63 / 74
+- Remaining: 11 / 74
+- Current KP state: `aip-testing-regression-070` — learning, review, user approval, and GitHub persistence complete.
+- Next learning KP: `aip-testing-ragtroubleshooting-071` — RAG 评估与检索故障定位
 - Blocker: None.
 - Google Drive AIP content is a manual mirror; it is not required for completion.
 
