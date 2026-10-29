@@ -1,7 +1,8 @@
 ---
 id: aip-testing-regression-070
 title: Golden Dataset、回归测试、Canary 与 A/B 验证
-status: review
+status: completed
+learned_note: raw/aip-testing-regression-070.md
 sources:
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — AIP-C01 course slides / detailed coverage"
   - "AIP/preRaw/AIPStudyGuide.pdf — AIP-C01 Study Guide (Detailed)"
