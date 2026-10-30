@@ -1,7 +1,8 @@
 ---
 id: aip-testing-ragtroubleshooting-071
 title: RAG 评估与检索故障定位
-status: pending
+status: completed
+learned_note: raw/aip-testing-ragtroubleshooting-071.md
 sources:
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — AIP-C01 course slides / detailed coverage"
   - "AIP/preRaw/AIPStudyGuide.pdf — AIP-C01 Study Guide (Detailed)"
