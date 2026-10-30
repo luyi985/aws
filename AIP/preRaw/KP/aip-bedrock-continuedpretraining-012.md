@@ -1,7 +1,8 @@
 ---
 id: aip-bedrock-continuedpretraining-012
 title: 持续预训练
-status: pending
+status: completed
+learned_note: raw/aip-bedrock-continuedpretraining-012.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — II. Amazon Bedrock Implementation > Model Customization > Continued Pre-training (Unlabeled Data)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF p. 27, ‘Continued Pre-Training’"

@@ -1,7 +1,8 @@
 ---
 id: aip-bedrock-finetuning-010
 title: 监督式微调
-status: pending
+status: completed
+learned_note: raw/aip-bedrock-finetuning-010.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — II. Amazon Bedrock Implementation > Model Customization > Fine-Tuning (Labeled Data, S3, Titan/Meta/Cohere)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF pp. 25-26, ‘Fine-tuning’ and ‘Fine-tuning in Bedrock: Custom Models’"

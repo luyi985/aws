@@ -1,7 +1,8 @@
 ---
 id: aip-bedrock-groundingcheck-019
 title: 上下文依据检查
-status: pending
+status: completed
+learned_note: raw/aip-bedrock-groundingcheck-019.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — II. Amazon Bedrock Implementation > Guardrails & Safety > Contextual Grounding Check (Hallucination Prevention)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF p. 54, ‘Amazon Bedrock Guardrails’"

@@ -1,7 +1,8 @@
 ---
 id: aip-data-wrangler-035
 title: SageMaker Data Wrangler
-status: pending
+status: completed
+learned_note: raw/aip-data-wrangler-035.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — IV. Data Engineering for GenAI > Data Pipelines > SageMaker Data Wrangler (Visual Prep, Transformations)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF pp. 92-100, ‘SageMaker Data Wrangler’"

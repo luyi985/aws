@@ -1,7 +1,8 @@
 ---
 id: aip-bedrock-reranking-017
 title: Rerank 模型与相关性改进
-status: pending
+status: completed
+learned_note: raw/aip-bedrock-reranking-017.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — II. Amazon Bedrock Implementation > Retrieval Augmented Generation (RAG) > Rerank Models (Relevance Improvement)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF p. 192, ‘Re-ranker Models in Amazon Bedrock’"

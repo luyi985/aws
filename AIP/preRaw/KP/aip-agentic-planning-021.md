@@ -1,7 +1,8 @@
 ---
 id: aip-agentic-planning-021
 title: Bedrock Agent 规划模块
-status: pending
+status: completed
+learned_note: raw/aip-agentic-planning-021.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — III. Agentic AI & Orchestration > Bedrock Agents > Planning Module (Problem Decomposition)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF p. 222, ‘LLM Agents’"

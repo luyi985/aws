@@ -1,7 +1,8 @@
 ---
 id: aip-data-appflow-036
 title: AWS AppFlow SaaS 数据集成
-status: pending
+status: completed
+learned_note: raw/aip-data-appflow-036.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — IV. Data Engineering for GenAI > Data Pipelines > AWS AppFlow (SaaS Integration)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF pp. 416-417, ‘Amazon AppFlow’"

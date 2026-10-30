@@ -1,7 +1,8 @@
 ---
 id: aip-agentic-memory-023
 title: Agent 短期与长期记忆
-status: pending
+status: completed
+learned_note: raw/aip-agentic-memory-023.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — III. Agentic AI & Orchestration > Bedrock Agents > Agent Memory (Short-term Sessions vs. Long-term AgentCore)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF pp. 234 and 243, ‘Adding Memory’ and ‘Adding AgentCore Memory’"

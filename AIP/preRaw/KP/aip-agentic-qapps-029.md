@@ -1,7 +1,8 @@
 ---
 id: aip-agentic-qapps-029
 title: Amazon Q Apps 无代码应用生成
-status: pending
+status: completed
+learned_note: raw/aip-agentic-qapps-029.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — III. Agentic AI & Orchestration > Amazon Q Ecosystem > Q Apps (No-code Application Generation)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF p. 265, ‘Amazon Q Apps (Q Business)’"

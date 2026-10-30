@@ -1,7 +1,8 @@
 ---
 id: aip-data-glue-034
 title: AWS Glue 数据管道基础
-status: pending
+status: completed
+learned_note: raw/aip-data-glue-034.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — IV. Data Engineering for GenAI > Data Pipelines > AWS Glue (ETL, Crawlers, Data Catalog)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF pp. 102-108, ‘AWS Glue’"

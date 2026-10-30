@@ -1,7 +1,8 @@
 ---
 id: aip-foundations-vectortypes-009
 title: 稠密向量与稀疏向量
-status: pending
+status: completed
+learned_note: raw/aip-foundations-vectortypes-009.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — I. Foundational AI Concepts > Embeddings & Vector Theory > Dense vs. Sparse Vectors"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF p. 46, ‘Sparse vs. Dense Embeddings’"

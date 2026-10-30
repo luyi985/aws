@@ -1,7 +1,8 @@
 ---
 id: aip-operations-tokenefficiency-037
 title: Token 效率与上下文裁剪
-status: pending
+status: completed
+learned_note: raw/aip-operations-tokenefficiency-037.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — V. Operational Efficiency > Optimization > Token Efficiency (CountTokens API, Context Pruning)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF pp. 285 and 287, ‘Token Efficiency’"

@@ -1,7 +1,8 @@
 ---
 id: aip-bedrock-vectordatabases-016
 title: RAG 向量数据库选型
-status: pending
+status: completed
+learned_note: raw/aip-bedrock-vectordatabases-016.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — II. Amazon Bedrock Implementation > Retrieval Augmented Generation (RAG) > Vector Databases (OpenSearch Serverless, Aurora, Pinecone, Redis)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF pp. 32-34, ‘Choosing a Database for RAG’ and ‘Embeddings are vectors’"

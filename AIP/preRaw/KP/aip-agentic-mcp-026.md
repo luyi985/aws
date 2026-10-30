@@ -1,7 +1,8 @@
 ---
 id: aip-agentic-mcp-026
 title: Model Context Protocol 工具接口
-status: pending
+status: completed
+learned_note: raw/aip-agentic-mcp-026.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — III. Agentic AI & Orchestration > Agent Frameworks > Model Context Protocol (MCP) (Standardized Tool Interface)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF pp. 256-257, ‘Model Context Protocol (MCP)’ and ‘Deploying your Own MCP Server’"

@@ -1,7 +1,8 @@
 ---
 id: aip-agentic-qbusiness-027
 title: Amazon Q Business
-status: pending
+status: completed
+learned_note: raw/aip-agentic-qbusiness-027.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — III. Agentic AI & Orchestration > Amazon Q Ecosystem > Q Business (Employee Assistant, IAM Identity Center)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF pp. 260-264, ‘Amazon Q Business’"

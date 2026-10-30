@@ -1,7 +1,8 @@
 ---
 id: aip-bedrock-reasoningpolicies-020
 title: Automated Reasoning Policies
-status: pending
+status: completed
+learned_note: raw/aip-bedrock-reasoningpolicies-020.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — II. Amazon Bedrock Implementation > Guardrails & Safety > Automated Reasoning Policies"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF p. 55, ‘Bedrock Guardrails – Automated Reasoning Checks’"

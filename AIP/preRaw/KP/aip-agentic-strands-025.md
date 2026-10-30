@@ -1,7 +1,8 @@
 ---
 id: aip-agentic-strands-025
 title: Strands SDK 代理开发框架
-status: pending
+status: completed
+learned_note: raw/aip-agentic-strands-025.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — III. Agentic AI & Orchestration > Agent Frameworks > Strands SDK (Python Open Source)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF pp. 235-238, ‘Strands Agents’, built-in tools, agent loop, and quickstart"

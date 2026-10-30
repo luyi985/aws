@@ -1,7 +1,8 @@
 ---
 id: aip-foundations-transformer-001
 title: Transformer 预训练架构
-status: pending
+status: completed
+learned_note: raw/aip-foundations-transformer-001.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — I. Foundational AI Concepts > Foundation Models (FMs) > Transformer Architecture (Pre-trained)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF p. 17, ‘Foundation Models’"

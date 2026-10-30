@@ -1,7 +1,8 @@
 ---
 id: aip-operations-promptcaching-040
 title: Prompt Caching 与静态前缀
-status: pending
+status: completed
+learned_note: raw/aip-operations-promptcaching-040.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — V. Operational Efficiency > Performance & Caching > Prompt Caching (Static Prefix Discounting)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF p. 293, ‘Intelligent Caching Systems: Prompt Caching’"

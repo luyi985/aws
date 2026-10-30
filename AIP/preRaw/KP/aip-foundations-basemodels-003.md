@@ -1,7 +1,8 @@
 ---
 id: aip-foundations-basemodels-003
 title: 基础模型家族与选型
-status: pending
+status: completed
+learned_note: raw/aip-foundations-modelfamily-003.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — I. Foundational AI Concepts > Foundation Models (FMs) > Base Models (Nova, Titan, Claude, Llama, Jurassic, Mistral)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF pp. 17-18, ‘Foundation Models’ and ‘AWS Foundation Models (Base Models)’"

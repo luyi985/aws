@@ -1,7 +1,8 @@
 ---
 id: aip-bedrock-contentfiltering-018
 title: Guardrails 内容过滤
-status: pending
+status: completed
+learned_note: raw/aip-bedrock-contentfiltering-018.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — II. Amazon Bedrock Implementation > Guardrails & Safety > Content Filtering (Topic, Word, PII Redaction)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF p. 54, ‘Amazon Bedrock Guardrails’"

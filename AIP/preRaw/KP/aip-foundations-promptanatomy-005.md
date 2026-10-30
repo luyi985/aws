@@ -1,7 +1,8 @@
 ---
 id: aip-foundations-promptanatomy-005
 title: 提示词的组成结构
-status: pending
+status: completed
+learned_note: raw/aip-foundations-promptanatomy-005.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — I. Foundational AI Concepts > Prompt Engineering > Anatomy (Instructions, Context, Input, Output Indicator)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF p. 65, ‘Anatomy of a Prompt’"

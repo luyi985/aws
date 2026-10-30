@@ -1,7 +1,8 @@
 ---
 id: aip-foundations-vectordimensionality-008
 title: 向量维度与性能权衡
-status: pending
+status: completed
+learned_note: raw/aip-foundations-vectordimensionality-008.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — I. Foundational AI Concepts > Embeddings & Vector Theory > Vector Dimensionality vs. Performance Tradeoffs"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF p. 45, ‘Optimizing your Embeddings’"

@@ -5,11 +5,92 @@
 - Learning root: `AIP/`
 - KP root: `AIP/preRaw/KP/`
 - KP count: 74
-- Status snapshot: 25 `pending`; 0 `learning`; 0 `review/persistence_pending`; 49 `completed`
-- Learned and user-approved: 49 / 74
+- Status snapshot: 10 `pending`; 0 `learning`; 0 `review`; 64 `completed`
+- Completed and persisted: 64 / 74 (86.5%); derived from KP status after evidence-backed reconciliation.
 - Route objective: learn every prepared KP one at a time in a dependency-valid, conceptually useful order.
-- Last analysis date: 2026-09-17
-- Last progress update: 2026-10-21
+- Last analysis date: 2026-10-31 (direct prerequisite and route revalidation)
+- Last progress update: 2026-10-31
+
+## Route Input Summary
+
+format: semantic-sha256-v1
+
+| KP ID | Path relative to learning root | SHA-256 |
+|---|---|---|
+| aip-agentic-actiongroups-022 | preRaw/KP/aip-agentic-actiongroups-022.md | 5aedca4d7c60b3a489d89e832f828a19e370583ad2bb436bad24fdeb5912a077 |
+| aip-agentic-agentcore-024 | preRaw/KP/aip-agentic-agentcore-024.md | 87b81451c0e5c35291bb7f36c5de6c4ed2b1ba81fe5b3074eb5f998404dc79f9 |
+| aip-agentic-mcp-026 | preRaw/KP/aip-agentic-mcp-026.md | 948ebb863a08983694be9996f914e526a78736dcf15abb0af77b3596fead0c69 |
+| aip-agentic-memory-023 | preRaw/KP/aip-agentic-memory-023.md | cc16e501aa6952c81913d17e3fe25f6e17b607abd43c7f8baab1284c7c519403 |
+| aip-agentic-multiagent-hitl-073 | preRaw/KP/aip-agentic-multiagent-hitl-073.md | 839f36913183b22ad02a95f595e8aa3dd308aae6983e8efd128c08c59e2637d0 |
+| aip-agentic-planning-021 | preRaw/KP/aip-agentic-planning-021.md | 2ae402c79e3838d8a42ba2e7f60d6d131e044358cc6fbf29a1720c97786b1841 |
+| aip-agentic-qapps-029 | preRaw/KP/aip-agentic-qapps-029.md | d51ba9c47bd97697ec7aade85b7f99fa2bf15640c9c21813a48519df7b6ade1b |
+| aip-agentic-qbusiness-027 | preRaw/KP/aip-agentic-qbusiness-027.md | b4a833e04196b36927aa79e5789e7052216741b839f5241b876fb6a3f55bb1da |
+| aip-agentic-qdeveloper-028 | preRaw/KP/aip-agentic-qdeveloper-028.md | f014fe4365182f793033cfc20504708126f966136f2f5127ad432803fec6ce77 |
+| aip-agentic-strands-025 | preRaw/KP/aip-agentic-strands-025.md | 83c1c3e465f70040910f04294499959ca3013c2ee3adedf0f40aedaa82afca61 |
+| aip-bedrock-chunking-015 | preRaw/KP/aip-bedrock-chunking-015.md | 1ee4e2fc32eb91029166e7f31b0e2402a4e5b8de6ee3708ea658c97e233699f1 |
+| aip-bedrock-contentfiltering-018 | preRaw/KP/aip-bedrock-contentfiltering-018.md | 12c65820482d0cdec5281bb4d0d01114014e3f49ed231dce2d34fe7a4cc365ab |
+| aip-bedrock-continuedpretraining-012 | preRaw/KP/aip-bedrock-continuedpretraining-012.md | 7223ffca7acd4cf9794c2a0b0a3385ccb0b560175dba2b07c8a9f418a01c86fe |
+| aip-bedrock-customimport-013 | preRaw/KP/aip-bedrock-customimport-013.md | 110bd7a69cf86f0bc6f3cf45fb5bfa91431dd4b26e477f68a506b1341d716c28 |
+| aip-bedrock-finetuning-010 | preRaw/KP/aip-bedrock-finetuning-010.md | f07e7ebfade572b779b80b4bbe39b817dbbc187571e65dca556db98c505bee85 |
+| aip-bedrock-groundingcheck-019 | preRaw/KP/aip-bedrock-groundingcheck-019.md | 98086fe1d83d548053f94f472070f044951ef5abbd21db100580d22c86aa0014 |
+| aip-bedrock-knowledgebases-014 | preRaw/KP/aip-bedrock-knowledgebases-014.md | 240fa12be78554aa5bb8278692bb708f4c5652593f758890be083f0e0865fb88 |
+| aip-bedrock-lora-011 | preRaw/KP/aip-bedrock-lora-011.md | 7e4246b3e8ef458fe161772450bc5e6408c31de40bbb49fa20e5c91113ac47ce |
+| aip-bedrock-reasoningpolicies-020 | preRaw/KP/aip-bedrock-reasoningpolicies-020.md | 33e7dd89f52b26d4da5cec69bf8ad1622efe4faadda90a334e9d096f789117f3 |
+| aip-bedrock-reranking-017 | preRaw/KP/aip-bedrock-reranking-017.md | 8e675c44b2a5d64c8d66170286b6111143f29ca936ec168b962305b6bb028026 |
+| aip-bedrock-vectordatabases-016 | preRaw/KP/aip-bedrock-vectordatabases-016.md | 9767e447141f49b7111b6fbda9a82838f0134b0ac3cbc1352d1a2f5be5135533 |
+| aip-data-appflow-036 | preRaw/KP/aip-data-appflow-036.md | a0d007b0165a10d1c14fe28bda0f6518a80f2e4d0aaebc786e7551644a130ef5 |
+| aip-data-bda-030 | preRaw/KP/aip-data-bda-030.md | 2087b20dd7ef7ae256820146f41763ebcc16ecddac50a6811c208ba142e4845b |
+| aip-data-comprehend-033 | preRaw/KP/aip-data-comprehend-033.md | 922ecbae4560e2392c012e1553ea5879b72f97685798538589816a52dbcf6c54 |
+| aip-data-glue-034 | preRaw/KP/aip-data-glue-034.md | 1c95ee3831b93ed8d0043867d3f37f3b25757a825223dff9b00c1222058a64c1 |
+| aip-data-textract-031 | preRaw/KP/aip-data-textract-031.md | c7f025229480e194661ad944f00af679f7c5b6a678f1eb3d2b12fc9e3f267867 |
+| aip-data-transcribe-032 | preRaw/KP/aip-data-transcribe-032.md | 74d8c5c611dbc4a69d1417b2aa49aaa5f0da44dac4ab5b13fe8c20a26c68c4c9 |
+| aip-data-wrangler-035 | preRaw/KP/aip-data-wrangler-035.md | 62adc9c135a3f3f5eaf95def5dbebfd58442570fe240ce83b7570fe2af743090 |
+| aip-foundations-basemodels-003 | preRaw/KP/aip-foundations-basemodels-003.md | b341a018d25c5de35fd8ce357295e2519ffc618c522a781487a1425e5266af3d |
+| aip-foundations-modalities-002 | preRaw/KP/aip-foundations-modalities-002.md | 8f88b4c7d9c6430496e9e4e1a5afe54f8fae07c53a9f5b1dc089035a424465d6 |
+| aip-foundations-promptanatomy-005 | preRaw/KP/aip-foundations-promptanatomy-005.md | afbd8e9aa05f746945261f77fcba4aa234aea620a0c551c222582d39fe695190 |
+| aip-foundations-promptmanagement-006 | preRaw/KP/aip-foundations-promptmanagement-006.md | 26818ca14c2517e35b9ab65f2c215196c3910136db5e7f539b87d2e11bf05c81 |
+| aip-foundations-prompttechniques-004 | preRaw/KP/aip-foundations-prompttechniques-004.md | 0094c68e9b47cbd2cc90fad8ff2064f594ffcdf1650c1f2e06a57f4077cfe45c |
+| aip-foundations-semanticsearch-007 | preRaw/KP/aip-foundations-semanticsearch-007.md | 1eb4cef008833f5c9b2a98fed5250735e1e9f29a870e50fb8df829620aead3d8 |
+| aip-foundations-transformer-001 | preRaw/KP/aip-foundations-transformer-001.md | fd04f1c03510cf8fe1ccb72fbbf006dcb56246858bfccb72fdc346229fd12536 |
+| aip-foundations-vectordimensionality-008 | preRaw/KP/aip-foundations-vectordimensionality-008.md | db0b3a50886e0043e2ce69280f617cc1e3cea6797a6f04f065b4816ed0fa8b86 |
+| aip-foundations-vectortypes-009 | preRaw/KP/aip-foundations-vectortypes-009.md | 4a477bd551729574e5af925e49f6b2e996fb46d7a8f3c3ea008aad02ab803eb3 |
+| aip-governance-audit-066 | preRaw/KP/aip-governance-audit-066.md | cccced90cbd9be17482f8b7c0a4615f7d5f6a9ad51b9c77369aafb5d7e3a57b0 |
+| aip-governance-clarify-053 | preRaw/KP/aip-governance-clarify-053.md | 9fc3297bee0e73d9917bf03a4653cdc7eff836f7a0ce5d9c08355578d3d2f176 |
+| aip-governance-evaluationmetrics-046 | preRaw/KP/aip-governance-evaluationmetrics-046.md | 68110bc9b528cb5204977fd77fededd5c1ca332857c733b2643bf85d8c4a5acb |
+| aip-governance-evaluationtypes-045 | preRaw/KP/aip-governance-evaluationtypes-045.md | ad60aac6ac260ce536fceb07e3238c8eabf426f3d5c94df70a61aa7457938a16 |
+| aip-governance-lineage-054 | preRaw/KP/aip-governance-lineage-054.md | ad6b6f1ad433d86b9fb0b0c952e6b4dcd2aed0305210641a143935cb8e09425f |
+| aip-governance-llmjudge-047 | preRaw/KP/aip-governance-llmjudge-047.md | db2e3f3ea06a1190fcde579f6891a70082e338063b0cc0b707b98995d8202507 |
+| aip-governance-responsibleai-052 | preRaw/KP/aip-governance-responsibleai-052.md | 70b238bab2a6e4fd81a1b493f7edac20a3cbd5163fc130d2f24927d4b6ecf892 |
+| aip-integration-apigateway-058 | preRaw/KP/aip-integration-apigateway-058.md | 4a3c073984e2ec17dd3ef00b74b3e9984b9af371b14986cae828a31098fd6a78 |
+| aip-integration-bedrockapi-055 | preRaw/KP/aip-integration-bedrockapi-055.md | 1c2031d990223fffea3efdbe63920f0adab28f7dc544013e80ae0682c9d9caca |
+| aip-integration-bedrockflows-059 | preRaw/KP/aip-integration-bedrockflows-059.md | 3c56cbaa76a78a6082342fa253590a6d335f9b4c5c46e2c62f9e91450f507fdc |
+| aip-integration-eventdriven-057 | preRaw/KP/aip-integration-eventdriven-057.md | d536246abee71997e19edc2f80551ec49e7d7168038c6bd613b948d5c37b35b3 |
+| aip-integration-streaming-056 | preRaw/KP/aip-integration-streaming-056.md | 06512416ace7e613217c887fc6d3e5c1f70da94d27d070a42f9d3280eb0e5d6d |
+| aip-observability-agenttrace-068 | preRaw/KP/aip-observability-agenttrace-068.md | a1f9f334135310a265166f561fb72d9f2efb5f552c38b881349c091ccbb81b85 |
+| aip-observability-bedrock-067 | preRaw/KP/aip-observability-bedrock-067.md | 59e1818ad92c0d866c55c4974e0205aec93071b2442ac3b8ef315f154eceffd9 |
+| aip-observability-modelmonitor-069 | preRaw/KP/aip-observability-modelmonitor-069.md | 824e51e63c7c4972b8fc8a602475390856e3a953811f2525c7e576ef6a82120c |
+| aip-operations-backoff-043 | preRaw/KP/aip-operations-backoff-043.md | f37fae91a62810858c8edc6e9f5821d827134135595ad4e9e40717d3136afe02 |
+| aip-operations-circuitbreaker-044 | preRaw/KP/aip-operations-circuitbreaker-044.md | 1f476538ffe1e18be6b741a7a033528977f2271400385180c19fd5abe60a6965 |
+| aip-operations-crossregion-039 | preRaw/KP/aip-operations-crossregion-039.md | c2fc00ab2d6269035ddd71b70a4143fd473e7091716b9e835ae01077292dd6a1 |
+| aip-operations-latency-042 | preRaw/KP/aip-operations-latency-042.md | a6c9c684f308f9cd273613edec49e894f253f42f6d24f9c18cd8a78d35c27572 |
+| aip-operations-modelrouting-038 | preRaw/KP/aip-operations-modelrouting-038.md | d0ce83d55258c6182a1a6f01a13214ea364afdd8ef4a2275fc905e623b7f4e2c |
+| aip-operations-promptcaching-040 | preRaw/KP/aip-operations-promptcaching-040.md | a236e56ee842fd0fb6a35ae5be2ef74699116b1e0e712af9a55a610db02df512 |
+| aip-operations-provisionedthroughput-060 | preRaw/KP/aip-operations-provisionedthroughput-060.md | a46b41bb8f7baa5fc41816a3803fd94296414674cdcd0c7279883fc82e162c82 |
+| aip-operations-semanticcache-041 | preRaw/KP/aip-operations-semanticcache-041.md | 30733bbc2b1fe0f3592aee546e5a8e34deffcba180c62291f2c9517bf338f594 |
+| aip-operations-tokenefficiency-037 | preRaw/KP/aip-operations-tokenefficiency-037.md | d354b4cfcc0955cec37996cc51398e1b5500ee85839d8d7f4837875af407153f |
+| aip-sagemaker-deployment-061 | preRaw/KP/aip-sagemaker-deployment-061.md | 3434b764d9eab908f425407ec2b9dac7e315bd4aa34bc89c3bef697971929f46 |
+| aip-sagemaker-mlops-062 | preRaw/KP/aip-sagemaker-mlops-062.md | b4a1d5d2571f5c53680c7809b10cd20d962b2c10f3e4b2fcad7c256f261b9e8f |
+| aip-security-appsecurity-065 | preRaw/KP/aip-security-appsecurity-065.md | 1d05e09af1e4420f57405b54d4976713519a7a3c53caff86bae71d91703a0b57 |
+| aip-security-dataredaction-064 | preRaw/KP/aip-security-dataredaction-064.md | 513ce7c3b9ebbdf99355894c44e29617df4a0aa6c046b19238562fc1f5d72b34 |
+| aip-security-iampolicies-048 | preRaw/KP/aip-security-iampolicies-048.md | 41e2b7d159c0f68b3cbb87bfd2d540fe8a2dade2bcc36d52e51244efca878a06 |
+| aip-security-kmsencryption-049 | preRaw/KP/aip-security-kmsencryption-049.md | 0b1bf4bc874118a9af39eb93c608ab0d8e8fb0c64e22d435fb9d3eac8611ddc7 |
+| aip-security-macie-051 | preRaw/KP/aip-security-macie-051.md | 4bd625b621792651bf7737811f563672ce678575b1b1b87753c9cb251228e6ef |
+| aip-security-privateconnectivity-050 | preRaw/KP/aip-security-privateconnectivity-050.md | 5289d3d361095e9c7189633932dda6d29819fe1b1c045c3a7c872ca627254c9b |
+| aip-security-promptinjection-063 | preRaw/KP/aip-security-promptinjection-063.md | 8360c5e9e56e1a6a9a12d872032812fbc4c78756b0769b338efe7e988e78b996 |
+| aip-testing-agenttroubleshooting-072 | preRaw/KP/aip-testing-agenttroubleshooting-072.md | bcafbddaad3e72b02c8eedb675fab9e868ee03fc711c71ec5cff03414bd42495 |
+| aip-testing-ragtroubleshooting-071 | preRaw/KP/aip-testing-ragtroubleshooting-071.md | 82ec7dd3d5abc590274edd38f78fd4f84e5ca0f47405a0bbbdb12fc32a16b87e |
+| aip-testing-regression-070 | preRaw/KP/aip-testing-regression-070.md | c85467e34721cab5161396e49aa6f5b2165683bea0f63d4ebef0a835536136e7 |
+| aip-troubleshooting-context-074 | preRaw/KP/aip-troubleshooting-context-074.md | 2c3fea35c09c99553f96d394a7035a197dee7c17ecfd4d6025e569f658f40445 |
 
 ## Knowledge Graph
 
@@ -173,6 +254,12 @@ flowchart TD
 - `independence`: all KPs grouped within a route stage have no hard-prerequisite path between one another. Their listed order is deterministic and recommended, not mandatory.
 
 ## Validation Findings
+
+- 2026-10-31 reconciliation: before repair, 41 approved raw notes had matching KP definitions still marked `pending`; restored metadata from the persisted notes and historical completion/admission records. Existing 23 completed KPs were preserved.
+- Historical display mismatch: plan Scope said 49 completed, Current Position said 63, and KP metadata said 23. After repair all displays derive from 64 completed statuses. The graph and route were directly revalidated and preserved.
+- KP 003 legacy mapping: canonical `aip-foundations-basemodels-003` links to `raw/aip-foundations-modelfamily-003.md`; same topic and historical completion evidence. No identity rename or note rewrite.
+- Pending KP 047 has no saved raw note or sufficient completion evidence; remains pending. It is the first pending eligible KP in deterministic order, while the user-selected 90% milestone continues with 073, 074, 056.
+- Audit: [Progress reconciliation 2026-10-31](progress-reconciliation-2026-10-31.md).
 
 - 74 readable KP files are in scope; the 20 new gap-filling KPs (055–074) were validated against their declared IDs, scopes, sources and prerequisites, while the existing 54-KP graph and completed progress were preserved.
 - The graph contains 65 hard prerequisite edges. Every referenced prerequisite exists.
@@ -375,7 +462,7 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 - [x] `aip-governance-audit-066` — CloudTrail、审计日志与数据保留
 - [x] `aip-observability-bedrock-067` — Bedrock CloudWatch 指标、Invocation Logging 与 Dashboard
 - [x] `aip-testing-regression-070` — Golden Dataset、回归测试、Canary 与 A/B 验证
-- [ ] `aip-testing-ragtroubleshooting-071` — RAG 评估与检索故障定位
+- [x] `aip-testing-ragtroubleshooting-071` — RAG 评估与检索故障定位
 - [ ] `aip-agentic-multiagent-hitl-073` — Multi-agent Workflow 与 Human-in-the-Loop
 - [ ] `aip-troubleshooting-context-074` — Context Window、截断与 Prompt 回归排障
 - [ ] `aip-integration-streaming-056` — 流式推理与响应式客户端
@@ -389,11 +476,14 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 ## Current Position
 
 - Persistence root: GitHub `luyi985/aws/AIP`
-- Completed and persisted: 63 / 74
-- Remaining: 11 / 74
-- Current KP state: `aip-testing-regression-070` — learning, review, user approval, and GitHub persistence complete.
-- Next learning KP: `aip-testing-ragtroubleshooting-071` — RAG 评估与检索故障定位
-- Blocker: None.
+- Completed and persisted: 64 / 74 (86.5%)
+- Remaining: 10 / 74
+- Current KP state: `aip-testing-ragtroubleshooting-071` completed; approved raw note and metadata verified.
+- Active learning/review KPs: None.
+- First pending eligible KP in deterministic order: `aip-governance-llmjudge-047` — LLM-as-a-Judge; historical gap, not silently completed.
+- User-selected next milestone KP: `aip-agentic-multiagent-hitl-073` — Multi-agent Workflow 与 Human-in-the-Loop; prerequisites satisfied.
+- 90% milestone route: 073 → 074 → 056; three additional completions reach 67 / 74 (90.5%).
+- Blocker: None for the user-selected milestone route.
 - Google Drive AIP content is a manual mirror; it is not required for completion.
 
 - Review follow-up: KP 050 endpoint names still require prompted review; independent selection and retention are unvalidated. Completion records approved-note persistence, not mastery.

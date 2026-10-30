@@ -1,7 +1,8 @@
 ---
 id: aip-agentic-actiongroups-022
 title: Bedrock Agent Action Groups
-status: pending
+status: completed
+learned_note: raw/aip-agentic-actiongroups-022.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — III. Agentic AI & Orchestration > Bedrock Agents > Action Groups (Lambda Tools, OpenAPI/Swagger Schemas)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF p. 224, ‘How do Agents Know Which Tools to Use?’"

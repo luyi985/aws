@@ -1,7 +1,8 @@
 ---
 id: aip-bedrock-chunking-015
 title: RAG 文档分块策略
-status: pending
+status: completed
+learned_note: raw/aip-bedrock-chunking-015.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — II. Amazon Bedrock Implementation > Retrieval Augmented Generation (RAG) > Chunking Strategies (Standard, Hierarchical, Semantic)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF pp. 41-44, ‘More on Chunking’ and Bedrock chunking strategy slides"

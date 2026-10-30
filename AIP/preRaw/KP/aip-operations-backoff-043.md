@@ -1,7 +1,8 @@
 ---
 id: aip-operations-backoff-043
 title: 指数退避与抖动
-status: pending
+status: completed
+learned_note: raw/aip-operations-backoff-043.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — V. Operational Efficiency > Resiliency Patterns > Exponential Backoff & Jitter"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF p. 302, ‘Exponential Backoff’"

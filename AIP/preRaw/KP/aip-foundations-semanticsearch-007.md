@@ -1,7 +1,8 @@
 ---
 id: aip-foundations-semanticsearch-007
 title: 语义搜索与 K 近邻
-status: pending
+status: completed
+learned_note: raw/aip-foundations-semanticsearch-007.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — I. Foundational AI Concepts > Embeddings & Vector Theory > Semantic Search (K-Nearest Neighbor)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF pp. 29-37, ‘Retrieval Augmented Generation’, ‘Embeddings’, and ‘Using Knowledge Bases’"

@@ -1,7 +1,8 @@
 ---
 id: aip-operations-modelrouting-038
 title: 静态与动态模型路由
-status: pending
+status: completed
+learned_note: raw/aip-operations-modelrouting-038.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — V. Operational Efficiency > Optimization > Intelligent Model Routing (Static vs. Dynamic)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF pp. 288 and 296, ‘Cost-Effective Model Selection’ and ‘Building Responsive AI Systems’"

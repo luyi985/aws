@@ -1,7 +1,8 @@
 ---
 id: aip-data-textract-031
 title: Amazon Textract 文档 OCR
-status: pending
+status: completed
+learned_note: raw/aip-data-textract-031.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — IV. Data Engineering for GenAI > Automation & Extraction > Amazon Textract (OCR for PDFs/Images)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF p. 601, ‘Amazon Textract’"

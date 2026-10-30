@@ -1,7 +1,8 @@
 ---
 id: aip-foundations-prompttechniques-004
 title: Zero-shot、Few-shot 与 Chain-of-Thought
-status: pending
+status: completed
+learned_note: raw/aip-foundations-prompttechniques-004.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — I. Foundational AI Concepts > Prompt Engineering > Techniques (Zero-shot, Few-shot, Chain-of-Thought)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF p. 68, ‘Types of Prompts’"

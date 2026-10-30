@@ -1,7 +1,8 @@
 ---
 id: aip-agentic-qdeveloper-028
 title: Amazon Q Developer
-status: pending
+status: completed
+learned_note: raw/aip-agentic-qdeveloper-028.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — III. Agentic AI & Orchestration > Amazon Q Ecosystem > Q Developer (IDE Extension, Code Generation)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF p. 6, ‘Agentic AI’ course scope (Amazon Q)"

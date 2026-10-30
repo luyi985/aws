@@ -1,7 +1,8 @@
 ---
 id: aip-bedrock-knowledgebases-014
 title: Bedrock Knowledge Bases 自动化 RAG
-status: pending
+status: completed
+learned_note: raw/aip-bedrock-knowledgebases-014.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — II. Amazon Bedrock Implementation > Retrieval Augmented Generation (RAG) > Bedrock Knowledge Bases (Automated RAG)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF pp. 36-38, ‘RAG in Bedrock: Knowledge Bases’ and ‘Using Knowledge Bases’"

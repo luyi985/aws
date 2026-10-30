@@ -1,7 +1,8 @@
 ---
 id: aip-data-comprehend-033
 title: Amazon Comprehend 文本分析
-status: pending
+status: completed
+learned_note: raw/aip-data-comprehend-033.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — IV. Data Engineering for GenAI > Automation & Extraction > Amazon Comprehend (NER, PII Redaction, Classification)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF pp. 114-118, ‘Amazon Comprehend’"

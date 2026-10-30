@@ -1,7 +1,8 @@
 ---
 id: aip-bedrock-lora-011
 title: LoRA 低秩适配
-status: pending
+status: completed
+learned_note: raw/aip-bedrock-lora-011.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — II. Amazon Bedrock Implementation > Model Customization > LoRA (Low-Rank Adaptation)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF p. 28, ‘Low-Rank Adaptation (LoRA)’"

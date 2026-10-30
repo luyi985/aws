@@ -1,7 +1,8 @@
 ---
 id: aip-foundations-promptmanagement-006
 title: Bedrock Prompt Management
-status: pending
+status: completed
+learned_note: raw/aip-foundations-promptmanagement-006.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — I. Foundational AI Concepts > Prompt Engineering > Bedrock Prompt Management (Versioning, Variables)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF p. 58, ‘Prompt Management with Amazon Bedrock’"

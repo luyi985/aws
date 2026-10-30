@@ -1,7 +1,8 @@
 ---
 id: aip-agentic-agentcore-024
 title: AgentCore 的扩展与运行支撑
-status: pending
+status: completed
+learned_note: raw/aip-agentic-agentcore-024.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — III. Agentic AI & Orchestration > Agent Frameworks > AgentCore (Scale & Harness)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF pp. 240-243, ‘Amazon Bedrock AgentCore’ and AgentCore capabilities"

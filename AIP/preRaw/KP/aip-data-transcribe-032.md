@@ -1,7 +1,8 @@
 ---
 id: aip-data-transcribe-032
 title: Amazon Transcribe 语音识别与毒性检测
-status: pending
+status: completed
+learned_note: raw/aip-data-transcribe-032.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — IV. Data Engineering for GenAI > Automation & Extraction > Amazon Transcribe (ASR, Toxicity Detection)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF pp. 111-113, ‘Amazon Transcribe’"

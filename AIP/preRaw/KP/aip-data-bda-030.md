@@ -1,7 +1,8 @@
 ---
 id: aip-data-bda-030
 title: Bedrock Data Automation 多模态提取
-status: pending
+status: completed
+learned_note: raw/aip-data-bda-030.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — IV. Data Engineering for GenAI > Automation & Extraction > Bedrock Data Automation (BDA) (Multimodal Extraction)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF pp. 83-91, ‘Bedrock Data Automation (BDA)’"

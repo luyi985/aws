@@ -1,7 +1,8 @@
 ---
 id: aip-operations-crossregion-039
 title: Cross-Region Inference
-status: pending
+status: completed
+learned_note: raw/aip-operations-crossregion-039.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — V. Operational Efficiency > Optimization > Cross-Region Inference (Quotas & Availability)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF pp. 304-305, ‘Bedrock Cross-Region Inference’"

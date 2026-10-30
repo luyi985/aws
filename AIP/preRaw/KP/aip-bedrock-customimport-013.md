@@ -1,7 +1,8 @@
 ---
 id: aip-bedrock-customimport-013
 title: 从 SageMaker 导入自定义模型
-status: pending
+status: completed
+learned_note: raw/aip-bedrock-customimport-013.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — II. Amazon Bedrock Implementation > Model Customization > Custom Model Import (from SageMaker)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF p. 317, ‘Optimizing FM Deployments’"

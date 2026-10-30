@@ -1,7 +1,8 @@
 ---
 id: aip-foundations-modalities-002
 title: 基础模型的模态
-status: pending
+status: completed
+learned_note: raw/aip-foundations-modalities-002.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — I. Foundational AI Concepts > Foundation Models (FMs) > Modalities (Text, Image, Audio, Video, Multimodal)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF pp. 52-53, ‘Multimodal Models and Pipelines’"
