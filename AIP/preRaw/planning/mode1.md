@@ -5,8 +5,8 @@
 - Learning root: `AIP/`
 - KP root: `AIP/preRaw/KP/`
 - KP count: 74
-- Status snapshot: 8 `pending`; 0 `learning`; 0 `review`; 66 `completed`
-- Completed and persisted: 66 / 74 (89.2%); derived from KP status.
+- Status snapshot: 7 `pending`; 0 `learning`; 0 `review`; 67 `completed`
+- Completed and persisted: 67 / 74 (90.5%); derived from KP status.
 - Route objective: learn every prepared KP one at a time in a dependency-valid, conceptually useful order.
 - Last analysis date: 2026-10-31 (direct prerequisite and route revalidation)
 - Last progress update: 2026-10-31
@@ -465,7 +465,7 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 - [x] `aip-testing-ragtroubleshooting-071` — RAG 评估与检索故障定位
 - [x] `aip-agentic-multiagent-hitl-073` — Multi-agent Workflow 与 Human-in-the-Loop
 - [x] `aip-troubleshooting-context-074` — Context Window、截断与 Prompt 回归排障
-- [ ] `aip-integration-streaming-056` — 流式推理与响应式客户端
+- [x] `aip-integration-streaming-056` — 流式推理与响应式客户端
 - [ ] `aip-integration-eventdriven-057` — 异步与事件驱动 GenAI 集成
 - [ ] `aip-integration-apigateway-058` — API Gateway 作为 GenAI 安全前门
 - [ ] `aip-sagemaker-mlops-062` — 模型部署防护、Registry、Pipelines 与回滚
@@ -476,14 +476,14 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 ## Current Position
 
 - Persistence root: GitHub `luyi985/aws/AIP`
-- Completed and persisted: 66 / 74 (89.2%)
-- Remaining: 8 / 74
-- Current KP state: `aip-troubleshooting-context-074` completed; approved raw note and metadata verified.
+- Completed and persisted: 67 / 74 (90.5%)
+- Remaining: 7 / 74
+- Current KP state: `aip-integration-streaming-056` completed; approved raw note and metadata verified.
 - Active learning/review KPs: None.
 - First pending eligible KP in deterministic order: `aip-governance-llmjudge-047` — LLM-as-a-Judge; historical gap, not silently completed.
-- User-selected next milestone KP: `aip-integration-streaming-056` — 流式推理与响应式客户端; prerequisites satisfied.
-- 90% milestone route: 056; one additional completion reach 67 / 74 (90.5%).
-- Blocker: None for the user-selected milestone route.
+- User-selected 90% milestone: completed; no next learning KP automatically started.
+- 90% milestone result: 67 / 74 (90.5%); 071, 073, 074 and 056 saved and synchronized.
+- Blocker: None. Next learning target awaits user selection.
 - Google Drive AIP content is a manual mirror; it is not required for completion.
 
 - Review follow-up: KP 050 endpoint names still require prompted review; independent selection and retention are unvalidated. Completion records approved-note persistence, not mastery.

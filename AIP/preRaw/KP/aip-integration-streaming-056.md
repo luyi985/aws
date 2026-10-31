@@ -1,7 +1,8 @@
 ---
 id: aip-integration-streaming-056
 title: 流式推理与响应式客户端
-status: review
+status: completed
+learned_note: raw/aip-integration-streaming-056.md
 sources:
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — AIP-C01 course slides / detailed coverage"
   - "AIP/preRaw/AIPStudyGuide.pdf — AIP-C01 Study Guide (Detailed)"
