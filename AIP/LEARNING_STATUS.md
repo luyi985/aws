@@ -1,6 +1,6 @@
 # AIP Learning Status
 
-Last synced: 2026-10-31
+Last synced: 2026-11-01
 Primary mode: Mode 1
 Source scope: all KPs in `AIP/preRaw/KP/`
 Total KPs: 74
@@ -16,20 +16,20 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 ## Progress
 
-- Completed and persisted: 71 / 74
-- Remaining: 3 / 74
-- Progress: 95.9%
+- Completed and persisted: 72 / 74
+- Remaining: 2 / 74
+- Progress: 97.3%
 
 ## Completed Sequence
 
-`001 → 002 → 005 → 009 → 003 → 004 → 006 → 007 → 008 → 012 → 015 → 016 → 030 → 031 → 032 → 033 → 034 → 035 → 036 → 010 → 013 → 014 → 017 → 018 → 020 → 011 → 019 → 021 → 027 → 028 → 029 → 022 → 023 → 024 → 025 → 026 → 037 → 038 → 043 → 039 → 040 → 041 → 042 → 044 → 045 → 048 → 049 → 050 → 051 → 052 → 054 → 046 → 047 → 053 → 055 → 059 → 060 → 061 → 063 → 064 → 065 → 066 → 067 → 070 → 071 → 073 → 074 → 056 → 057 → 058 → 062`
+`001 → 002 → 005 → 009 → 003 → 004 → 006 → 007 → 008 → 012 → 015 → 016 → 030 → 031 → 032 → 033 → 034 → 035 → 036 → 010 → 013 → 014 → 017 → 018 → 020 → 011 → 019 → 021 → 027 → 028 → 029 → 022 → 023 → 024 → 025 → 026 → 037 → 038 → 043 → 039 → 040 → 041 → 042 → 044 → 045 → 048 → 049 → 050 → 051 → 052 → 054 → 046 → 047 → 053 → 055 → 059 → 060 → 061 → 063 → 064 → 065 → 066 → 067 → 070 → 071 → 073 → 074 → 056 → 057 → 058 → 062 → 068`
 
 Sequence above is a route-ordered completion set, not a claim of chronological learning order.
 
 ## Current Position
 
-- Current learning milestone: `aip-sagemaker-mlops-062` completed, reviewed, approved, and persisted.
-- Next learning KP: Not started. First pending eligible in deterministic order: `aip-observability-agenttrace-068`.
+- Current learning milestone: `aip-observability-agenttrace-068` completed, reviewed, approved, and persisted.
+- Next learning KP: `aip-observability-modelmonitor-069` — SageMaker Model Monitor 与数据/质量漂移; not started.
 - Active persistence debt: None.
 - Dependency blocker: None known.
 
@@ -37,12 +37,12 @@ Sequence above is a route-ordered completion set, not a claim of chronological l
 
 - Target: at least 95%
 - Required completed count: 71 / 74
-- Current completed count: 71 / 74
+- Current completed count: 72 / 74
 - Remaining to target: 0 KPs
 - Target status: completed (95.9% >= 95%)
 - User-selected route: 047 (completed) → 057 (completed) → 058 (completed) → 062 (completed)
 - Target endpoint: `aip-sagemaker-mlops-062`
-- Next action: report 95% milestone completion; await user selection of further learning or review.
+- Next action: preview KP 069; no detailed learning automatically started.
 - Previous 90% milestone: completed at 67 / 74 (90.5%).
 
 ## Review Queue
@@ -101,9 +101,15 @@ Sequence above is a route-ordered completion set, not a claim of chronological l
 - Remaining 95% milestone: 062; one completion reaches 71 / 74 (95.9%).
 - Pending KPs in deterministic order: 062, 068, 069, 072.
 
-## Latest Completion — KP 062 — 2026-10-31
+## Completion Record — KP 062 — 2026-10-31
 
 - User reviewed and approved KP 062; Contextual Grounding Check passed; raw note saved and read back exactly; KP status and derived progress synchronized.
 - Current count: 71 / 74 (95.9%); 3 pending. Earlier sections are historical snapshots.
 - User-selected 95% milestone completed. No further learning automatically started.
 - Pending KPs in deterministic order: 068, 069, 072.
+
+## Latest Completion — KP 068 — 2026-11-01
+
+- User reviewed and approved KP 068; Contextual Grounding Check passed; raw note saved and read back exactly; KP status and derived progress synchronized.
+- Current count: 72 / 74 (97.3%); 2 pending. Earlier sections are historical snapshots.
+- Pending KPs in deterministic order: 069, 072.

@@ -1,7 +1,8 @@
 ---
 id: aip-observability-agenttrace-068
 title: Agent Tracing、X-Ray 与工具调用可观测性
-status: review
+status: completed
+learned_note: raw/aip-observability-agenttrace-068.md
 sources:
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — AIP-C01 course slides / detailed coverage"
   - "AIP/preRaw/AIPStudyGuide.pdf — AIP-C01 Study Guide (Detailed)"
