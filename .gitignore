@@ -2,3 +2,14 @@
 # MCP build output and dependencies
 /practice/mcp/dist/
 /practice/mcp/node_modules/
+
+
+##------terraform--------------
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+tfplan
+crash.log
+*.tfvars
+*.tfvars.json
