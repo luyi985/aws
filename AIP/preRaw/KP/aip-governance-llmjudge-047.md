@@ -1,7 +1,8 @@
 ---
 id: aip-governance-llmjudge-047
 title: LLM-as-a-Judge
-status: review
+status: completed
+learned_note: raw/aip-governance-llmjudge-047.md
 sources:
   - "AIP/preRaw/NotebookLM Mind Map.png — VI. Governance, Security & QA > Evaluation (QA) > LLM-as-a-Judge (Nova/Claude Evaluators)"
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — PDF pp. 50 and 430, RAG evaluation and ‘Bedrock Model Evaluations’"
