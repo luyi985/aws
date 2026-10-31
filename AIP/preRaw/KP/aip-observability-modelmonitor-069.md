@@ -1,7 +1,8 @@
 ---
 id: aip-observability-modelmonitor-069
 title: SageMaker Model Monitor 与数据/质量漂移
-status: review
+status: completed
+learned_note: raw/aip-observability-modelmonitor-069.md
 sources:
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — AIP-C01 course slides / detailed coverage"
   - "AIP/preRaw/AIPStudyGuide.pdf — AIP-C01 Study Guide (Detailed)"

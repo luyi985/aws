@@ -5,8 +5,8 @@
 - Learning root: `AIP/`
 - KP root: `AIP/preRaw/KP/`
 - KP count: 74
-- Status snapshot: 2 `pending`; 0 `learning`; 0 `review`; 72 `completed`
-- Completed and persisted: 72 / 74 (97.3%); derived from KP status.
+- Status snapshot: 1 `pending`; 0 `learning`; 0 `review`; 73 `completed`
+- Completed and persisted: 73 / 74 (98.6%); derived from KP status.
 - Route objective: learn every prepared KP one at a time in a dependency-valid, conceptually useful order.
 - Last analysis date: 2026-10-31 (direct prerequisite and route revalidation)
 - Last progress update: 2026-11-01
@@ -470,20 +470,20 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 - [x] `aip-integration-apigateway-058` — API Gateway 作为 GenAI 安全前门
 - [x] `aip-sagemaker-mlops-062` — 模型部署防护、Registry、Pipelines 与回滚
 - [x] `aip-observability-agenttrace-068` — Agent Tracing、X-Ray 与工具调用可观测性
-- [ ] `aip-observability-modelmonitor-069` — SageMaker Model Monitor 与数据/质量漂移
+- [x] `aip-observability-modelmonitor-069` — SageMaker Model Monitor 与数据/质量漂移
 - [ ] `aip-testing-agenttroubleshooting-072` — Agent 评估与故障定位
 
 ## Current Position
 
 - Persistence root: GitHub `luyi985/aws/AIP`
-- Completed and persisted: 72 / 74 (97.3%)
-- Remaining: 2 / 74
-- Current KP state: `aip-observability-agenttrace-068` completed; approved raw note and metadata verified.
+- Completed and persisted: 73 / 74 (98.6%)
+- Remaining: 1 / 74
+- Current KP state: `aip-observability-modelmonitor-069` completed; approved raw note and metadata verified.
 - Active learning/review KPs: None.
-- First pending eligible KP in deterministic order: `aip-observability-modelmonitor-069` — SageMaker Model Monitor 与数据/质量漂移; prerequisites satisfied.
+- First pending eligible KP in deterministic order: `aip-testing-agenttroubleshooting-072` — Agent 评估与故障定位; prerequisites satisfied.
 - User-selected 95% milestone: completed at 71 / 74 (95.9%); 047, 057, 058 and 062 saved and synchronized.
 - 90% milestone result: 67 / 74 (90.5%); 071, 073, 074 and 056 saved and synchronized.
-- Blocker: None. KP 068 saved; next step is KP 069 preview, not automatically started.
+- Blocker: None. KP 069 saved; next step is KP 072 preview, not automatically started.
 - Google Drive AIP content is a manual mirror; it is not required for completion.
 
 - Review follow-up: KP 050 endpoint names still require prompted review; independent selection and retention are unvalidated. Completion records approved-note persistence, not mastery.
