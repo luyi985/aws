@@ -1,7 +1,8 @@
 ---
 id: aip-testing-agenttroubleshooting-072
 title: Agent 评估与故障定位
-status: review
+status: completed
+learned_note: raw/aip-testing-agenttroubleshooting-072.md
 sources:
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — AIP-C01 course slides / detailed coverage"
   - "AIP/preRaw/AIPStudyGuide.pdf — AIP-C01 Study Guide (Detailed)"
