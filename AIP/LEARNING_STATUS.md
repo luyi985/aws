@@ -16,20 +16,20 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 ## Progress
 
-- Completed and persisted: 68 / 74
-- Remaining: 6 / 74
-- Progress: 91.9%
+- Completed and persisted: 69 / 74
+- Remaining: 5 / 74
+- Progress: 93.2%
 
 ## Completed Sequence
 
-`001 → 002 → 005 → 009 → 003 → 004 → 006 → 007 → 008 → 012 → 015 → 016 → 030 → 031 → 032 → 033 → 034 → 035 → 036 → 010 → 013 → 014 → 017 → 018 → 020 → 011 → 019 → 021 → 027 → 028 → 029 → 022 → 023 → 024 → 025 → 026 → 037 → 038 → 043 → 039 → 040 → 041 → 042 → 044 → 045 → 048 → 049 → 050 → 051 → 052 → 054 → 046 → 047 → 053 → 055 → 059 → 060 → 061 → 063 → 064 → 065 → 066 → 067 → 070 → 071 → 073 → 074 → 056`
+`001 → 002 → 005 → 009 → 003 → 004 → 006 → 007 → 008 → 012 → 015 → 016 → 030 → 031 → 032 → 033 → 034 → 035 → 036 → 010 → 013 → 014 → 017 → 018 → 020 → 011 → 019 → 021 → 027 → 028 → 029 → 022 → 023 → 024 → 025 → 026 → 037 → 038 → 043 → 039 → 040 → 041 → 042 → 044 → 045 → 048 → 049 → 050 → 051 → 052 → 054 → 046 → 047 → 053 → 055 → 059 → 060 → 061 → 063 → 064 → 065 → 066 → 067 → 070 → 071 → 073 → 074 → 056 → 057`
 
 Sequence above is a route-ordered completion set, not a claim of chronological learning order.
 
 ## Current Position
 
-- Current learning milestone: `aip-governance-llmjudge-047` completed, reviewed, approved, and persisted.
-- Next learning KP: `aip-integration-eventdriven-057` — 异步与事件驱动 GenAI 集成; not started.
+- Current learning milestone: `aip-integration-eventdriven-057` completed, reviewed, approved, and persisted.
+- Next learning KP: `aip-integration-apigateway-058` — API Gateway 作为 GenAI 安全前门; not started.
 - Active persistence debt: None.
 - Dependency blocker: None known.
 
@@ -37,12 +37,12 @@ Sequence above is a route-ordered completion set, not a claim of chronological l
 
 - Target: at least 95%
 - Required completed count: 71 / 74
-- Current completed count: 68 / 74
-- Remaining to target: 3 KPs
+- Current completed count: 69 / 74
+- Remaining to target: 2 KPs
 - Target status: active
-- User-selected route: 047 (completed) → 057 → 058 → 062
+- User-selected route: 047 (completed) → 057 (completed) → 058 → 062
 - Target endpoint: `aip-sagemaker-mlops-062`
-- Next action: preview KP 057, then wait for explicit approval to continue detailed teaching.
+- Next action: preview KP 058, then wait for explicit approval to continue detailed teaching.
 - Previous 90% milestone: completed at 67 / 74 (90.5%).
 
 ## Review Queue
@@ -80,9 +80,16 @@ Sequence above is a route-ordered completion set, not a claim of chronological l
 - User-selected 90% milestone completed. No further learning automatically started.
 - Pending KPs in deterministic order: 047, 057, 058, 062, 068, 069, 072.
 
-## Latest Completion — KP 047 — 2026-10-31
+## Completion Record — KP 047 — 2026-10-31
 
 - User reviewed and approved KP 047; Contextual Grounding Check passed; approved raw note saved and read back exactly; status and derived progress synchronized.
 - Current count: 68 / 74 (91.9%); 6 pending. Earlier sections record historical snapshots, including the now-resolved KP 047 gap.
 - Remaining 95% milestone: 057 → 058 → 062; three completions reach 71 / 74 (95.9%).
 - Pending KPs in deterministic order: 057, 058, 062, 068, 069, 072.
+
+## Latest Completion — KP 057 — 2026-10-31
+
+- User reviewed and approved KP 057; Contextual Grounding Check passed; raw note saved and read back exactly; KP status and derived progress synchronized.
+- Current count: 69 / 74 (93.2%); 5 pending. Earlier sections are historical snapshots.
+- Remaining 95% milestone: 058 → 062; two completions reach 71 / 74 (95.9%).
+- Pending KPs in deterministic order: 058, 062, 068, 069, 072.

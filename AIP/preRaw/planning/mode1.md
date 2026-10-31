@@ -5,8 +5,8 @@
 - Learning root: `AIP/`
 - KP root: `AIP/preRaw/KP/`
 - KP count: 74
-- Status snapshot: 6 `pending`; 0 `learning`; 0 `review`; 68 `completed`
-- Completed and persisted: 68 / 74 (91.9%); derived from KP status.
+- Status snapshot: 5 `pending`; 0 `learning`; 0 `review`; 69 `completed`
+- Completed and persisted: 69 / 74 (93.2%); derived from KP status.
 - Route objective: learn every prepared KP one at a time in a dependency-valid, conceptually useful order.
 - Last analysis date: 2026-10-31 (direct prerequisite and route revalidation)
 - Last progress update: 2026-10-31
@@ -466,7 +466,7 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 - [x] `aip-agentic-multiagent-hitl-073` — Multi-agent Workflow 与 Human-in-the-Loop
 - [x] `aip-troubleshooting-context-074` — Context Window、截断与 Prompt 回归排障
 - [x] `aip-integration-streaming-056` — 流式推理与响应式客户端
-- [ ] `aip-integration-eventdriven-057` — 异步与事件驱动 GenAI 集成
+- [x] `aip-integration-eventdriven-057` — 异步与事件驱动 GenAI 集成
 - [ ] `aip-integration-apigateway-058` — API Gateway 作为 GenAI 安全前门
 - [ ] `aip-sagemaker-mlops-062` — 模型部署防护、Registry、Pipelines 与回滚
 - [ ] `aip-observability-agenttrace-068` — Agent Tracing、X-Ray 与工具调用可观测性
@@ -476,14 +476,14 @@ Every stage is dependency-valid. Members within a stage are mutually independent
 ## Current Position
 
 - Persistence root: GitHub `luyi985/aws/AIP`
-- Completed and persisted: 68 / 74 (91.9%)
-- Remaining: 6 / 74
-- Current KP state: `aip-governance-llmjudge-047` completed; approved raw note and metadata verified.
+- Completed and persisted: 69 / 74 (93.2%)
+- Remaining: 5 / 74
+- Current KP state: `aip-integration-eventdriven-057` completed; approved raw note and metadata verified.
 - Active learning/review KPs: None.
-- First pending eligible KP in deterministic order: `aip-integration-eventdriven-057` — 异步与事件驱动 GenAI 集成; prerequisites satisfied.
-- User-selected 95% milestone: active; next KP 057, followed by 058 → 062; 3 further completions reach 71 / 74 (95.9%).
+- First pending eligible KP in deterministic order: `aip-integration-apigateway-058` — API Gateway 作为 GenAI 安全前门; prerequisites satisfied.
+- User-selected 95% milestone: active; remaining route 058 → 062; 2 further completions reach 71 / 74 (95.9%).
 - 90% milestone result: 67 / 74 (90.5%); 071, 073, 074 and 056 saved and synchronized.
-- Blocker: None. Next step is KP 057 preview; not automatically started.
+- Blocker: None. Next step is KP 058 preview; not automatically started.
 - Google Drive AIP content is a manual mirror; it is not required for completion.
 
 - Review follow-up: KP 050 endpoint names still require prompted review; independent selection and retention are unvalidated. Completion records approved-note persistence, not mastery.

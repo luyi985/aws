@@ -1,7 +1,8 @@
 ---
 id: aip-integration-eventdriven-057
 title: 异步与事件驱动 GenAI 集成
-status: review
+status: completed
+learned_note: raw/aip-integration-eventdriven-057.md
 sources:
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — AIP-C01 course slides / detailed coverage"
   - "AIP/preRaw/AIPStudyGuide.pdf — AIP-C01 Study Guide (Detailed)"
