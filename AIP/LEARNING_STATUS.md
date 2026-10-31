@@ -29,19 +29,21 @@ Sequence above is a route-ordered completion set, not a claim of chronological l
 ## Current Position
 
 - Current learning milestone: `aip-integration-streaming-056` completed, reviewed, approved, and persisted.
-- Next learning KP: Not started. First pending eligible in deterministic order: `aip-governance-llmjudge-047`.
+- Selected next learning KP: `aip-governance-llmjudge-047` — LLM-as-a-Judge; preview stage, definition still pending.
 - Active persistence debt: None.
 - Dependency blocker: None known.
 
 ## Current Milestone Target
 
-- Target: at least 90%
-- Required completed count: 67 / 74
+- Target: at least 95%
+- Required completed count: 71 / 74
 - Current completed count: 67 / 74
-- Remaining to target: 0 KPs
-- Target status: completed (90.5% >= 90%)
-- Target endpoint on current deterministic route: `aip-integration-streaming-056`
-- Next action: report milestone completion; await user selection of further learning or review.
+- Remaining to target: 4 KPs
+- Target status: active
+- User-selected route: 047 → 057 → 058 → 062
+- Target endpoint: `aip-sagemaker-mlops-062`
+- Next action: preview KP 047, then wait for explicit approval to continue detailed teaching.
+- Previous 90% milestone: completed at 67 / 74 (90.5%).
 
 ## Review Queue
 
