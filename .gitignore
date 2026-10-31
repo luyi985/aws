@@ -1,0 +1,4 @@
+
+# MCP build output and dependencies
+/practice/mcp/dist/
+/practice/mcp/node_modules/
