@@ -1,7 +1,8 @@
 ---
 id: aip-agentic-multiagent-hitl-073
 title: Multi-agent Workflow 与 Human-in-the-Loop
-status: review
+status: completed
+learned_note: raw/aip-agentic-multiagent-hitl-073.md
 sources:
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — AIP-C01 course slides / detailed coverage"
   - "AIP/preRaw/AIPStudyGuide.pdf — AIP-C01 Study Guide (Detailed)"
