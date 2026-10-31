@@ -1,7 +1,8 @@
 ---
 id: aip-integration-apigateway-058
 title: API Gateway 作为 GenAI 安全前门
-status: review
+status: completed
+learned_note: raw/aip-integration-apigateway-058.md
 sources:
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — AIP-C01 course slides / detailed coverage"
   - "AIP/preRaw/AIPStudyGuide.pdf — AIP-C01 Study Guide (Detailed)"
