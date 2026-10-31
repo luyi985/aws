@@ -1,7 +1,7 @@
 ---
 id: aip-sagemaker-mlops-062
 title: 模型部署防护、Registry、Pipelines 与回滚
-status: learning
+status: review
 sources:
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — AIP-C01 course slides / detailed coverage"
   - "AIP/preRaw/AIPStudyGuide.pdf — AIP-C01 Study Guide (Detailed)"
