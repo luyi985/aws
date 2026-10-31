@@ -1,7 +1,8 @@
 ---
 id: aip-troubleshooting-context-074
 title: Context Window、截断与 Prompt 回归排障
-status: review
+status: completed
+learned_note: raw/aip-troubleshooting-context-074.md
 sources:
   - "AIP/preRaw/AWSCertifiedGenerativeAIDeveloper.pdf — AIP-C01 course slides / detailed coverage"
   - "AIP/preRaw/AIPStudyGuide.pdf — AIP-C01 Study Guide (Detailed)"

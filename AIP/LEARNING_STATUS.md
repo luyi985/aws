@@ -16,20 +16,20 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 ## Progress
 
-- Completed and persisted: 65 / 74
-- Remaining: 9 / 74
-- Progress: 87.8%
+- Completed and persisted: 66 / 74
+- Remaining: 8 / 74
+- Progress: 89.2%
 
 ## Completed Sequence
 
-`001 → 002 → 005 → 009 → 003 → 004 → 006 → 007 → 008 → 012 → 015 → 016 → 030 → 031 → 032 → 033 → 034 → 035 → 036 → 010 → 013 → 014 → 017 → 018 → 020 → 011 → 019 → 021 → 027 → 028 → 029 → 022 → 023 → 024 → 025 → 026 → 037 → 038 → 043 → 039 → 040 → 041 → 042 → 044 → 045 → 048 → 049 → 050 → 051 → 052 → 054 → 046 → 053 → 055 → 059 → 060 → 061 → 063 → 064 → 065 → 066 → 067 → 070 → 071 → 073`
+`001 → 002 → 005 → 009 → 003 → 004 → 006 → 007 → 008 → 012 → 015 → 016 → 030 → 031 → 032 → 033 → 034 → 035 → 036 → 010 → 013 → 014 → 017 → 018 → 020 → 011 → 019 → 021 → 027 → 028 → 029 → 022 → 023 → 024 → 025 → 026 → 037 → 038 → 043 → 039 → 040 → 041 → 042 → 044 → 045 → 048 → 049 → 050 → 051 → 052 → 054 → 046 → 053 → 055 → 059 → 060 → 061 → 063 → 064 → 065 → 066 → 067 → 070 → 071 → 073 → 074`
 
 Sequence above is a route-ordered completion set, not a claim of chronological learning order.
 
 ## Current Position
 
-- Current learning milestone: `aip-agentic-multiagent-hitl-073` completed, reviewed, approved, and persisted.
-- Next learning KP: `aip-troubleshooting-context-074` — Context Window、截断与 Prompt 回归排障 (user-selected milestone).
+- Current learning milestone: `aip-troubleshooting-context-074` completed, reviewed, approved, and persisted.
+- Next learning KP: `aip-integration-streaming-056` — 流式推理与响应式客户端 (user-selected milestone).
 - Active persistence debt: None.
 - Dependency blocker: None known.
 
@@ -37,10 +37,10 @@ Sequence above is a route-ordered completion set, not a claim of chronological l
 
 - Target: at least 90%
 - Required completed count: 67 / 74
-- Current completed count: 65 / 74
-- Remaining to target: 2 KPs
+- Current completed count: 66 / 74
+- Remaining to target: 1 KP
 - Target endpoint on current deterministic route: `aip-integration-streaming-056`
-- Next KP: `aip-troubleshooting-context-074`
+- Next KP: `aip-integration-streaming-056`
 
 ## Review Queue
 
@@ -58,8 +58,14 @@ Sequence above is a route-ordered completion set, not a claim of chronological l
 - Completion means approved-note persistence, not universal mastery, independent application, or retention.
 - [Evidence and repair audit](preRaw/planning/progress-reconciliation-2026-10-31.md).
 
-## Latest Completion — 2026-10-31
+## Completion Record — KP 073 — 2026-10-31
 
 - KP 073: user reviewed and approved the note; Contextual Grounding Check passed; raw note saved and read back exactly; status and derived progress synchronized.
 - Current count: 65 / 74 (87.8%); 9 pending. Historical reconciliation figures above describe the earlier 64/74 snapshot.
 - Remaining 90% milestone: 074 → 056; two completions reach 67 / 74 (90.5%).
+
+## Latest Completion — KP 074 — 2026-10-31
+
+- KP 074: user reviewed and approved the note; Contextual Grounding Check passed; raw note saved and read back exactly; status and derived progress synchronized.
+- Current count: 66 / 74 (89.2%); 8 pending. Earlier reconciliation/completion sections are historical snapshots.
+- Remaining 90% milestone: 056; one completion reaches 67 / 74 (90.5%).
