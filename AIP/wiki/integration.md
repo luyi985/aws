@@ -5,6 +5,8 @@ derived_from:
   - aip-integration-streaming-056
   - aip-integration-eventdriven-057
   - aip-integration-apigateway-058
+  - aip-operations-backoff-043
+  - aip-testing-agenttroubleshooting-072
 last_synced: 2026-11-01
 status: current
 ---
@@ -83,6 +85,23 @@ Raw KPs: `aip-integration-apigateway-058`
 
 Raw KPs: `aip-integration-streaming-056`, `aip-integration-apigateway-058`
 
+## 考试场景：异常类型决定下一步
+
+|现象|下一步|错误做法|
+|---|---|---|
+|可重试网络或服务错误|退避、jitter、次数和总时间上限|立即无限重试|
+|缺字段或 Schema 不合法|修正输入，必要时澄清|重试同一错误输入|
+|权限不足|定位身份、资源及拒绝环节|切换模型绕过权限|
+|动作成功但响应丢失|视为执行结果不明，依赖业务幂等保护|认定超时就是未执行|
+|SQS 重复处理记录|稳定任务 ID、明确状态、业务幂等|认为 Visibility Timeout 保证仅执行一次|
+|持续失败|按策略隔离并调查，例如 DLQ|只增加 Worker|
+
+先读“未完成”再写“执行中”不能独立避免并发竞争；关键状态转换需要原子约束。raw 已解释这一必要性，但尚未给出“外部动作成功、本地完成状态未保存”时的完整恢复协议。
+
+流式文本、模型请求结束与业务完成也需区分。断线重试不能直接拼到旧半段答案后；工具重试需独立检查副作用。
+
+Raw KPs: `aip-operations-backoff-043`, `aip-integration-eventdriven-057`, `aip-integration-streaming-056`, `aip-testing-agenttroubleshooting-072`
+
 ## 原始笔记与来源边界
 
 本页综合已批准的 raw；例子、数字和数据结构为教学用途。未将来源链接的存在当作所有产品能力的重新核验。具体原始文档、页码与当时查阅状态保留在各 raw 中。
@@ -91,3 +110,7 @@ Raw KPs: `aip-integration-streaming-056`, `aip-integration-apigateway-058`
 - [aip-integration-streaming-056](../raw/aip-integration-streaming-056.md)
 - [aip-integration-eventdriven-057](../raw/aip-integration-eventdriven-057.md)
 - [aip-integration-apigateway-058](../raw/aip-integration-apigateway-058.md)
+
+- [aip-operations-backoff-043](../raw/aip-operations-backoff-043.md)
+
+- [aip-testing-agenttroubleshooting-072](../raw/aip-testing-agenttroubleshooting-072.md)

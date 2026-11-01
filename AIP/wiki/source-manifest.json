@@ -544,7 +544,8 @@
       "wiki_pages": [
         "AIP/wiki/performance.md",
         "AIP/wiki/exam-coverage.md",
-        "AIP/wiki/README.md"
+        "AIP/wiki/README.md",
+        "AIP/wiki/integration.md"
       ]
     },
     {
@@ -729,7 +730,8 @@
         "AIP/wiki/agents.md",
         "AIP/wiki/troubleshooting.md",
         "AIP/wiki/exam-coverage.md",
-        "AIP/wiki/README.md"
+        "AIP/wiki/README.md",
+        "AIP/wiki/integration.md"
       ]
     },
     {
@@ -767,5 +769,7 @@
         "AIP/wiki/README.md"
       ]
     }
-  ]
+  ],
+  "last_wiki_review": "2026-11-01",
+  "review_report": "AIP/wiki/audit-2026-11-01.md"
 }

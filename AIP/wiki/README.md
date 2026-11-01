@@ -101,6 +101,10 @@ status: needs-review
 |[运行监控、审计与漂移](observability.md)|先看指标，再关联具体执行；Bedrock 指标和延迟诊断|
 |[RAG 与 Agent 故障定位](troubleshooting.md)|按证据消失或变化的位置定位；三个贯穿诊断案例|
 
+## 本轮审核
+
+[全量审核与 raw 覆盖评估](audit-2026-11-01.md)：逐页记录 13 个主题、导航、考纲和来源清单的结论，区分 wiki 压缩遗漏与 raw 真正缺口。本轮补充六个主题的场景判断与错误选项。
+
 ## 三种使用方法
 
 - 快速复习：先看每页选择表、边界和案例；说出“为何选它、何时不能选”。
@@ -182,7 +186,7 @@ status: needs-review 表示仍有上述产品定位或考纲缺口待处理，�
 |[aip-observability-agenttrace-068](../raw/aip-observability-agenttrace-068.md)|[运行监控、审计与漂移](observability.md)、[RAG 与 Agent 故障定位](troubleshooting.md)|
 |[aip-observability-bedrock-067](../raw/aip-observability-bedrock-067.md)|[推理性能、容量与可靠性](performance.md)、[运行监控、审计与漂移](observability.md)|
 |[aip-observability-modelmonitor-069](../raw/aip-observability-modelmonitor-069.md)|[运行监控、审计与漂移](observability.md)|
-|[aip-operations-backoff-043](../raw/aip-operations-backoff-043.md)|[推理性能、容量与可靠性](performance.md)|
+|[aip-operations-backoff-043](../raw/aip-operations-backoff-043.md)|[推理性能、容量与可靠性](performance.md)、[API、流式与后台任务](integration.md)|
 |[aip-operations-circuitbreaker-044](../raw/aip-operations-circuitbreaker-044.md)|[推理性能、容量与可靠性](performance.md)|
 |[aip-operations-crossregion-039](../raw/aip-operations-crossregion-039.md)|[推理性能、容量与可靠性](performance.md)|
 |[aip-operations-latency-042](../raw/aip-operations-latency-042.md)|[推理性能、容量与可靠性](performance.md)|
@@ -200,7 +204,7 @@ status: needs-review 表示仍有上述产品定位或考纲缺口待处理，�
 |[aip-security-macie-051](../raw/aip-security-macie-051.md)|[从原始数据到可用知识](data.md)、[安全、隐私与规则边界](security.md)|
 |[aip-security-privateconnectivity-050](../raw/aip-security-privateconnectivity-050.md)|[安全、隐私与规则边界](security.md)|
 |[aip-security-promptinjection-063](../raw/aip-security-promptinjection-063.md)|[安全、隐私与规则边界](security.md)|
-|[aip-testing-agenttroubleshooting-072](../raw/aip-testing-agenttroubleshooting-072.md)|[Agent 编排、工具与人工介入](agents.md)、[RAG 与 Agent 故障定位](troubleshooting.md)|
+|[aip-testing-agenttroubleshooting-072](../raw/aip-testing-agenttroubleshooting-072.md)|[Agent 编排、工具与人工介入](agents.md)、[RAG 与 Agent 故障定位](troubleshooting.md)、[API、流式与后台任务](integration.md)|
 |[aip-testing-ragtroubleshooting-071](../raw/aip-testing-ragtroubleshooting-071.md)|[RAG 检索、排序与证据](rag.md)、[RAG 与 Agent 故障定位](troubleshooting.md)|
 |[aip-testing-regression-070](../raw/aip-testing-regression-070.md)|[质量评估与安全发布](evaluation.md)、[模型部署、血缘与 MLOps](mlops.md)、[RAG 与 Agent 故障定位](troubleshooting.md)|
 |[aip-troubleshooting-context-074](../raw/aip-troubleshooting-context-074.md)|[提示词、State 与上下文](prompts-context.md)、[Agent 编排、工具与人工介入](agents.md)、[RAG 与 Agent 故障定位](troubleshooting.md)|

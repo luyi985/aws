@@ -71,6 +71,23 @@ Precision@K = 返回的相关块数 / 实际返回块数。
 
 Raw KPs: `aip-foundations-vectordimensionality-008`, `aip-testing-ragtroubleshooting-071`
 
+## 考试场景：政策更新后答案仍旧
+
+有效政策从 15 天改成 20 天，但系统仍回答 15 天，应逐阶段核对：
+
+|证据|调查方向|
+|---|---|
+|原文仍旧|知识源|
+|原文已更新，索引没有新版|同步、入库与索引新鲜度|
+|新版已入库但未进候选|Query、Filter、Embedding 与召回|
+|候选有新版但最终未保留|Reranking 与最终 Top-K|
+|正确块被漏拼、截断或混入旧版|实际 Context 组装|
+|有效证据完整明确，回答仍偏离|Prompt、证据使用与生成|
+
+增加 Top-K 或更换强模型，不能自动修复尚未同步的文档。记录文档版本、Chunk ID、候选、排序与实际模型输入，再将失败案例加入回归集。raw 已支持此排障链，但删除传播、Chunk 生命周期、Embedding 迁移与切换协议仍未展开。
+
+Raw KPs: `aip-testing-ragtroubleshooting-071`
+
 ## 原始笔记与来源边界
 
 本页综合已批准的 raw；例子、数字和数据结构为教学用途。未将来源链接的存在当作所有产品能力的重新核验。具体原始文档、页码与当时查阅状态保留在各 raw 中。

@@ -71,6 +71,22 @@ Raw KPs: `aip-data-glue-034`, `aip-data-wrangler-035`, `aip-data-appflow-036`
 
 Raw KPs: `aip-data-bda-030`, `aip-data-textract-031`, `aip-data-comprehend-033`, `aip-data-glue-034`, `aip-data-appflow-036`, `aip-bedrock-knowledgebases-014`, `aip-security-macie-051`
 
+## 考试场景：发现、转换与质量检查
+
+场景：S3 日志每天新增分区，字段与日期格式不一致，后续供 GenAI 使用。
+
+|任务|职责判断|应排除的误解|
+|---|---|---|
+|发现分区与 Schema 变化|Crawler|发现即完成清洗|
+|记录位置、字段、分区|Data Catalog|Catalog 就是转换后的业务数据|
+|统一格式、清洗和写出数据|ETL|更新 Catalog 就改好了原始记录|
+|探索缺失值、类型与分布|Data Wrangler|探索成功等于生产验证|
+|管理质量规则|KP 034 提及 Glue Data Quality|当前 raw 已包含规则执行和失败处置细节|
+
+Glue Data Quality 在 raw 中只有能力定位，尚缺规则示例、评估结果、流水线准入与失败处理。名称出现不等于全面覆盖。
+
+Raw KPs: `aip-data-glue-034`, `aip-data-wrangler-035`
+
 ## 原始笔记与来源边界
 
 本页综合已批准的 raw；例子、数字和数据结构为教学用途。未将来源链接的存在当作所有产品能力的重新核验。具体原始文档、页码与当时查阅状态保留在各 raw 中。
