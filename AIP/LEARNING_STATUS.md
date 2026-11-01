@@ -1,9 +1,9 @@
 # AIP Learning Status
 
 Last synced: 2026-11-01
-Primary mode: Mode 1
+Primary mode: existing Mode 1 route (original KPs 001–074); newly planned material KPs are not yet enrolled in that route
 Source scope: all KPs in `AIP/preRaw/KP/`
-Total KPs: 74
+Total KPs: 95
 Persistence root: GitHub `luyi985/aws/AIP`
 
 ## Persistence Policy
@@ -16,11 +16,17 @@ Persistence root: GitHub `luyi985/aws/AIP`
 
 ## Progress
 
-- Completed and persisted: 74 / 74
-- Remaining: 0 / 74
-- Progress: 100%
+- Completed and persisted: 74 / 95
+- Pending: 21 / 95
+- Learning: 0 / 95
+- Review: 0 / 95
+- Progress: 77.9%
 
-## Completed Sequence
+This is a derived view of KP frontmatter, which remains the progress source of truth. The original 74-KP route remains fully completed. The larger denominator reflects newly added material, not any reversal of completion.
+
+The reviewed 2026-11-01 material plan retains 21 AWS lab KPs (075–095). Per explicit user clarification, book, bylaws, image and other sample contents are inputs or supporting artifacts, not independent learning subjects. The 60 previously generated business/license/image KPs (096–155) were withdrawn from the active plan with a recoverable archive; their IDs are not reused. The six AgentsLab definitions were revised around transferable engineering mechanisms. [Source and scope review](preRaw/planning/materials-source-audit-2026-11-01.md).
+
+## Completed Sequence — Original 74-KP Route
 
 `001 → 002 → 005 → 009 → 003 → 004 → 006 → 007 → 008 → 012 → 015 → 016 → 030 → 031 → 032 → 033 → 034 → 035 → 036 → 010 → 013 → 014 → 017 → 018 → 020 → 011 → 019 → 021 → 027 → 028 → 029 → 022 → 023 → 024 → 025 → 026 → 037 → 038 → 043 → 039 → 040 → 041 → 042 → 044 → 045 → 048 → 049 → 050 → 051 → 052 → 054 → 046 → 047 → 053 → 055 → 059 → 060 → 061 → 063 → 064 → 065 → 066 → 067 → 070 → 071 → 073 → 074 → 056 → 057 → 058 → 062 → 068 → 069 → 072`
 
@@ -29,11 +35,11 @@ Sequence above is a route-ordered completion set, not a claim of chronological l
 ## Current Position
 
 - Current learning milestone: `aip-testing-agenttroubleshooting-072` completed, reviewed, approved, and persisted.
-- Next learning KP: None; all 74 KPs completed.
+- Next eligible KP by existing numeric order: `aip-labs-strandsinvocation-075` — Strands 代理的构建与单次调用. Its prerequisite `aip-agentic-strands-025` is completed; learning has not started.
 - Active persistence debt: None.
 - Dependency blocker: None known.
 
-## Current Milestone Target
+## Historical Milestone Target — Original 74-KP Route
 
 - Target: at least 95%
 - Required completed count: 71 / 74
