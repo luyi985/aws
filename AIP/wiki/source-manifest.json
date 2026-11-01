@@ -1,0 +1,771 @@
+{
+  "source_commit": "1fb7a648462f5acbe1afb62255b19f9bb901f28f",
+  "last_synced": "2026-11-01",
+  "hash_algorithm": "sha256-utf8-exact-content",
+  "sources": [
+    {
+      "kp_id": "aip-agentic-actiongroups-022",
+      "path": "AIP/raw/aip-agentic-actiongroups-022.md",
+      "sha256": "0677d4d997b943a589fba386adf95c0903331d394b6306ddd4c829abe9f4d44f",
+      "wiki_pages": [
+        "AIP/wiki/agents.md",
+        "AIP/wiki/security.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-agentic-agentcore-024",
+      "path": "AIP/raw/aip-agentic-agentcore-024.md",
+      "sha256": "e7ad161b161c74f9c93921b8e5457bd2a6ebf83b18e3349efa999c2e30afdffd",
+      "wiki_pages": [
+        "AIP/wiki/agents.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-agentic-mcp-026",
+      "path": "AIP/raw/aip-agentic-mcp-026.md",
+      "sha256": "00ae7b7cb352a1eee3c8d0623456b8e3c1ebbb38ba460c42b1dbcdb3bee434f2",
+      "wiki_pages": [
+        "AIP/wiki/agents.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-agentic-memory-023",
+      "path": "AIP/raw/aip-agentic-memory-023.md",
+      "sha256": "ca97624d3290c69a21f15f948ae722e19b29a02c28c603052a964d1dd27e8412",
+      "wiki_pages": [
+        "AIP/wiki/prompts-context.md",
+        "AIP/wiki/agents.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-agentic-multiagent-hitl-073",
+      "path": "AIP/raw/aip-agentic-multiagent-hitl-073.md",
+      "sha256": "de30c54714e6334b10424d0400258476a4e4316990331bafa5a02ec7b91685d1",
+      "wiki_pages": [
+        "AIP/wiki/agents.md",
+        "AIP/wiki/evaluation.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-agentic-planning-021",
+      "path": "AIP/raw/aip-agentic-planning-021.md",
+      "sha256": "de2c750f6b6b54811a89e1804620da06f152ffb4a3b34b3b68b29bcc320d5d2d",
+      "wiki_pages": [
+        "AIP/wiki/agents.md",
+        "AIP/wiki/enterprise.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-agentic-qapps-029",
+      "path": "AIP/raw/aip-agentic-qapps-029.md",
+      "sha256": "af113178334218d114d1595f48860c35dc1b34a2c9d042b1f8e3a4c5ac2ae0b8",
+      "wiki_pages": [
+        "AIP/wiki/enterprise.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-agentic-qbusiness-027",
+      "path": "AIP/raw/aip-agentic-qbusiness-027.md",
+      "sha256": "4f162601c24ed7be34370a776a8fb73ee4b60dee4b83718bfd655b3a3462fec5",
+      "wiki_pages": [
+        "AIP/wiki/enterprise.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-agentic-qdeveloper-028",
+      "path": "AIP/raw/aip-agentic-qdeveloper-028.md",
+      "sha256": "a3a0db9ebcd248b2bb9b2c7b31ac5ebd8e6000134f3efa042c4f6866c8c21a3a",
+      "wiki_pages": [
+        "AIP/wiki/enterprise.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-agentic-strands-025",
+      "path": "AIP/raw/aip-agentic-strands-025.md",
+      "sha256": "966275679b5fc79c727693428e6a1d1771cb75adf996618e10905296dbe55433",
+      "wiki_pages": [
+        "AIP/wiki/agents.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-bedrock-chunking-015",
+      "path": "AIP/raw/aip-bedrock-chunking-015.md",
+      "sha256": "992e856febf0ea2c781ff7568d3b3c737a8716dc56aa54807925c1f31302d1cf",
+      "wiki_pages": [
+        "AIP/wiki/rag.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-bedrock-contentfiltering-018",
+      "path": "AIP/raw/aip-bedrock-contentfiltering-018.md",
+      "sha256": "49bc1c88c10489f76c8665a55fc7315233793d34deb99b52d20a3c88d5ff3d35",
+      "wiki_pages": [
+        "AIP/wiki/security.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-bedrock-continuedpretraining-012",
+      "path": "AIP/raw/aip-bedrock-continuedpretraining-012.md",
+      "sha256": "d5cd654d27cd20c52e35b147e3175fb37f2e822359bf31b7e3ac0b7f9d60fd91",
+      "wiki_pages": [
+        "AIP/wiki/models.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-bedrock-customimport-013",
+      "path": "AIP/raw/aip-bedrock-customimport-013.md",
+      "sha256": "c1fc628fe8b1cb33ad9775d20398af41f1a6504b4e5f5547440de8878e065b6e",
+      "wiki_pages": [
+        "AIP/wiki/models.md",
+        "AIP/wiki/mlops.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-bedrock-finetuning-010",
+      "path": "AIP/raw/aip-bedrock-finetuning-010.md",
+      "sha256": "5efca27342671e22f9720b129ca6f72964fd56a48abc354c699128130cb73a43",
+      "wiki_pages": [
+        "AIP/wiki/models.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-bedrock-groundingcheck-019",
+      "path": "AIP/raw/aip-bedrock-groundingcheck-019.md",
+      "sha256": "ccd378823a3aa2dc2f0f7d792b87541edffb9181212e3e50fb0f895df8716d10",
+      "wiki_pages": [
+        "AIP/wiki/rag.md",
+        "AIP/wiki/security.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-bedrock-knowledgebases-014",
+      "path": "AIP/raw/aip-bedrock-knowledgebases-014.md",
+      "sha256": "fd8ad4b1aec37447fe2d81ce274cca9454ed199a1cc5a78f1874b13eedc0674b",
+      "wiki_pages": [
+        "AIP/wiki/rag.md",
+        "AIP/wiki/data.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-bedrock-lora-011",
+      "path": "AIP/raw/aip-bedrock-lora-011.md",
+      "sha256": "b9aeb1151ea577f77b6efeb56207b9aa7b89898e0cf522a8dfe1cc35a7e80c31",
+      "wiki_pages": [
+        "AIP/wiki/models.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-bedrock-reasoningpolicies-020",
+      "path": "AIP/raw/aip-bedrock-reasoningpolicies-020.md",
+      "sha256": "5b121b316d416ceac1afb97d9f929148912b97114a15374285773c59c4b85cb5",
+      "wiki_pages": [
+        "AIP/wiki/security.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-bedrock-reranking-017",
+      "path": "AIP/raw/aip-bedrock-reranking-017.md",
+      "sha256": "e0262bb165ce8e1088ae315bac0c04a93f95b69be10eed7a966bc991fa11f4c6",
+      "wiki_pages": [
+        "AIP/wiki/rag.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-bedrock-vectordatabases-016",
+      "path": "AIP/raw/aip-bedrock-vectordatabases-016.md",
+      "sha256": "c99429b1baa3ab3c8f02b3a70a796b0961d8cf1369cfbf8db0906101a04b87ff",
+      "wiki_pages": [
+        "AIP/wiki/rag.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-data-appflow-036",
+      "path": "AIP/raw/aip-data-appflow-036.md",
+      "sha256": "4f67ad0e0b2fde72decbda25fdd552f9bcac724b8900f81f19aebe8b1128187d",
+      "wiki_pages": [
+        "AIP/wiki/data.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-data-bda-030",
+      "path": "AIP/raw/aip-data-bda-030.md",
+      "sha256": "6bc8bf1966a5621948b48fa6a865c4f4c663715639ccd424a4a73b200f4701d5",
+      "wiki_pages": [
+        "AIP/wiki/data.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-data-comprehend-033",
+      "path": "AIP/raw/aip-data-comprehend-033.md",
+      "sha256": "7b5bb025743054c6436a004e43561506b2444d34d079245545a817ca5a5ba94f",
+      "wiki_pages": [
+        "AIP/wiki/data.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-data-glue-034",
+      "path": "AIP/raw/aip-data-glue-034.md",
+      "sha256": "1dd89b8cd92b559323824514059ae8d2c7f92a641f9bb3e1535c7371003a949f",
+      "wiki_pages": [
+        "AIP/wiki/data.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-data-textract-031",
+      "path": "AIP/raw/aip-data-textract-031.md",
+      "sha256": "c97074c33d3b66f8f4cef49628f46ba29e0f907916cd3b6e978b6fef0a538218",
+      "wiki_pages": [
+        "AIP/wiki/data.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-data-transcribe-032",
+      "path": "AIP/raw/aip-data-transcribe-032.md",
+      "sha256": "e1ee5c94bdb542d352880bb49622600838580ee91b721235af5a5e524f601980",
+      "wiki_pages": [
+        "AIP/wiki/data.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-data-wrangler-035",
+      "path": "AIP/raw/aip-data-wrangler-035.md",
+      "sha256": "bde56a9175a47788e13b3c02b3d3e14e87050d095672fe50c6703c4a881e1bfb",
+      "wiki_pages": [
+        "AIP/wiki/data.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-foundations-modalities-002",
+      "path": "AIP/raw/aip-foundations-modalities-002.md",
+      "sha256": "3b01092eae7948c90a930b5f6069b37f32cdbe450620738c7bb01ab776a33852",
+      "wiki_pages": [
+        "AIP/wiki/models.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-foundations-modelfamily-003",
+      "path": "AIP/raw/aip-foundations-modelfamily-003.md",
+      "sha256": "9bf31b6b35244eea2838466ba42a2ccaacefa80e0f5b8774877c5bd37622e000",
+      "wiki_pages": [
+        "AIP/wiki/models.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-foundations-promptanatomy-005",
+      "path": "AIP/raw/aip-foundations-promptanatomy-005.md",
+      "sha256": "a86e806e394f0f931d4154efa57eeb537b7bdb26f524f7ce85d568fc4e003385",
+      "wiki_pages": [
+        "AIP/wiki/prompts-context.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-foundations-promptmanagement-006",
+      "path": "AIP/raw/aip-foundations-promptmanagement-006.md",
+      "sha256": "c8f6e9b3aa394ecb44899db6ccc53adb410b51dd9ab1d3bee39f4d87bb175761",
+      "wiki_pages": [
+        "AIP/wiki/prompts-context.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-foundations-prompttechniques-004",
+      "path": "AIP/raw/aip-foundations-prompttechniques-004.md",
+      "sha256": "9d8900d29c586f8dd356103f82916c051cf961e93c31b8d990e540d7d8eacfeb",
+      "wiki_pages": [
+        "AIP/wiki/prompts-context.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-foundations-semanticsearch-007",
+      "path": "AIP/raw/aip-foundations-semanticsearch-007.md",
+      "sha256": "5cbf195cb094740351015b677100c7be3c31148a97fe76fbb685893f5f8c56f9",
+      "wiki_pages": [
+        "AIP/wiki/rag.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-foundations-transformer-001",
+      "path": "AIP/raw/aip-foundations-transformer-001.md",
+      "sha256": "924f4e3601184c5541c5b8ff7256affcfdd18c910a01db0eef0308655aa97ac2",
+      "wiki_pages": [
+        "AIP/wiki/models.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-foundations-vectordimensionality-008",
+      "path": "AIP/raw/aip-foundations-vectordimensionality-008.md",
+      "sha256": "7252753b51cfd458f6612ba5d52fb878e212db22628dcb95a4b3e6080f5c9583",
+      "wiki_pages": [
+        "AIP/wiki/rag.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-foundations-vectortypes-009",
+      "path": "AIP/raw/aip-foundations-vectortypes-009.md",
+      "sha256": "c6dfcb41dd6352679a601f4ae49c8ce71f61f3c54051aa1b5b39a4e8409f7782",
+      "wiki_pages": [
+        "AIP/wiki/rag.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-governance-audit-066",
+      "path": "AIP/raw/aip-governance-audit-066.md",
+      "sha256": "346cf89aa62964d799126819b207585ea0d6e9777f562e10b3eb96d543b2b8ee",
+      "wiki_pages": [
+        "AIP/wiki/observability.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-governance-clarify-053",
+      "path": "AIP/raw/aip-governance-clarify-053.md",
+      "sha256": "924c36adee9abcd343e1e6868c7f086e1e63accc5a2c372c15fd7cd3d2ed6387",
+      "wiki_pages": [
+        "AIP/wiki/evaluation.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-governance-evaluationmetrics-046",
+      "path": "AIP/raw/aip-governance-evaluationmetrics-046.md",
+      "sha256": "159bbf5b5406440903a1e6073dfd153be414405a693892fafd9f5314b7daf8a3",
+      "wiki_pages": [
+        "AIP/wiki/evaluation.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-governance-evaluationtypes-045",
+      "path": "AIP/raw/aip-governance-evaluationtypes-045.md",
+      "sha256": "c2f31b8cbd39c93f7e2e45e10752ce15a80045f671dfce8549af6d3977bddc7b",
+      "wiki_pages": [
+        "AIP/wiki/evaluation.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-governance-lineage-054",
+      "path": "AIP/raw/aip-governance-lineage-054.md",
+      "sha256": "df397bfa5cea13e374209c1e0d2ef1b50fc0e62676a15767b4e91495faaed3db",
+      "wiki_pages": [
+        "AIP/wiki/mlops.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-governance-llmjudge-047",
+      "path": "AIP/raw/aip-governance-llmjudge-047.md",
+      "sha256": "a17676bb7c66ea1e8daf7b5cf4ac8a0d3d9434a92ae1fddee6bd9a4545b96b19",
+      "wiki_pages": [
+        "AIP/wiki/evaluation.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-governance-responsibleai-052",
+      "path": "AIP/raw/aip-governance-responsibleai-052.md",
+      "sha256": "95e42063ed153f8c66432cc190f794f76c2cc8b28fc3ab733639f4fe55cac1d9",
+      "wiki_pages": [
+        "AIP/wiki/evaluation.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-integration-apigateway-058",
+      "path": "AIP/raw/aip-integration-apigateway-058.md",
+      "sha256": "887b4c0b15ffcb3f632ddb0ec28a9e386e306e4ad3cfcebc1b76da7bab6e3763",
+      "wiki_pages": [
+        "AIP/wiki/integration.md",
+        "AIP/wiki/security.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-integration-bedrockapi-055",
+      "path": "AIP/raw/aip-integration-bedrockapi-055.md",
+      "sha256": "74a61a43aefd2e679a58bcf45ef6505538aec064b073b4bbbd096667b9339e7f",
+      "wiki_pages": [
+        "AIP/wiki/integration.md",
+        "AIP/wiki/mlops.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-integration-bedrockflows-059",
+      "path": "AIP/raw/aip-integration-bedrockflows-059.md",
+      "sha256": "085b4d7a440fb9ce4cd18f8406a7efeab7159fcbd5c42902de35dbce8f823dd9",
+      "wiki_pages": [
+        "AIP/wiki/enterprise.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-integration-eventdriven-057",
+      "path": "AIP/raw/aip-integration-eventdriven-057.md",
+      "sha256": "9935426ee2cb7c5078252d49bf6343726805bfd111937594aef92d20df972042",
+      "wiki_pages": [
+        "AIP/wiki/agents.md",
+        "AIP/wiki/enterprise.md",
+        "AIP/wiki/performance.md",
+        "AIP/wiki/integration.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-integration-streaming-056",
+      "path": "AIP/raw/aip-integration-streaming-056.md",
+      "sha256": "930278c96511b2bd7af6a2f87fbcbf815ac99712348c1aed388cf3509c2acf3e",
+      "wiki_pages": [
+        "AIP/wiki/integration.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-observability-agenttrace-068",
+      "path": "AIP/raw/aip-observability-agenttrace-068.md",
+      "sha256": "59df9258918c3e7456572243848c6c35ed98ce45b0f446ca09c5055af996d2a5",
+      "wiki_pages": [
+        "AIP/wiki/observability.md",
+        "AIP/wiki/troubleshooting.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-observability-bedrock-067",
+      "path": "AIP/raw/aip-observability-bedrock-067.md",
+      "sha256": "bad7b0cbf65c8db28def800846ddc5e94824b33a6b56daa9add50efec29670ed",
+      "wiki_pages": [
+        "AIP/wiki/performance.md",
+        "AIP/wiki/observability.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-observability-modelmonitor-069",
+      "path": "AIP/raw/aip-observability-modelmonitor-069.md",
+      "sha256": "61473bc5cb6112888b2481f1a2f48c309fe86f70a4805f72a39cf694b5eff8fa",
+      "wiki_pages": [
+        "AIP/wiki/observability.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-operations-backoff-043",
+      "path": "AIP/raw/aip-operations-backoff-043.md",
+      "sha256": "af557625ff3105565e244d36fe1a30a5eea280c5eea0245095a75333936aadeb",
+      "wiki_pages": [
+        "AIP/wiki/performance.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-operations-circuitbreaker-044",
+      "path": "AIP/raw/aip-operations-circuitbreaker-044.md",
+      "sha256": "0e9728bd606628d72a56c6e6c9a37decbf07465c324a4a9b478c8c1d1e7f12b3",
+      "wiki_pages": [
+        "AIP/wiki/performance.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-operations-crossregion-039",
+      "path": "AIP/raw/aip-operations-crossregion-039.md",
+      "sha256": "2aa4a3db6c2878b7ed3ca8e0acd33e44863124e3ed87b866fa84ebe0877ba3b0",
+      "wiki_pages": [
+        "AIP/wiki/performance.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-operations-latency-042",
+      "path": "AIP/raw/aip-operations-latency-042.md",
+      "sha256": "91019e8c3de199b1e3638142d0eac5b6a16f989e6024f644759c6d570f56f006",
+      "wiki_pages": [
+        "AIP/wiki/performance.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-operations-modelrouting-038",
+      "path": "AIP/raw/aip-operations-modelrouting-038.md",
+      "sha256": "b8c1185b1734173ac824f5436af8743cdb3492a92492052bfd59e85cd3bc50ef",
+      "wiki_pages": [
+        "AIP/wiki/performance.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-operations-promptcaching-040",
+      "path": "AIP/raw/aip-operations-promptcaching-040.md",
+      "sha256": "b67d5ff7e9c646092314467929ddb6d4fa6e5e8580c67f0721e3007df237fa15",
+      "wiki_pages": [
+        "AIP/wiki/performance.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-operations-provisionedthroughput-060",
+      "path": "AIP/raw/aip-operations-provisionedthroughput-060.md",
+      "sha256": "92e8fb4d25ad0ca25e974fc393ac7f4bd413dc96acade0396a9c48cc2485a30d",
+      "wiki_pages": [
+        "AIP/wiki/performance.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-operations-semanticcache-041",
+      "path": "AIP/raw/aip-operations-semanticcache-041.md",
+      "sha256": "c7dc2d73137b9c9041d7405ede3c641b65052f76c440a927fb7039b5eda6584e",
+      "wiki_pages": [
+        "AIP/wiki/performance.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-operations-tokenefficiency-037",
+      "path": "AIP/raw/aip-operations-tokenefficiency-037.md",
+      "sha256": "69a360a472aed6129b2628d44c13fa6f6e6ca1e19ee1aff231cff04547b19eb2",
+      "wiki_pages": [
+        "AIP/wiki/prompts-context.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-sagemaker-deployment-061",
+      "path": "AIP/raw/aip-sagemaker-deployment-061.md",
+      "sha256": "15d627bcd45f462884d1cb928caee324ec4d71f91287facc08bcdc495dc1de44",
+      "wiki_pages": [
+        "AIP/wiki/mlops.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-sagemaker-mlops-062",
+      "path": "AIP/raw/aip-sagemaker-mlops-062.md",
+      "sha256": "81251953bb33c3390c66a8c0167fe3c0a86453d986f319226cf0794ae460627c",
+      "wiki_pages": [
+        "AIP/wiki/evaluation.md",
+        "AIP/wiki/mlops.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-security-appsecurity-065",
+      "path": "AIP/raw/aip-security-appsecurity-065.md",
+      "sha256": "d44f3fda9c226c1705d4dac92665f01299c958d615d0f63651d59323b0ad59ed",
+      "wiki_pages": [
+        "AIP/wiki/enterprise.md",
+        "AIP/wiki/security.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-security-dataredaction-064",
+      "path": "AIP/raw/aip-security-dataredaction-064.md",
+      "sha256": "7cf8137a7e3fe672d29ed2d7f94b65a10fc31eb204c5007c4750e71cf5d0d5d3",
+      "wiki_pages": [
+        "AIP/wiki/security.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-security-iampolicies-048",
+      "path": "AIP/raw/aip-security-iampolicies-048.md",
+      "sha256": "83f14de2973a462fbbaa1222e018044cbeadc64d08182a8f51f4cb4cc1db1684",
+      "wiki_pages": [
+        "AIP/wiki/enterprise.md",
+        "AIP/wiki/security.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-security-kmsencryption-049",
+      "path": "AIP/raw/aip-security-kmsencryption-049.md",
+      "sha256": "d7f500aebed950ea5d292cac6099dc7717690fca63d70f3a06f9868fa9ccbebe",
+      "wiki_pages": [
+        "AIP/wiki/security.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-security-macie-051",
+      "path": "AIP/raw/aip-security-macie-051.md",
+      "sha256": "0bf3e0edd34c8b361ba5910102e4597642696197dadda695690c9e3f85f3a4f1",
+      "wiki_pages": [
+        "AIP/wiki/data.md",
+        "AIP/wiki/security.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-security-privateconnectivity-050",
+      "path": "AIP/raw/aip-security-privateconnectivity-050.md",
+      "sha256": "e3351ed10f4377c736dc5702d9f9051eabb48ed2ab0708d20aee62d3eb1a4c56",
+      "wiki_pages": [
+        "AIP/wiki/security.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-security-promptinjection-063",
+      "path": "AIP/raw/aip-security-promptinjection-063.md",
+      "sha256": "71bb77b61f6117c044a9cd0cf8acaf361ad8245a03ef4db41ca5de8a1564ee00",
+      "wiki_pages": [
+        "AIP/wiki/security.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-testing-agenttroubleshooting-072",
+      "path": "AIP/raw/aip-testing-agenttroubleshooting-072.md",
+      "sha256": "364d97dc313ab627b6e6a86a3f1c363da26a101c7889069e62c925c648ebd633",
+      "wiki_pages": [
+        "AIP/wiki/agents.md",
+        "AIP/wiki/troubleshooting.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-testing-ragtroubleshooting-071",
+      "path": "AIP/raw/aip-testing-ragtroubleshooting-071.md",
+      "sha256": "542f3a7cfe70c80a408b21dbf7148d8bbf94ed8b7ab981b23e63b326a64ed722",
+      "wiki_pages": [
+        "AIP/wiki/rag.md",
+        "AIP/wiki/troubleshooting.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-testing-regression-070",
+      "path": "AIP/raw/aip-testing-regression-070.md",
+      "sha256": "d4855deb28634d41079130d22ce39d5a9dd0a648da831c6d5425b764091773ee",
+      "wiki_pages": [
+        "AIP/wiki/evaluation.md",
+        "AIP/wiki/mlops.md",
+        "AIP/wiki/troubleshooting.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    },
+    {
+      "kp_id": "aip-troubleshooting-context-074",
+      "path": "AIP/raw/aip-troubleshooting-context-074.md",
+      "sha256": "a797c1a2e0f9557ef5af056f4bddd52f5cf2d76d64c8c191ac235a7ac818aa7b",
+      "wiki_pages": [
+        "AIP/wiki/prompts-context.md",
+        "AIP/wiki/agents.md",
+        "AIP/wiki/troubleshooting.md",
+        "AIP/wiki/exam-coverage.md",
+        "AIP/wiki/README.md"
+      ]
+    }
+  ]
+}

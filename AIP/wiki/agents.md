@@ -3,36 +3,98 @@ title: Agent 编排、工具与人工介入
 derived_from:
   - aip-agentic-planning-021
   - aip-agentic-actiongroups-022
+  - aip-agentic-memory-023
   - aip-agentic-agentcore-024
   - aip-agentic-strands-025
   - aip-agentic-mcp-026
-  - aip-agentic-multiagent-hitl-073
+  - aip-integration-eventdriven-057
   - aip-testing-agenttroubleshooting-072
+  - aip-agentic-multiagent-hitl-073
+  - aip-troubleshooting-context-074
 last_synced: 2026-11-01
 status: needs-review
 ---
 
 # Agent 编排、工具与人工介入
 
-## 决策、接口与执行
-Planner 分解目标，根据 observation 调整下一步。Action 是业务步骤，Tool Call 是实现部分步骤的具体调用。Strands 等框架组织模型调用、工具分派和循环；MCP 标准化发现、描述及调用外部能力；Action Groups 暴露工具契约。实际业务服务仍承担参数、授权及业务规则检查。
+[返回导航](README.md) · [考试覆盖与缺口](exam-coverage.md)
 
-## 依赖与协作
-先确认型号，再查询价格；型号确定后，价格、保修和评价调查可以并行。Orchestrator 分派并检查缺项，Worker 在边界内行动，Synthesizer 结合需求与证据回答。共享输入必须一致，Worker 返回来源、实际型号和未知事项。
+## 从目标到可执行任务
 
-缺信息可返回 needs_input，由协调者统一澄清。审批需要独立 approval_id，绑定工作流、checkpoint、动作参数和版本；不能把笼统“同意”匹配到多个待审批动作。参数变化后应重新确认，并防止重复执行。
+Agent loop 把模型判断、工具执行和 observation 连接起来。Planner 决定需要做哪些业务动作；Schema 描述如何调用；执行器解析参数并分派；业务服务检查权限和规则并产生真实结果。
 
-## AgentCore 定位待复核
-KP 024 将 AgentCore 整体概括为生产运行支撑层；KP 072 记录 managed harness 可托管 Agent 循环，以及 code-defined agents 路径。这两篇 raw 尚未建立显式替代或修订关系。本页保留差异，不把“AgentCore 不提供规划/循环”推广为当前全平台结论。修正权威 raw 后再更新本节。
+“模型没返回 Tool Call”可以结束一轮基础循环，但不证明用户目标已满足。固定字段查询通常可直接编排；开放需求且需要动态拆解、依赖和进度管理时，显式计划才有价值。
 
-Runtime 的承载、隔离与可观测性不消除业务授权和输入校验责任。相关：[安全](security.md)、[故障定位](troubleshooting.md)。
+Strands 等框架简化消息、工具注册、分派和结果回填；MCP 统一工具发现、Schema 与调用协议。框架运行时仍需获得工具定义，不是完全不知道 Schema。两者都不负责自动保证业务授权。
 
-## Raw 来源
+Raw KPs: `aip-agentic-planning-021`, `aip-agentic-actiongroups-022`, `aip-agentic-strands-025`, `aip-agentic-mcp-026`, `aip-integration-eventdriven-057`
+
+## 显式计划：依赖与参数引用分别解决什么
+
+教学计划可以表达为：
+~~~json
+{
+  "tasks": [
+    {"id": "find", "tool": "search_products", "dependsOn": []},
+    {"id": "prices", "tool": "get_prices", "dependsOn": ["find"],
+     "args": {"productIds": {"$ref": "tasks.find.output.products[*].id"}}},
+    {"id": "warranty", "tool": "get_warranty", "dependsOn": ["find"]}
+  ]
+}
+~~~
+dependsOn 决定何时执行，$ref 决定参数来自哪里；这个 $ref 格式需要应用解析，不是 JSON 或 TypeScript 自带行为。
+
+执行前检查工具存在、ID 唯一、依赖存在且无环、输出引用合法、解析后的参数符合 Schema。调度器只执行依赖成功的任务，并控制并发；上游失败时不能用不存在的输出继续执行。Replan 保留已完成结果，同时限制总步数、时间和成本。仅生成计划 JSON 不提供进程重启后的恢复能力。
+
+Raw KPs: `aip-integration-eventdriven-057`, `aip-agentic-multiagent-hitl-073`
+
+## 多 Agent 的交接契约
+
+Orchestrator 负责拆解和缺项判断，Worker 在任务边界内行动，Synthesizer 综合证据。这些是逻辑角色，不要求独立部署。
+
+先确认型号，再并行调查价格、保修和评价。每个 Worker 返回实际使用的型号、地区、结果、来源和未知项。如果各自猜测型号，即便调用全部成功，合并结果也可能无效。
+
+缺少关键信息可以返回 needs_input，由协调者统一澄清。普通工具执行一次固定动作；Worker 可以观察结果、调整搜索和继续行动。并行增加协调和调用成本，多数 Agent 同意也不能代替事实核验。
+
+Raw KPs: `aip-agentic-memory-023`, `aip-agentic-multiagent-hitl-073`, `aip-troubleshooting-context-074`
+
+## 人工批准必须绑定一次具体动作
+
+|记录|必须区分的内容|
+|---|---|
+|workflow_run_id|属于哪次工作流|
+|checkpoint_id|暂停在什么步骤|
+|approval_id|哪一次审批请求|
+|action 与参数版本|批准的具体操作|
+|审批状态与审批者|是否有效、是否有权批准|
+
+同一 checkpoint 在循环里可能出现多次，因此不能只凭步骤名称恢复。用户批准 180 澳元的购买，参数变为 250 后不能复用批准。澄清型号不等于批准购买。
+
+恢复前校验审批者、动作版本与 pending 状态；重复提交要避免重复恢复及重复副作用。多个待审批项同时存在时，按钮或明确选择应绑定 approval_id，不能让模型猜“同意”指哪一项。
+
+Raw KPs: `aip-agentic-multiagent-hitl-073`
+
+## AgentCore 的稳定边界与待复核范围
+
+Runtime 提供承载、隔离和生命周期管理；业务 State 保存什么、用户是否有权操作某对象，仍由应用负责。Gateway 连接外部能力；可观测性帮助定位问题，不自动修复错误工具选择。
+
+**待复核：** KP 024 对 AgentCore 整体作了运行支撑层的概括；KP 072 已记录 managed harness 托管循环和 code-defined agents 两条路径。可以区分 Runtime 组件与平台产品范围，但 raw 尚未完成明确修订，本页不把旧概括提升为当前产品全集定义。
+
+读者应保留这一区分：自己写 loop 并部署 Runtime，与采用托管 harness，是不同使用方式；无论哪条路径，工具的业务权限与参数正确性仍需验证。
+
+Raw KPs: `aip-agentic-agentcore-024`, `aip-testing-agenttroubleshooting-072`
+
+## 原始笔记与来源边界
+
+本页综合已批准的 raw；例子、数字和数据结构为教学用途。未将来源链接的存在当作所有产品能力的重新核验。具体原始文档、页码与当时查阅状态保留在各 raw 中。
 
 - [aip-agentic-planning-021](../raw/aip-agentic-planning-021.md)
 - [aip-agentic-actiongroups-022](../raw/aip-agentic-actiongroups-022.md)
+- [aip-agentic-memory-023](../raw/aip-agentic-memory-023.md)
 - [aip-agentic-agentcore-024](../raw/aip-agentic-agentcore-024.md)
 - [aip-agentic-strands-025](../raw/aip-agentic-strands-025.md)
 - [aip-agentic-mcp-026](../raw/aip-agentic-mcp-026.md)
-- [aip-agentic-multiagent-hitl-073](../raw/aip-agentic-multiagent-hitl-073.md)
+- [aip-integration-eventdriven-057](../raw/aip-integration-eventdriven-057.md)
 - [aip-testing-agenttroubleshooting-072](../raw/aip-testing-agenttroubleshooting-072.md)
+- [aip-agentic-multiagent-hitl-073](../raw/aip-agentic-multiagent-hitl-073.md)
+- [aip-troubleshooting-context-074](../raw/aip-troubleshooting-context-074.md)
