@@ -1,0 +1,7035 @@
+{
+  "scope": "Citation and planning coverage, not learner progress or semantic completeness percentage",
+  "reviewed_at": "2026-11-04",
+  "page_states": {
+    "referenced": "至少一个 KP 直接引用，仍不等于本页每个细节均覆盖",
+    "not_directly_referenced": "未逐页引用；章节矩阵说明处理范围，不推断语义已覆盖"
+  },
+  "local_sources": [
+    {
+      "path": "preRaw/AWS_cloudshell.md",
+      "kind": "course-note"
+    },
+    {
+      "path": "preRaw/IAM_best_practice.md",
+      "kind": "course-note"
+    },
+    {
+      "path": "preRaw/IAM_Security_Tools.md",
+      "kind": "course-note"
+    },
+    {
+      "path": "preRaw/README.md",
+      "kind": "index"
+    },
+    {
+      "path": "preRaw/AWS_infra.md",
+      "kind": "course-note"
+    },
+    {
+      "path": "preRaw/IAM_Roles_For_Services.md",
+      "kind": "course-note"
+    },
+    {
+      "path": "preRaw/IAM_summary.md",
+      "kind": "course-note"
+    },
+    {
+      "path": "preRaw/Exam_Readiness_Practice/doc.md",
+      "kind": "index"
+    },
+    {
+      "path": "preRaw/Design_Resilient_Architectures/doc.md",
+      "kind": "index"
+    },
+    {
+      "path": "preRaw/Design_Secure_Architectures/doc.md",
+      "kind": "index"
+    },
+    {
+      "path": "preRaw/Design_Secure_Architectures/content.md",
+      "kind": "course-note"
+    },
+    {
+      "path": "preRaw/Design_Secure_Architectures/IAM.md",
+      "kind": "course-note"
+    },
+    {
+      "path": "preRaw/Design_High-Performing_Architectures/doc.md",
+      "kind": "index"
+    },
+    {
+      "path": "preRaw/Design_Cost-Optimized_Architectures/doc.md",
+      "kind": "index"
+    }
+  ],
+  "pdf": {
+    "path": "preRaw/AWS Certified Solutions Architect Slides v45.pdf",
+    "page_count": 872,
+    "pages": [
+      {
+        "page": 1,
+        "title": "https://links.datacumulus.com/aws-cert-solution-architect-pt-coupon https://links.datacumulus.com/aws-cert-solution-architect",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 2,
+        "title": "Disclaimer: These slides are copyrighted and strictly for personal use only",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 3,
+        "title": "Table of Contents",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 4,
+        "title": "Table of Contents",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 5,
+        "title": "Table of Contents",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 6,
+        "title": "AWS Certified Solutions Architect Associate CourseSAA-C03",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 7,
+        "title": "Welcome! We’re starting in 5 minutes",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 8,
+        "title": "My SAA-C03 certification: 96.1%",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 9,
+        "title": "About me",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 10,
+        "title": "What’s AWS?",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 11,
+        "title": "What we’ll learn in this course (and more!)Amazon EC2Amazon ECRAmazon ECS Elastic Load Balancing AWS Elastic BeanstalkAWSLamb",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 12,
+        "title": "Navigating the AWS spaghetti bowl",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 13,
+        "title": "Udemy Tips",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 14,
+        "title": "Getting started with AWS",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 15,
+        "title": "AWS Cloud History2002: Internally launched 2003: Amazon infrastructure is one of their core strength. Idea to market 2004: La",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 16,
+        "title": "AWS Cloud Number Facts",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 17,
+        "title": "AWS Cloud Use Cases",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 18,
+        "title": "AWS Global Infrastructure",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 19,
+        "title": "AWS Regions",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-foundations-regions-001"
+        ]
+      },
+      {
+        "page": 20,
+        "title": "How to choose an AWS Region?",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-foundations-regions-001"
+        ]
+      },
+      {
+        "page": 21,
+        "title": "AWS Availability Zones",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-foundations-availabilityzones-002"
+        ]
+      },
+      {
+        "page": 22,
+        "title": "AWS Points of Presence (Edge Locations)",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 23,
+        "title": "Tour of the AWS Console",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-foundations-regions-001"
+        ]
+      },
+      {
+        "page": 24,
+        "title": "AWS Identity and Access Management (AWS IAM)",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 25,
+        "title": "IAM: Users & Groups",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-iam-identities-003"
+        ]
+      },
+      {
+        "page": 26,
+        "title": "IAM: Permissions",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-iam-identities-003"
+        ]
+      },
+      {
+        "page": 27,
+        "title": "IAM Policies inheritance Alice Bob Charles David Edward Developers OperationsAudit Team Fred inline",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 28,
+        "title": "IAM Policies Structure",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-iam-policies-004"
+        ]
+      },
+      {
+        "page": 29,
+        "title": "IAM – Password Policy",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-iam-mfa-005"
+        ]
+      },
+      {
+        "page": 30,
+        "title": "Multi Factor Authentication - MFA",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-iam-mfa-005"
+        ]
+      },
+      {
+        "page": 31,
+        "title": "MFA devices options in AWSVirtual MFA device Google Authenticator(phone only) Authy(phone only) Universal 2nd Factor (U2F) Se",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 32,
+        "title": "MFA devices options in AWS Hardware Key Fob MFA Device Provided by Gemalto (3rd party) Hardware Key Fob MFA Device forAWS Gov",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 33,
+        "title": "How can users access AWS ?",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-iam-accessmethods-006"
+        ]
+      },
+      {
+        "page": 34,
+        "title": "Example (Fake) Access Keys",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 35,
+        "title": "What’s the AWS CLI?",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-iam-accessmethods-006"
+        ]
+      },
+      {
+        "page": 36,
+        "title": "What’s the AWS SDK?",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-iam-accessmethods-006"
+        ]
+      },
+      {
+        "page": 37,
+        "title": "IAM Roles for Services",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-iam-serviceroles-007"
+        ]
+      },
+      {
+        "page": 38,
+        "title": "IAM Security T ools",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-iam-accessaudit-008"
+        ]
+      },
+      {
+        "page": 39,
+        "title": "IAM Guidelines & Best Practices",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 40,
+        "title": "IAM Section – Summary",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 41,
+        "title": "Amazon EC2 – Basics",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 42,
+        "title": "Amazon EC2",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 43,
+        "title": "EC2 sizing & configuration options",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 44,
+        "title": "EC2 User Data",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-ec2-bootstrap-009"
+        ]
+      },
+      {
+        "page": 45,
+        "title": "Hands-On:Launching an EC2 Instance running Linux",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 46,
+        "title": "EC2 Instance Types - Overview",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-ec2-instancetypes-010"
+        ]
+      },
+      {
+        "page": 47,
+        "title": "EC2 Instance Types – General Purpose",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-ec2-instancetypes-010"
+        ]
+      },
+      {
+        "page": 48,
+        "title": "EC2 Instance Types – Compute Optimized",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-ec2-instancetypes-010"
+        ]
+      },
+      {
+        "page": 49,
+        "title": "EC2 Instance Types – Memory Optimized",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-ec2-instancetypes-010"
+        ]
+      },
+      {
+        "page": 50,
+        "title": "EC2 Instance Types – Storage Optimized",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-ec2-instancetypes-010"
+        ]
+      },
+      {
+        "page": 51,
+        "title": "EC2 Instance Types: exampleInstancevCPUMem (GiB) StorageNetwork PerformanceEBS Bandwidth (Mbps)t2.micro1 1 EBS-OnlyLow to Mod",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 52,
+        "title": "Introduction to Security Groups",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-ec2-securitygroups-011"
+        ]
+      },
+      {
+        "page": 53,
+        "title": "Security GroupsDeeper Dive",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-ec2-securitygroups-011"
+        ]
+      },
+      {
+        "page": 54,
+        "title": "Security GroupsDiagram EC2 InstanceIP XX.XX.XX.XX Port 22Port 22Security Group 1InboundFilter IP / Port with Rules Any PortSe",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 55,
+        "title": "Security GroupsGood to know",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 56,
+        "title": "Referencing other security groupsDiagram EC2 InstanceIP XX.XX.XX.XX Port 123 Port 123 Port 123 Security Group 1InboundAuthori",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-ec2-securitygroups-011"
+        ]
+      },
+      {
+        "page": 57,
+        "title": "Classic Ports to know",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 58,
+        "title": "SSH Summary TableMac Linux Windows < 10 Windows >= 10 SSH PuttyEC2 Instance Connect",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 59,
+        "title": "Which Lectures to watch",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 60,
+        "title": "SSH troubleshooting",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 61,
+        "title": "How to SSH into your EC2 InstanceLinux / Mac OS X",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 62,
+        "title": "How to SSH into your EC2 InstanceWindows",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 63,
+        "title": "EC2 Instance Connect",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 64,
+        "title": "EC2 Instances Purchasing Options",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-ec2-purchasing-012"
+        ]
+      },
+      {
+        "page": 65,
+        "title": "EC2 On Demand",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-ec2-purchasing-012"
+        ]
+      },
+      {
+        "page": 66,
+        "title": "EC2 Reserved Instances",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-ec2-purchasing-012"
+        ]
+      },
+      {
+        "page": 67,
+        "title": "EC2 Savings Plans",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-ec2-purchasing-012"
+        ]
+      },
+      {
+        "page": 68,
+        "title": "EC2 Spot Instances",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-ec2-spot-013"
+        ]
+      },
+      {
+        "page": 69,
+        "title": "EC2 Dedicated Hosts",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-ec2-dedicated-014"
+        ]
+      },
+      {
+        "page": 70,
+        "title": "EC2 Dedicated Instances",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-ec2-dedicated-014"
+        ]
+      },
+      {
+        "page": 71,
+        "title": "EC2 Capacity Reservations",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-ec2-purchasing-012"
+        ]
+      },
+      {
+        "page": 72,
+        "title": "Which purchasing option is right for me?",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 73,
+        "title": "Price ComparisonExample – m4.large – us-east-1Price Type Price (per hour)On-Demand $0.10 Spot Instance (Spot Price)$0.038 - $",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 74,
+        "title": "EC2 Spot Instance Requests",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-ec2-spot-013"
+        ]
+      },
+      {
+        "page": 75,
+        "title": "EC2 Spot Instances Pricing https://console.aws.amazon.com/ec2sp/v1/spot/home?region=us-east-1# User-defined max price",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 76,
+        "title": "How to terminate Spot Instances? https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/spot-requests.html You can only cancel S",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 77,
+        "title": "Spot Fleets",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-ec2-spot-013"
+        ]
+      },
+      {
+        "page": 78,
+        "title": "Amazon EC2 – Associate",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 79,
+        "title": "Private vs Public IP (IPv4)",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-ec2-ipaddresses-015"
+        ]
+      },
+      {
+        "page": 80,
+        "title": "Company BPrivate Network192.168.0.1/22Company APrivate Network192.168.0.1/22 Private vs Public IP (IPv4)Example Internet Gate",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 81,
+        "title": "Private vs Public IP (IPv4)Fundamental Differences",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-ec2-ipaddresses-015"
+        ]
+      },
+      {
+        "page": 82,
+        "title": "Elastic IPs",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-ec2-ipaddresses-015"
+        ]
+      },
+      {
+        "page": 83,
+        "title": "Elastic IP",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-ec2-ipaddresses-015"
+        ]
+      },
+      {
+        "page": 84,
+        "title": "Private vs Public IP (IPv4)In AWS EC2 – Hands On",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 85,
+        "title": "Placement Groups",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-ec2-placement-016"
+        ]
+      },
+      {
+        "page": 86,
+        "title": "Same AZ Placement GroupsCluster",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-ec2-placement-016"
+        ]
+      },
+      {
+        "page": 87,
+        "title": "Us-east-1a Hardware 1 Placement GroupsSpread",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-ec2-placement-016"
+        ]
+      },
+      {
+        "page": 88,
+        "title": "Placements GroupsPartition",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-ec2-placement-016"
+        ]
+      },
+      {
+        "page": 89,
+        "title": "Elastic Network Interfaces (ENI)",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-ec2-eni-017"
+        ]
+      },
+      {
+        "page": 90,
+        "title": "EC2 Hibernate",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-ec2-hibernate-018"
+        ]
+      },
+      {
+        "page": 91,
+        "title": "EC2 Hibernate",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-ec2-hibernate-018"
+        ]
+      },
+      {
+        "page": 92,
+        "title": "EC2 Hibernate – Good to know",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 93,
+        "title": "Amazon EC2 – Instance Storage",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 94,
+        "title": "What’s an EBS Volume?",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-storage-ebs-019"
+        ]
+      },
+      {
+        "page": 95,
+        "title": "EBS Volume",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-storage-ebs-019"
+        ]
+      },
+      {
+        "page": 96,
+        "title": "US-EAST-1BUS-EAST-1AEBS Volume - Example EBS(10 GB) EBS(100 GB) EBS(50 GB) EBS(50 GB) EBS(10 GB)unattached",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 97,
+        "title": "EBS – Delete on Termination attribute",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-storage-ebs-019"
+        ]
+      },
+      {
+        "page": 98,
+        "title": "EBS Snapshots",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-storage-snapshots-020"
+        ]
+      },
+      {
+        "page": 99,
+        "title": "EBS Snapshots Features",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-storage-snapshots-020"
+        ]
+      },
+      {
+        "page": 100,
+        "title": "AMI Overview",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-storage-ami-021"
+        ]
+      },
+      {
+        "page": 101,
+        "title": "AMI Process (from an EC2 instance)",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-storage-ami-021"
+        ]
+      },
+      {
+        "page": 102,
+        "title": "EC2 Instance Store",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-storage-instancestore-022"
+        ]
+      },
+      {
+        "page": 103,
+        "title": "Local EC2 Instance Store Very high IOPS",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-storage-instancestore-022"
+        ]
+      },
+      {
+        "page": 104,
+        "title": "EBS Volume Types",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-storage-ebstypes-023"
+        ]
+      },
+      {
+        "page": 105,
+        "title": "EBS Volume Types Use casesGeneral Purpose SSD",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-storage-ebstypes-023"
+        ]
+      },
+      {
+        "page": 106,
+        "title": "EBS Volume Types Use casesProvisioned IOPS (PIOPS) SSD",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-storage-ebstypes-023"
+        ]
+      },
+      {
+        "page": 107,
+        "title": "EBS Volume Types Use casesHard Disk Drives (HDD)",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-storage-ebstypes-023"
+        ]
+      },
+      {
+        "page": 108,
+        "title": "EBS – Volume Types Summar y https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-volume-types.html#solid-state-drives",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 109,
+        "title": "EBS Multi-Attach – io1/io2 family",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-storage-multiattach-024"
+        ]
+      },
+      {
+        "page": 110,
+        "title": "EBS Encryption",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-storage-ebsencryption-025"
+        ]
+      },
+      {
+        "page": 111,
+        "title": "Encryption: encrypt an unencrypted EBS volume",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-storage-ebsencryption-025"
+        ]
+      },
+      {
+        "page": 112,
+        "title": "Amazon EFS – Elastic File System",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-storage-efs-026"
+        ]
+      },
+      {
+        "page": 113,
+        "title": "Amazon EFS – Elastic File System",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-storage-efs-026"
+        ]
+      },
+      {
+        "page": 114,
+        "title": "EFS – Performance & Storage Classes",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-storage-efsperformance-027"
+        ]
+      },
+      {
+        "page": 115,
+        "title": "EFS – Storage Classes",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-storage-efsperformance-027"
+        ]
+      },
+      {
+        "page": 116,
+        "title": "EBS vs EFS – Elastic Block Storage",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 117,
+        "title": "EBS vs EFS – Elastic File System",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 118,
+        "title": "High Availability & Scalability",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 119,
+        "title": "Scalability & High Availability",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-scaling-availability-028"
+        ]
+      },
+      {
+        "page": 120,
+        "title": "Ver tical Scalability",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-scaling-availability-028"
+        ]
+      },
+      {
+        "page": 121,
+        "title": "Horizontal Scalability",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-scaling-availability-028"
+        ]
+      },
+      {
+        "page": 122,
+        "title": "second building in San Francisco first building in New YorkHigh Availability",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-scaling-availability-028"
+        ]
+      },
+      {
+        "page": 123,
+        "title": "High Availability & Scalability For EC2",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 124,
+        "title": "What is load balancing? Elastic Load Balancer EC2 Instance EC2 Instance EC2 Instance",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-elb-healthchecks-029"
+        ]
+      },
+      {
+        "page": 125,
+        "title": "Why use a load balancer?",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-elb-healthchecks-029"
+        ]
+      },
+      {
+        "page": 126,
+        "title": "Why use an Elastic Load Balancer?",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 127,
+        "title": "Health Checks",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-elb-healthchecks-029"
+        ]
+      },
+      {
+        "page": 128,
+        "title": "Types of load balancer on AWS",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 129,
+        "title": "Load Balancer Security GroupsUsersHTTPS / HTTPFrom anywhereHTTP Restricted to Load balancerLOAD BALANCER Load Balancer Securi",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 130,
+        "title": "Classic Load Balancers (v1) ClientCLB EC2 listenerinternal",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 131,
+        "title": "Application Load Balancer (v2)",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-elb-alb-030"
+        ]
+      },
+      {
+        "page": 132,
+        "title": "Application Load Balancer (v2)",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-elb-alb-030"
+        ]
+      },
+      {
+        "page": 133,
+        "title": "Target Group for Users application Application Load Balancer (v2)HTTP Based Traffic External Application Load Balancer (v2) H",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 134,
+        "title": "Application Load Balancer (v2)Tar get Groups",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-elb-alb-030"
+        ]
+      },
+      {
+        "page": 135,
+        "title": "Target Group 1AWS – EC2 based Application Load Balancer (v2)Query Strings/Parameters Routing External Application Load Balanc",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 136,
+        "title": "Application Load Balancer (v2)Good to Know",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 137,
+        "title": "Network Load Balancer (v2)",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-elb-nlb-031"
+        ]
+      },
+      {
+        "page": 138,
+        "title": "Network Load Balancer (v2)TCP (Layer 4) Based Traffic Target Group for Users applicationExternal Network Load Balancer (v2) T",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-elb-nlb-031"
+        ]
+      },
+      {
+        "page": 139,
+        "title": "Network Load Balancer – Tar get Groups",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-elb-nlb-031"
+        ]
+      },
+      {
+        "page": 140,
+        "title": "Gateway Load Balancer",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-elb-gwlb-032"
+        ]
+      },
+      {
+        "page": 141,
+        "title": "Gateway Load Balancer – Tar get Groups",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-elb-gwlb-032"
+        ]
+      },
+      {
+        "page": 142,
+        "title": "Sticky Sessions (Session Affinity)",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-elb-stickiness-033"
+        ]
+      },
+      {
+        "page": 143,
+        "title": "Sticky Sessions – Cookie Names",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-elb-stickiness-033"
+        ]
+      },
+      {
+        "page": 144,
+        "title": "Cross-Zone Load Balancing Availability Zone 1 Availability Zone 2 10 10 10101010 10101010 Availability Zone 1 Availability Zo",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-elb-crosszone-034"
+        ]
+      },
+      {
+        "page": 145,
+        "title": "Cross-Zone Load Balancing",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-elb-crosszone-034"
+        ]
+      },
+      {
+        "page": 146,
+        "title": "SSL/TLS - Basics",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-elb-tls-035"
+        ]
+      },
+      {
+        "page": 147,
+        "title": "Load Balancer - SSL Certificates",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-elb-tls-035"
+        ]
+      },
+      {
+        "page": 148,
+        "title": "SSL – Server Name Indication (SNI)",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-elb-tls-035"
+        ]
+      },
+      {
+        "page": 149,
+        "title": "Elastic Load Balancers – SSL Certificates",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 150,
+        "title": "Connection Draining",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-elb-draining-036"
+        ]
+      },
+      {
+        "page": 151,
+        "title": "What’s an Auto Scaling Group?",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-scaling-asg-037"
+        ]
+      },
+      {
+        "page": 152,
+        "title": "Auto Scaling Group in AWS EC2Instance EC2Instance EC2Instance EC2Instance EC2InstanceEC2InstanceEC2Instance Auto Scaling Grou",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-scaling-asg-037"
+        ]
+      },
+      {
+        "page": 153,
+        "title": "Auto Scaling Group in AWS With Load Balancer Elastic Load Balancer Users ELB can check the health of your EC2 instances! EC2I",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 154,
+        "title": "Auto Scaling Group Attributes",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-scaling-asg-037"
+        ]
+      },
+      {
+        "page": 155,
+        "title": "Auto Scaling - CloudWatch Alarms & Scaling",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 156,
+        "title": "Auto Scaling Groups – Scaling Policies",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-scaling-policies-038"
+        ]
+      },
+      {
+        "page": 157,
+        "title": "Auto Scaling Groups – Scaling Policies",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-scaling-policies-038"
+        ]
+      },
+      {
+        "page": 158,
+        "title": "Good metrics to scale on",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-scaling-policies-038"
+        ]
+      },
+      {
+        "page": 159,
+        "title": "Auto Scaling Groups - Scaling Cooldowns",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-scaling-policies-038"
+        ]
+      },
+      {
+        "page": 160,
+        "title": "RDS, Aurora & ElastiCache",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 161,
+        "title": "Amazon RDS Overview",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-rds-manageddb-039"
+        ]
+      },
+      {
+        "page": 162,
+        "title": "Advantage over using RDS versus deploying DB on EC2",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-rds-manageddb-039"
+        ]
+      },
+      {
+        "page": 163,
+        "title": "RDS – Storage Auto Scaling",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-rds-manageddb-039"
+        ]
+      },
+      {
+        "page": 164,
+        "title": "RDS Read Replicas for read scalability RDS DB instanceRDS DB instance read replica RDS DB instance read replica Application w",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-rds-readreplicas-040"
+        ]
+      },
+      {
+        "page": 165,
+        "title": "RDS Read Replicas – Use Cases",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-rds-readreplicas-040"
+        ]
+      },
+      {
+        "page": 166,
+        "title": "RDS Read Replicas – Network Cost RDS DB instanceRDS DB instance read replica ASYNC ReplicationCross-Region$$$ Region/AZus-eas",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-rds-readreplicas-040"
+        ]
+      },
+      {
+        "page": 167,
+        "title": "RDS Multi AZ (Disaster Recovery) RDS Master DB instance (AZ A) Application writesreads SYNCreplication",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-rds-multiaz-041"
+        ]
+      },
+      {
+        "page": 168,
+        "title": "RDS – From Single-AZ to Multi-AZ",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-rds-multiaz-041"
+        ]
+      },
+      {
+        "page": 169,
+        "title": "RDS Custom",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-rds-custom-230"
+        ]
+      },
+      {
+        "page": 170,
+        "title": "Amazon Aurora",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-rds-aurora-042"
+        ]
+      },
+      {
+        "page": 171,
+        "title": "Aurora High Availability and Read Scaling",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-rds-aurora-042"
+        ]
+      },
+      {
+        "page": 172,
+        "title": "Aurora replica Auto Scaling and endpoints",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-rds-aurora-042"
+        ]
+      },
+      {
+        "page": 173,
+        "title": "Features of Aurora",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 174,
+        "title": "Replicas Auto Scaling Aurora Replicas - Auto Scaling Writer EndpointReader Endpoint Shared Storage VolumeW R R R R Client CPU",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 175,
+        "title": "Aurora – Custom Endpoints",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-rds-customendpoints-218"
+        ]
+      },
+      {
+        "page": 176,
+        "title": "Aurora Serverless Shared storage Volume Proxy Fleet(managed by Aurora) Client",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-rds-auroraserverless-043"
+        ]
+      },
+      {
+        "page": 177,
+        "title": "",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-rds-auroraglobal-044"
+        ]
+      },
+      {
+        "page": 178,
+        "title": "Aurora Machine Learning",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 179,
+        "title": "Babelfish for Aurora PostgreSQL",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 180,
+        "title": "RDS Backups",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-rds-dbbackup-045"
+        ]
+      },
+      {
+        "page": 181,
+        "title": "Aurora Backups",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-rds-dbbackup-045"
+        ]
+      },
+      {
+        "page": 182,
+        "title": "RDS & Aurora Restore options",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-rds-dbbackup-045"
+        ]
+      },
+      {
+        "page": 183,
+        "title": "Aurora Database Cloning",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-rds-cloning-219"
+        ]
+      },
+      {
+        "page": 184,
+        "title": "RDS & Aurora Security",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-rds-dbsecurity-046"
+        ]
+      },
+      {
+        "page": 185,
+        "title": "Amazon RDS Proxy",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-rds-dbproxy-047"
+        ]
+      },
+      {
+        "page": 186,
+        "title": "Amazon ElastiCache Overview",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-cache-elasticache-048"
+        ]
+      },
+      {
+        "page": 187,
+        "title": "ElastiCache Solution Architecture - DB Cache",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-cache-elasticache-048"
+        ]
+      },
+      {
+        "page": 188,
+        "title": "ElastiCache Solution Architecture – User Session Store",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-cache-elasticache-048"
+        ]
+      },
+      {
+        "page": 189,
+        "title": "ElastiCache – Redis vs MemcachedREDIS",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-cache-engines-217"
+        ]
+      },
+      {
+        "page": 190,
+        "title": "ElastiCache – Cache Security",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 191,
+        "title": "Patterns for ElastiCache",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-cache-patterns-049"
+        ]
+      },
+      {
+        "page": 192,
+        "title": "ElastiCache – Redis Use Case",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-cache-engines-217"
+        ]
+      },
+      {
+        "page": 193,
+        "title": "Amazon Route 53",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 194,
+        "title": "What is DNS?",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-dns-resolution-050"
+        ]
+      },
+      {
+        "page": 195,
+        "title": "DNS Terminologies http://api.www.example.com.",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-dns-resolution-050"
+        ]
+      },
+      {
+        "page": 196,
+        "title": "How DNS Works Web BrowserLocal DNS ServerYou want to access example.comAssigned and Managed by your company or assigned by yo",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-dns-resolution-050"
+        ]
+      },
+      {
+        "page": 197,
+        "title": "Amazon Route 53",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 198,
+        "title": "Route 53 – Records",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-dns-records-051"
+        ]
+      },
+      {
+        "page": 199,
+        "title": "Route 53 – Record Types",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-dns-records-051"
+        ]
+      },
+      {
+        "page": 200,
+        "title": "Route 53 – Hosted Zones",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-dns-records-051"
+        ]
+      },
+      {
+        "page": 201,
+        "title": "Route 53 – Public vs. Private Hosted Zones VPC EC2 Instance(Public IP)ApplicationLoad Balancer Public Hosted ZoneClient S3 Bu",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-dns-records-051"
+        ]
+      },
+      {
+        "page": 202,
+        "title": "Route 53 – Records TTL (Time T o Live) Client Web Server DNS Requestmyapp.example.com? TTL AmazonRoute 53A 12.34.56.78(with T",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-dns-ttl-052"
+        ]
+      },
+      {
+        "page": 203,
+        "title": "CNAME vs Alias",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-dns-alias-053"
+        ]
+      },
+      {
+        "page": 204,
+        "title": "Route 53 – Alias Records",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-dns-alias-053"
+        ]
+      },
+      {
+        "page": 205,
+        "title": "Route 53 – Alias Records Targets",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-dns-alias-053"
+        ]
+      },
+      {
+        "page": 206,
+        "title": "Route 53 – Routing Policies",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-dns-routing-054"
+        ]
+      },
+      {
+        "page": 207,
+        "title": "Routing Policies – Simple",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-dns-routing-054"
+        ]
+      },
+      {
+        "page": 208,
+        "title": "Routing Policies – Weighted",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-dns-routing-054"
+        ]
+      },
+      {
+        "page": 209,
+        "title": "Routing Policies – Latency-based",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-dns-routing-054"
+        ]
+      },
+      {
+        "page": 210,
+        "title": "Route 53 – Health Checks",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-dns-failover-055"
+        ]
+      },
+      {
+        "page": 211,
+        "title": "eu-west-1 Health Checker(us-east-1) Health Checks – Monitor an Endpoint",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-dns-failover-055"
+        ]
+      },
+      {
+        "page": 212,
+        "title": "Amazon Route 53Route 53 – Calculated Health Checks",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 213,
+        "title": "Private subnet Health Checks – Private Hosted Zones",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-dns-failover-055"
+        ]
+      },
+      {
+        "page": 214,
+        "title": "Routing Policies – Failover (Active-Passive)EC2 Instance(Primary)Health Check(mandatory)Failover Client AmazonRoute 53 EC2 In",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-dns-failover-055"
+        ]
+      },
+      {
+        "page": 215,
+        "title": "Routing Policies – Geolocation",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-dns-georouting-056"
+        ]
+      },
+      {
+        "page": 216,
+        "title": "Routing Policies – Geoproximity",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-dns-georouting-056"
+        ]
+      },
+      {
+        "page": 217,
+        "title": "Routing Policies – Geoproximity us-east-1 us-west-1 Bias: 0 Bias: 0",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-dns-georouting-056"
+        ]
+      },
+      {
+        "page": 218,
+        "title": "Routing Policies – Geoproximity us-east-1 us-west-1 Bias: 0 Bias: 50Higher bias in us-east-1",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 219,
+        "title": "Routing Policies – IP-based Routing",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-dns-georouting-056"
+        ]
+      },
+      {
+        "page": 220,
+        "title": "Routing Policies – Multi-Value",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-dns-georouting-056"
+        ]
+      },
+      {
+        "page": 221,
+        "title": "Domain Registar vs. DNS Service",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 222,
+        "title": "GoDaddy as Registrar & Route 53 as DNS Service AmazonRoute 53 Public Hosted Zonestephanetheteacher.com",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 223,
+        "title": "3rd Party Registrar with Amazon Route 53",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 224,
+        "title": "Route 53 – Hybrid DNS",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-dns-hybrid-057"
+        ]
+      },
+      {
+        "page": 225,
+        "title": "Route 53 – Resolver Endpoints",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-dns-hybrid-057"
+        ]
+      },
+      {
+        "page": 226,
+        "title": "Route 53 – Resolver Endpoints",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-dns-hybrid-057"
+        ]
+      },
+      {
+        "page": 227,
+        "title": "Classic Solutions Architecture",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 228,
+        "title": "Section Introduction",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 229,
+        "title": "Stateless Web App: WhatIsTheTime.com",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-architecture-stateless-058"
+        ]
+      },
+      {
+        "page": 230,
+        "title": "Stateless web app: What time is it?Starting simple Public EC2 Elastic IP Address User What time is it? 5:30 pm!",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 231,
+        "title": "Stateless web app: What time is it?Scaling vertically Public EC2 Elastic IP Address User What time is it? 5:30 pm! What time ",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 232,
+        "title": "Stateless web app: What time is it?Scaling horizontally User What time is it? 5:30 pm!What time is it? 6:30 pm! What time is ",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 233,
+        "title": "Stateless web app: What time is it?Scaling horizontally What time is it? 5:30 pm!What time is it? 6:30 pm! What time is it? 7",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 234,
+        "title": "Stateless web app: What time is it?Scaling horizontally, adding and removing instances What time is it? 5:30 pm!What time is ",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 235,
+        "title": "Stateless web app: What time is it?Scaling horizontally, with a load balancerWhat time is it? Private EC2 instances DNS Query",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 236,
+        "title": "Stateless web app: What time is it?Scaling horizontally, with an auto-scaling groupWhat time is it? Private EC2 instances DNS",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 237,
+        "title": "Stateless web app: What time is it?Making our app multi-AZWhat time is it? DNS QueryFor api.whatisthetime.comAlias Record Ava",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 238,
+        "title": "Minimum 2 AZ => Let’s reserve capacity DNS QueryFor api.whatisthetime.comAlias Record Availability zone 1 to 3Availability zo",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-architecture-stateless-058"
+        ]
+      },
+      {
+        "page": 239,
+        "title": "In this lecture we’ve discussed…",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 240,
+        "title": "Stateful Web App: MyClothes.com",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-architecture-stateless-058"
+        ]
+      },
+      {
+        "page": 241,
+        "title": "Stateful Web App: MyClothes.com Multi AZ Availability zone 1 Auto Scaling group Availability zone 2 Availability zone 3",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 242,
+        "title": "Stateful Web App: MyClothes.comIntroduce Stickiness (Session Affinity) Multi AZ Availability zone 1 Auto Scaling group Availa",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 243,
+        "title": "Stateful Web App: MyClothes.comIntroduce User Cookies Multi AZ Availability zone 1 Auto Scaling group Availability zone 2 Ava",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 244,
+        "title": "Stateful Web App: MyClothes.comIntroduce Server Session Multi AZ Availability zone 1 Auto Scaling group Availability zone 2 A",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 245,
+        "title": "Stateful Web App: MyClothes.comStoring User Data in a database Multi AZ Availability zone 1 Auto Scaling group Availability z",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 246,
+        "title": "Stateful Web App: MyClothes.comScaling Reads Multi AZ Availability zone 1 Auto Scaling group Availability zone 2 Availability",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 247,
+        "title": "Stateful Web App: MyClothes.comScaling Reads (Alternative) – Lazy Loading Multi AZ Availability zone 1 Auto Scaling group Ava",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 248,
+        "title": "Stateful Web App: MyClothes.comMulti AZ – Survive disasters Multi AZ Availability zone 1 Auto Scaling group Availability zone",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 249,
+        "title": "Stateful Web App: MyClothes.comSecurity Groups Multi AZ Availability zone 1 Auto Scaling group Availability zone 2 Availabili",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 250,
+        "title": "In this lecture we’ve discussed…3-tier architectures for web applications",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-architecture-stateless-058"
+        ]
+      },
+      {
+        "page": 251,
+        "title": "Stateful Web App: MyWordPress.com",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 252,
+        "title": "Stateful Web App: MyWordPress.comRDS layer Multi AZ Availability zone 1 Auto Scaling group Availability zone 2 Availability z",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 253,
+        "title": "Stateful Web App: MyWordPress.comScaling with Aurora: Multi AZ & Read Replicas Multi AZ Availability zone 1 Auto Scaling grou",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 254,
+        "title": "Stateful Web App: MyWordPress.comStoring images with EBS Multi AZ Amazon EBS Volume Availability zone 1 Send image",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 255,
+        "title": "Stateful Web App: MyWordPress.comStoring images with EBS Multi AZ Amazon EBS Volume Amazon EBS Volume Availability zone 1 Ava",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 256,
+        "title": "Stateful Web App: MyWordPress.comStoring images with EFS Multi AZ Availability zone 1 Availability zone 2 EFS ENI ENI Send im",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 257,
+        "title": "In this lecture we’ve discussed…",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 258,
+        "title": "Instantiating Applications quickly",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 259,
+        "title": "Instantiating Applications quickly",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 260,
+        "title": "Web App 3-tier architecture",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-architecture-multitier-232"
+        ]
+      },
+      {
+        "page": 261,
+        "title": "Developer problems on AWS",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 262,
+        "title": "Elastic Beanstalk – Overview",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-architecture-beanstalk-059"
+        ]
+      },
+      {
+        "page": 263,
+        "title": "Elastic Beanstalk – Components",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-architecture-beanstalk-059"
+        ]
+      },
+      {
+        "page": 264,
+        "title": "Elastic Beanstalk – Supported Platforms",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 265,
+        "title": "Web Ser ver Tier vs. Worker Tier Auto Scaling group Web Environment(myapp.us-east-1.elasticbeanstalk.com) Security Group Avai",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-architecture-beanstalk-059"
+        ]
+      },
+      {
+        "page": 266,
+        "title": "Elastic Beanstalk Deployment ModesSingle InstanceGreat for devHigh Availability with Load BalancerGreat for prod Availability",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-architecture-beanstalk-059"
+        ]
+      },
+      {
+        "page": 267,
+        "title": "Amazon S3",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 268,
+        "title": "Section introduction",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 269,
+        "title": "Amazon S3 Use cases",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 270,
+        "title": "Amazon S3 - Buckets",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-objects-060"
+        ]
+      },
+      {
+        "page": 271,
+        "title": "Amazon S3 - Objects",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-objects-060"
+        ]
+      },
+      {
+        "page": 272,
+        "title": "Amazon S3 – Objects (cont.)",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-objects-060"
+        ]
+      },
+      {
+        "page": 273,
+        "title": "Amazon S3 – Security",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-bucketpolicy-061"
+        ]
+      },
+      {
+        "page": 274,
+        "title": "S3 Bucket Policies",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-bucketpolicy-061"
+        ]
+      },
+      {
+        "page": 275,
+        "title": "Example: Public Access - Use Bucket Policy S3 Bucket Anonymous www website visitor S3 Bucket PolicyAllows Public Access",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 276,
+        "title": "Example: User Access to S3 – IAM permissions S3 Bucket IAM Policy IAM User",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 277,
+        "title": "Example: EC2 instance access - Use IAM Roles S3 Bucket EC2 Instance Role IAM permissions EC2 Instance",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 278,
+        "title": "Advanced: Cross-Account Access – Use Bucket Policy S3 Bucket IAM UserOther AWS account S3 Bucket PolicyAllows Cross-Account",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-bucketpolicy-061"
+        ]
+      },
+      {
+        "page": 279,
+        "title": "Bucket settings for Block Public Access",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-bucketpolicy-061"
+        ]
+      },
+      {
+        "page": 280,
+        "title": "Amazon S3 – Static Website Hosting",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-website-062"
+        ]
+      },
+      {
+        "page": 281,
+        "title": "Amazon S3 - Versioning",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-versioning-063"
+        ]
+      },
+      {
+        "page": 282,
+        "title": "Amazon S3 – Replication (CRR & SRR)",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-replication-064"
+        ]
+      },
+      {
+        "page": 283,
+        "title": "Amazon S3 – Replication (Notes)",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-replication-064"
+        ]
+      },
+      {
+        "page": 284,
+        "title": "S3 Storage Classes",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-storageclasses-065"
+        ]
+      },
+      {
+        "page": 285,
+        "title": "S3 Durability and Availability",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-storageclasses-065"
+        ]
+      },
+      {
+        "page": 286,
+        "title": "S3 Standard – General Purpose",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-storageclasses-065"
+        ]
+      },
+      {
+        "page": 287,
+        "title": "S3 Storage Classes – Infrequent Access",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-storageclasses-065"
+        ]
+      },
+      {
+        "page": 288,
+        "title": "Amazon S3 Glacier Storage Classes",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-storageclasses-065"
+        ]
+      },
+      {
+        "page": 289,
+        "title": "S3 Intelligent-Tiering",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-intelligenttiering-066"
+        ]
+      },
+      {
+        "page": 290,
+        "title": "S3 Storage Classes Comparison https://aws.amazon.com/s3/storage-classes/ StandardIntelligent-TieringStandard-IAOne Zone-IAGla",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 291,
+        "title": "S3 Storage Classes – Price ComparisonExample: us-east-1 https://aws.amazon.com/s3/pricing/ StandardIntelligent-TieringStandar",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 292,
+        "title": "S3 Express One Zone",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-express-067"
+        ]
+      },
+      {
+        "page": 293,
+        "title": "Amazon S3 – Advanced",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 294,
+        "title": "Amazon S3 – Moving between Storage Classes",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-lifecycle-068"
+        ]
+      },
+      {
+        "page": 295,
+        "title": "Amazon S3 – Lifecycle Rules",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-lifecycle-068"
+        ]
+      },
+      {
+        "page": 296,
+        "title": "Amazon S3 – Lifecycle Rules (Scenario 1)",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-lifecycle-068"
+        ]
+      },
+      {
+        "page": 297,
+        "title": "Amazon S3 – Lifecycle Rules (Scenario 2)",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-lifecycle-068"
+        ]
+      },
+      {
+        "page": 298,
+        "title": "Amazon S3 Analytics – Storage Class Analysis",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 299,
+        "title": "S3 – Requester Pays",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-requesterpays-221"
+        ]
+      },
+      {
+        "page": 300,
+        "title": "S3 Event Notifications Amazon S3 events Lambda Function SQS SNS",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-events-069"
+        ]
+      },
+      {
+        "page": 301,
+        "title": "S3 Event Notifications – IAM Permissions Amazon S3 events Lambda Function SQS SNS Lambda Resource Policy SNS Resource (Access",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-events-069"
+        ]
+      },
+      {
+        "page": 302,
+        "title": "S3 Event Notifications with Amazon EventBridge Amazon S3bucket eventsAll events AmazonEventBridge rulesOver 18 AWS servicesas",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-events-069"
+        ]
+      },
+      {
+        "page": 303,
+        "title": "S3 – Baseline Performance",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 304,
+        "title": "S3 Performance",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-transferperformance-070",
+          "saa-s3-acceleration-220"
+        ]
+      },
+      {
+        "page": 305,
+        "title": "S3 Performance – S3 Byte-Range Fetches",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-transferperformance-070"
+        ]
+      },
+      {
+        "page": 306,
+        "title": "S3 Batch Operations",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-batchoperations-071"
+        ]
+      },
+      {
+        "page": 307,
+        "title": "S3 – Storage Lens",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-storagelens-072"
+        ]
+      },
+      {
+        "page": 308,
+        "title": "Storage Lens – Default Dashboard",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-storagelens-072"
+        ]
+      },
+      {
+        "page": 309,
+        "title": "Storage Lens – Metrics",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 310,
+        "title": "Storage Lens – Metrics",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 311,
+        "title": "Storage Lens – Metrics",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 312,
+        "title": "Storage Lens – Free vs. Paid",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 313,
+        "title": "Amazon S3 – Security",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 314,
+        "title": "Amazon S3 – Object Encryption",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-encryption-073"
+        ]
+      },
+      {
+        "page": 315,
+        "title": "Amazon S3 Encryption – SSE-S3",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-encryption-073"
+        ]
+      },
+      {
+        "page": 316,
+        "title": "Amazon S3 Encryption – SSE-KMS",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-encryption-073"
+        ]
+      },
+      {
+        "page": 317,
+        "title": "SSE-KMS Limitation",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 318,
+        "title": "Amazon S3 Encryption – SSE-C",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-encryption-073"
+        ]
+      },
+      {
+        "page": 319,
+        "title": "Amazon S3 Encryption – Client-Side Encryption Amazon S3 S3 Bucket",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-encryption-073"
+        ]
+      },
+      {
+        "page": 320,
+        "title": "Amazon S3 – Encryption in transit (SSL/TLS)",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-transport-074"
+        ]
+      },
+      {
+        "page": 321,
+        "title": "Amazon S3 – Force Encryption in Transitaws:SecureTransport Account B S3 Bucket(my-bucket) Bucket Policy User User http https",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-transport-074"
+        ]
+      },
+      {
+        "page": 322,
+        "title": "Amazon S3 – Default Encryption vs. Bucket Policies",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-transport-074"
+        ]
+      },
+      {
+        "page": 323,
+        "title": "What is CORS?",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-cors-075"
+        ]
+      },
+      {
+        "page": 324,
+        "title": "What is CORS? Web Server(Origin)https://www.example.com Web Server(Cross-Origin)https://www.other.com Web BrowserHTTPS Reques",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-cors-075"
+        ]
+      },
+      {
+        "page": 325,
+        "title": "Amazon S3 – CORS",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-cors-075"
+        ]
+      },
+      {
+        "page": 326,
+        "title": "Amazon S3 – MFA Delete",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-mfadelete-076"
+        ]
+      },
+      {
+        "page": 327,
+        "title": "S3 Access Logs",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-accesslogs-077"
+        ]
+      },
+      {
+        "page": 328,
+        "title": "S3 Access Logs: Warning",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-accesslogs-077"
+        ]
+      },
+      {
+        "page": 329,
+        "title": "Amazon S3 – Pre-Signed URLs",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-presigned-078"
+        ]
+      },
+      {
+        "page": 330,
+        "title": "S3 Glacier Vault Lock",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-objectlock-079"
+        ]
+      },
+      {
+        "page": 331,
+        "title": "S3 Object Lock (versioning must be enabled)",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-objectlock-079"
+        ]
+      },
+      {
+        "page": 332,
+        "title": "S3 – Access Points S3 Bucket /finance/… /sales/… Simple BucketPolicy FinanceAccess Point SalesAccess Point AnalyticsAccess Po",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-accesspoints-080"
+        ]
+      },
+      {
+        "page": 333,
+        "title": "S3 – Access Points – VPC Origin",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-s3-accesspoints-080"
+        ]
+      },
+      {
+        "page": 334,
+        "title": "S3 Object Lambda",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 335,
+        "title": "CloudFront & Global Accelerator",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 336,
+        "title": "Amazon CloudFront",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-edge-cloudfront-081"
+        ]
+      },
+      {
+        "page": 337,
+        "title": "CloudFront – Origins",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-edge-cloudfront-081"
+        ]
+      },
+      {
+        "page": 338,
+        "title": "CloudFront at a high level CloudFront Edge Location Forward Request to your Origin Local Cache S3 HTTPor Origin Client GET /b",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-edge-cloudfront-081"
+        ]
+      },
+      {
+        "page": 339,
+        "title": "CloudFront – S3 as an Origin EdgeLos Angeles EdgeMumbai EdgeMelbourne Origin (S3 bucket) Public www Public wwwEdgeSão Paulo O",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-edge-cloudfront-081"
+        ]
+      },
+      {
+        "page": 340,
+        "title": "CloudFront vs S3 Cross Region Replication",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 341,
+        "title": "CloudFront – ALB or EC2 as an originUsing VPC Origins",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-edge-privateorigin-082"
+        ]
+      },
+      {
+        "page": 342,
+        "title": "CloudFront – ALB or EC2 as an originUsing Public Networkhttp://d7uri8nf7uskq.cloudfront.net/tools/list-cloudfront-ips Edge Lo",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-edge-privateorigin-082"
+        ]
+      },
+      {
+        "page": 343,
+        "title": "CloudFront Geo Restriction",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-edge-georestriction-084"
+        ]
+      },
+      {
+        "page": 344,
+        "title": "CloudFront - Pricing",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 345,
+        "title": "CloudFront – Price Classes",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 346,
+        "title": "CloudFront - Price Class Prices Class 100Prices Class 200Prices Class All",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 347,
+        "title": "CloudFront – Cache Invalidations",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-edge-invalidation-083"
+        ]
+      },
+      {
+        "page": 348,
+        "title": "Global users for our application",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 349,
+        "title": "Unicast IP vs Anycast IP",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 350,
+        "title": "AWS Global Accelerator",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-edge-accelerator-085"
+        ]
+      },
+      {
+        "page": 351,
+        "title": "AWS Global Accelerator",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-edge-accelerator-085"
+        ]
+      },
+      {
+        "page": 352,
+        "title": "AWS Global Accelerator vs CloudFront",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-edge-accelerator-085"
+        ]
+      },
+      {
+        "page": 353,
+        "title": "AWS Storage Extras",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 354,
+        "title": "AWS Snowball",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-hybrid-offline-086"
+        ]
+      },
+      {
+        "page": 355,
+        "title": "Data Migrations with SnowballTime to Transfer100 Mbps1Gbps10Gbps10 TB12 days30 hours3 hours100 TB124 days12 days30 hours1 PB3",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-hybrid-offline-086"
+        ]
+      },
+      {
+        "page": 356,
+        "title": "Diagrams",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 357,
+        "title": "What is Edge Computing?",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 358,
+        "title": "Solution Architecture: Snowball into Glacier",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 359,
+        "title": "Amazon FSx – Overview",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 360,
+        "title": "Amazon FSx for Windows (File Server)",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-storage-fsxwindows-087"
+        ]
+      },
+      {
+        "page": 361,
+        "title": "Amazon FSx for Lustre",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-storage-lustre-088"
+        ]
+      },
+      {
+        "page": 362,
+        "title": "FSx Lustre - File System Deployment Options",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-storage-lustre-088"
+        ]
+      },
+      {
+        "page": 363,
+        "title": "Amazon FSx for NetApp ONTAP",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-storage-ontap-089"
+        ]
+      },
+      {
+        "page": 364,
+        "title": "Amazon FSx for OpenZFS",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-storage-openzfs-090"
+        ]
+      },
+      {
+        "page": 365,
+        "title": "Hybrid Cloud for Storage",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 366,
+        "title": "AWS Storage Cloud Native OptionsBlock File Object Amazon EBSEC2 InstanceStoreAmazon EFSAmazon FSxAmazon S3Amazon Glacier",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 367,
+        "title": "AWS Storage Gateway",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-hybrid-filegateway-091"
+        ]
+      },
+      {
+        "page": 368,
+        "title": "Amazon S3 File Gateway",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-hybrid-filegateway-091"
+        ]
+      },
+      {
+        "page": 369,
+        "title": "Volume Gateway",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-hybrid-volumegateway-092"
+        ]
+      },
+      {
+        "page": 370,
+        "title": "Tape Gateway",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-hybrid-tapegateway-093"
+        ]
+      },
+      {
+        "page": 371,
+        "title": "AWS Storage Gateway On-Premises File Gatewaylocal cache Volume Gatewaylocal cache Tape Gatewaylocal cache Application Server ",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 372,
+        "title": "AWS Transfer Family",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-hybrid-transferfamily-094"
+        ]
+      },
+      {
+        "page": 373,
+        "title": "AWS Transfer Family AWS Transfer Family AWS Transfer for SFTP AWS Transfer for FTPS AWS Transfer for FTP(only within VPC) Ama",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-hybrid-transferfamily-094"
+        ]
+      },
+      {
+        "page": 374,
+        "title": "AWS DataSync",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-hybrid-datasync-095"
+        ]
+      },
+      {
+        "page": 375,
+        "title": "AWS DataSyncNFS / SMB to AWS (S3, EFS, FSx…) On-Premises NFS or SMBServerAWS DataSyncAgent NFS or SMB Region AWSDataSync AWS ",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-hybrid-datasync-095"
+        ]
+      },
+      {
+        "page": 376,
+        "title": "AWS DataSyncTransfer between AWS storage ser vices AWS DataSynccopy data and metadatabetween AWS Storage Services Amazon FSx ",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-hybrid-datasync-095"
+        ]
+      },
+      {
+        "page": 377,
+        "title": "Storage Comparison",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 378,
+        "title": "AWS Integration & MessagingSQS, SNS & Kinesis",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 379,
+        "title": "Section Introduction",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 380,
+        "title": "Section Introduction",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 381,
+        "title": "Amazon SQSWhat’s a queue?Producer Producer Producer SQS Queue Consumer Consumer Consumer Consumer Send messagesPoll messages",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-messaging-sqs-096"
+        ]
+      },
+      {
+        "page": 382,
+        "title": "Amazon SQS – Standard Queue",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-messaging-sqs-096"
+        ]
+      },
+      {
+        "page": 383,
+        "title": "SQS – Producing Messages",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-messaging-sqs-096"
+        ]
+      },
+      {
+        "page": 384,
+        "title": "SQS – Consuming Messages",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-messaging-sqs-096"
+        ]
+      },
+      {
+        "page": 385,
+        "title": "SQS – Multiple EC2 Instances Consumers SQS Queue poll",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 386,
+        "title": "SQS with Auto Scaling Group (ASG) SQS Queue CloudWatch Metric – Queue LengthApproximateNumberOfMessages Auto Scaling Group EC",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-messaging-backlog-100"
+        ]
+      },
+      {
+        "page": 387,
+        "title": "SQS to decouple between application tiers SQS Queue(infinitely scalable) Auto-Scaling Back-end processingapplication Front-en",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 388,
+        "title": "Amazon SQS - Security",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 389,
+        "title": "SQS – Message Visibility Timeout",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-messaging-visibility-097"
+        ]
+      },
+      {
+        "page": 390,
+        "title": "SQS visibility timeout timeline",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-messaging-visibility-097"
+        ]
+      },
+      {
+        "page": 391,
+        "title": "Amazon SQS - Long Polling",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-messaging-longpolling-098"
+        ]
+      },
+      {
+        "page": 392,
+        "title": "Amazon SQS – FIFO Queue",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-messaging-fifo-099"
+        ]
+      },
+      {
+        "page": 393,
+        "title": "SQS with Auto Scaling Group (ASG) SQS Queue CloudWatch Metric – Queue LengthApproximateNumberOfMessages Auto Scaling Group EC",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-messaging-backlog-100"
+        ]
+      },
+      {
+        "page": 394,
+        "title": "If the load is too big, some transactions may be lost Applicationrequests Auto-Scaling Insert transactions Amazon RDS Amazon ",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 395,
+        "title": "SQS as a buffer to database writes SQS Queue(infinitely scalable) Auto-Scaling Dequeue message Enqueue messagerequests SendMe",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-messaging-backlog-100"
+        ]
+      },
+      {
+        "page": 396,
+        "title": "SQS to decouple between application tiers SQS Queue(infinitely scalable) Auto-Scaling Back-end processingapplication Front-en",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 397,
+        "title": "Amazon SNS",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-messaging-sns-101"
+        ]
+      },
+      {
+        "page": 398,
+        "title": "Amazon SNS",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 399,
+        "title": "SNS integrates with a lot of AWS services",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 400,
+        "title": "Amazon SNS – How to publish",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-messaging-sns-101"
+        ]
+      },
+      {
+        "page": 401,
+        "title": "Amazon SNS – Security",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 402,
+        "title": "SNS + SQS: Fan Out",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-messaging-sns-101"
+        ]
+      },
+      {
+        "page": 403,
+        "title": "Application: S3 Events to multiple queues",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 404,
+        "title": "Application: SNS to Amazon S3 through Kinesis Data Firehose SNS TopicBuying Service Kinesis DataFirehose Amazon S3",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 405,
+        "title": "Amazon SNS – FIFO T opic",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 406,
+        "title": "SNS FIFO + SQS FIFO: Fan Out",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 407,
+        "title": "SNS – Message Filtering",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-messaging-sns-101"
+        ]
+      },
+      {
+        "page": 408,
+        "title": "Amazon Kinesis Data Streams",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-messaging-kinesis-102"
+        ]
+      },
+      {
+        "page": 409,
+        "title": "Kinesis Data Streams",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-messaging-kinesis-102"
+        ]
+      },
+      {
+        "page": 410,
+        "title": "Kinesis Data Streams – Capacity Modes",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-messaging-kinesis-102"
+        ]
+      },
+      {
+        "page": 411,
+        "title": "Amazon Data Firehose AWS Destinations Amazon S3Amazon RedshiftAmazon OpenSearch HTTP Endpoint Producers Applications Client K",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-messaging-firehose-103"
+        ]
+      },
+      {
+        "page": 412,
+        "title": "Amazon Data Firehose",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-messaging-firehose-103"
+        ]
+      },
+      {
+        "page": 413,
+        "title": "Kinesis Data Streams vs Amazon Data Firehose Kinesis Data StreamsAmazon Data Firehose",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-messaging-firehose-103"
+        ]
+      },
+      {
+        "page": 414,
+        "title": "SQS vs SNS vs KinesisSQS:",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 415,
+        "title": "Amazon MQ",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-messaging-mq-104"
+        ]
+      },
+      {
+        "page": 416,
+        "title": "Amazon MQ – High Availability Region(us-east-1)Availability Zone(us-east-1a) Availability Zone(us-east-1b) ACTIVE STANDBY Ama",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-messaging-mq-104"
+        ]
+      },
+      {
+        "page": 417,
+        "title": "Containers on AWS",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 418,
+        "title": "What is Docker?",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-containers-fundamentals-235"
+        ]
+      },
+      {
+        "page": 419,
+        "title": "Docker on an OSServer (e.g., EC2 instance)",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 420,
+        "title": "Where are Docker images stored?",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-containers-fundamentals-235"
+        ]
+      },
+      {
+        "page": 421,
+        "title": "Docker vs. Virtual Machines",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-containers-fundamentals-235"
+        ]
+      },
+      {
+        "page": 422,
+        "title": "Getting Started with Docker Dockerfile imageBuild Run container Docker Repository AmazonECR PushPull",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-containers-fundamentals-235"
+        ]
+      },
+      {
+        "page": 423,
+        "title": "Docker Containers Management on AWS",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 424,
+        "title": "Amazon ECS - EC2 Launch Type",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-containers-ecs-105"
+        ]
+      },
+      {
+        "page": 425,
+        "title": "Amazon ECS – Fargate Launch Type",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-containers-ecs-105"
+        ]
+      },
+      {
+        "page": 426,
+        "title": "Amazon ECS – IAM Roles for ECS",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-containers-taskrole-106"
+        ]
+      },
+      {
+        "page": 427,
+        "title": "Amazon ECS – Load Balancer Integrations",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 428,
+        "title": "Amazon ECS – Data Volumes (EFS)",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 429,
+        "title": "ECS Service Auto Scaling",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-containers-ecsscaling-107"
+        ]
+      },
+      {
+        "page": 430,
+        "title": "EC2 Launch Type – Auto Scaling EC2 Instances",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-containers-ecsscaling-107"
+        ]
+      },
+      {
+        "page": 431,
+        "title": "ECS Scaling – Service CPU Usage Example Service A Auto Scaling Group Scale ECS Capacity Providers(optional) Auto Scaling Task",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-containers-ecsscaling-107"
+        ]
+      },
+      {
+        "page": 432,
+        "title": "ECS tasks invoked by Event Bridge Client Upload object AmazonEventBridge VPC Region Amazon ECS Cluster AWS Fargate Task (new)",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 433,
+        "title": "ECS tasks invoked by Event Bridge Schedule AmazonEventBridgeAmazon ECS Cluster AWS Fargate Task (new)Rule: Run ECS Task Amazo",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 434,
+        "title": "ECS – SQS Queue Example Service A ECS Service Auto Scaling Task 1 Task 2 Task 3 SQS QueueMessagesPoll for messages",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 435,
+        "title": "ECS – Intercept Stopped Tasks using EventBridge ECS Task Containers exited EventBridge event Event Pattern SNStrigger Adminis",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 436,
+        "title": "Amazon ECR",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-containers-ecr-108"
+        ]
+      },
+      {
+        "page": 437,
+        "title": "Amazon EKS Overview",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-containers-eks-109"
+        ]
+      },
+      {
+        "page": 438,
+        "title": "EKS multi-AZ deployment diagram",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-containers-eks-109"
+        ]
+      },
+      {
+        "page": 439,
+        "title": "Amazon EKS – Node Types",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-containers-eks-109"
+        ]
+      },
+      {
+        "page": 440,
+        "title": "Amazon EKS – Data Volumes",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-containers-eks-109"
+        ]
+      },
+      {
+        "page": 441,
+        "title": "AWS App Runner",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-containers-apprunner-110"
+        ]
+      },
+      {
+        "page": 442,
+        "title": "AWS App2Container (A2C)",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 443,
+        "title": "AWS App2Container (A2C) Discover & Analyzecreate app inventoryand analyze runtimedependencies Extract & Containerizeextract a",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 444,
+        "title": "Serverless Overview",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 445,
+        "title": "What’s serverless?",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 446,
+        "title": "Serverless in AWS",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 447,
+        "title": "Why AWS Lambda",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-serverless-lambda-111"
+        ]
+      },
+      {
+        "page": 448,
+        "title": "Benefits of AWS Lambda",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-serverless-lambda-111"
+        ]
+      },
+      {
+        "page": 449,
+        "title": "AWS Lambda language support",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 450,
+        "title": "AWS Lambda IntegrationsMain ones CloudWatch LogsSNS CognitoSQS S3KinesisAPI GatewayDynamoDB CloudFront CloudWatch EventsEvent",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-serverless-lambda-111"
+        ]
+      },
+      {
+        "page": 451,
+        "title": "Example: Serverless Thumbnail creation New image in S3AWS Lambda FunctionCreates a Thumbnail trigger pushNew thumbnail in S3 ",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-serverless-lambda-111"
+        ]
+      },
+      {
+        "page": 452,
+        "title": "Example: Serverless CRON Job CloudWatch EventsEventBridgeAWS Lambda FunctionPerform a task TriggerEvery 1 hour",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 453,
+        "title": "AWS Lambda Pricing: example",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 454,
+        "title": "AWS Lambda Limits to Know - per region",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-serverless-concurrency-112"
+        ]
+      },
+      {
+        "page": 455,
+        "title": "Lambda Concurrency and Throttling",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-serverless-concurrency-112"
+        ]
+      },
+      {
+        "page": 456,
+        "title": "Lambda Concurrency Issue",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-serverless-concurrency-112"
+        ]
+      },
+      {
+        "page": 457,
+        "title": "Concurrency and Asynchronous Invocations S3 bucket New file event New file event New file event",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-serverless-concurrency-112"
+        ]
+      },
+      {
+        "page": 458,
+        "title": "Cold Starts & Provisioned Concurrency",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-serverless-coldstart-113"
+        ]
+      },
+      {
+        "page": 459,
+        "title": "Reserved and Provisioned Concurrency https://docs.aws.amazon.com/lambda/latest/dg/configuration-concurrency.html",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-serverless-coldstart-113"
+        ]
+      },
+      {
+        "page": 460,
+        "title": "Lambda SnapStart",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-serverless-coldstart-113"
+        ]
+      },
+      {
+        "page": 461,
+        "title": "Customization At The Edge",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-serverless-edgefunctions-114"
+        ]
+      },
+      {
+        "page": 462,
+        "title": "CloudFront Functions & Lambda@Edge Use Cases",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-serverless-edgefunctions-114"
+        ]
+      },
+      {
+        "page": 463,
+        "title": "CloudFront Functions",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-serverless-edgefunctions-114"
+        ]
+      },
+      {
+        "page": 464,
+        "title": "Lambda@Edge",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-serverless-edgefunctions-114"
+        ]
+      },
+      {
+        "page": 465,
+        "title": "CloudFront Functions vs. Lambda@EdgeCloudFront FunctionsLambda@EdgeRuntime SupportJavaScriptNode.js, Python# of RequestsMilli",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-serverless-edgefunctions-114"
+        ]
+      },
+      {
+        "page": 466,
+        "title": "CloudFront Functions vs. Lambda@Edge - Use CasesCloudFront Functions",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 467,
+        "title": "Lambda by default VPC & Private Subnet AWS Cloud Private RDS DynamoDB Not working Default Lambda Deployment Public www works",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-serverless-lambdavpc-115"
+        ]
+      },
+      {
+        "page": 468,
+        "title": "Private subnet Lambda in VPC",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-serverless-lambdavpc-115"
+        ]
+      },
+      {
+        "page": 469,
+        "title": "Lambda with RDS Proxy",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-serverless-lambdavpc-115"
+        ]
+      },
+      {
+        "page": 470,
+        "title": "Invoking Lambda from RDS & Aurora",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 471,
+        "title": "RDS Event Notifications",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 472,
+        "title": "Amazon DynamoDB",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-dynamodb-datamodel-116"
+        ]
+      },
+      {
+        "page": 473,
+        "title": "DynamoDB - Basics",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-dynamodb-datamodel-116"
+        ]
+      },
+      {
+        "page": 474,
+        "title": "DynamoDB – Table example User_IDGame_IDScoreResultPartition Key 7791a3d6-…873e0634-…873e0634-… Primary Key 442192 Win 452177 ",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-dynamodb-datamodel-116"
+        ]
+      },
+      {
+        "page": 475,
+        "title": "DynamoDB – Read/Write Capacity Modes",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-dynamodb-capacity-117"
+        ]
+      },
+      {
+        "page": 476,
+        "title": "DynamoDB Accelerator (DAX)",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-dynamodb-dax-118"
+        ]
+      },
+      {
+        "page": 477,
+        "title": "DynamoDB Accelerator (DAX) vs. ElastiCache DynamoDB Accelerator (DAX)AmazonDynamoDB AmazonElastiCache - Individual objects ca",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-dynamodb-dax-118"
+        ]
+      },
+      {
+        "page": 478,
+        "title": "DynamoDB – Stream Processing",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-dynamodb-streams-119"
+        ]
+      },
+      {
+        "page": 479,
+        "title": "DynamoDB Streams Application TableDynamoDBStreams Kinesis DataStreams Processing Layer DynamoDBKCL AdapterLambda Amazon SNSme",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-dynamodb-streams-119"
+        ]
+      },
+      {
+        "page": 480,
+        "title": "DynamoDB Global Tables",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-dynamodb-globaltables-120"
+        ]
+      },
+      {
+        "page": 481,
+        "title": "DynamoDB – Time T o Live (TTL)",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-dynamodb-ttl-121"
+        ]
+      },
+      {
+        "page": 482,
+        "title": "DynamoDB – Backups for disaster recovery",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-dynamodb-recovery-122"
+        ]
+      },
+      {
+        "page": 483,
+        "title": "DynamoDB – Integration with Amazon S3",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-dynamodb-recovery-122"
+        ]
+      },
+      {
+        "page": 484,
+        "title": "Example: Building a Serverless API REST APIPROXY REQUESTSCRUD API GatewayClient Lambda DynamoDB",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-serverless-apigateway-123"
+        ]
+      },
+      {
+        "page": 485,
+        "title": "AWS API Gateway",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-serverless-apigateway-123"
+        ]
+      },
+      {
+        "page": 486,
+        "title": "API Gateway – Integrations High Level",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-serverless-apigateway-123"
+        ]
+      },
+      {
+        "page": 487,
+        "title": "API Gateway – AWS Service IntegrationKinesis Data Streams example API GatewayKinesis DataStreamsKinesis DataFirehoseAmazon S3",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-serverless-apigateway-123"
+        ]
+      },
+      {
+        "page": 488,
+        "title": "API Gateway - Endpoint Types",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-serverless-apiendpoints-124"
+        ]
+      },
+      {
+        "page": 489,
+        "title": "API Gateway – Security",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-serverless-apiendpoints-124"
+        ]
+      },
+      {
+        "page": 490,
+        "title": "AWS Step Functions",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-serverless-stepfunctions-125"
+        ]
+      },
+      {
+        "page": 491,
+        "title": "Amazon Cognito",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-identity-cognito-126"
+        ]
+      },
+      {
+        "page": 492,
+        "title": "Cognito User Pools (CUP) – User Features",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-identity-cognito-126"
+        ]
+      },
+      {
+        "page": 493,
+        "title": "Cognito User Pools (CUP) - Integrations",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-identity-cognito-126"
+        ]
+      },
+      {
+        "page": 494,
+        "title": "Cognito Identity Pools (Federated Identities)",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-identity-cognito-126"
+        ]
+      },
+      {
+        "page": 495,
+        "title": "Cognito Identity Pools – Diagram Cognito Identity Pools Web & Mobile Applications Social Identity Provider Login and Get Toke",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-identity-cognito-126"
+        ]
+      },
+      {
+        "page": 496,
+        "title": "Cognito Identity PoolsRow Level Security in DynamoDB",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 497,
+        "title": "Serverless Architectures",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 498,
+        "title": "Mobile application: MyT odoList",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 499,
+        "title": "Mobile app: REST API layer Amazon API Gateway Amazon Cognito AWS LambdaAmazon DynamoDB Mobile client REST HTTPSinvoke query a",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 500,
+        "title": "Mobile app: giving users access to S3 Amazon API Gateway Amazon Cognito AWS LambdaAmazon DynamoDB Amazon S3 Mobile client Sto",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 501,
+        "title": "Mobile app: high read throughput, static data Amazon API Gateway Amazon Cognito AWS Lambda DynamoDB Amazon S3 Mobile client S",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-architecture-cachinglayers-127"
+        ]
+      },
+      {
+        "page": 502,
+        "title": "Mobile app: caching at the API Gateway Amazon API Gateway Amazon Cognito AWS Lambda DynamoDB Amazon S3 Mobile client Store/re",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-architecture-cachinglayers-127"
+        ]
+      },
+      {
+        "page": 503,
+        "title": "In this lecture",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 504,
+        "title": "Serverless hosted website: MyBlog.com",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 505,
+        "title": "Serving static content, globallyAmazon CloudFrontGlobal distribution Amazon S3 Client Interaction with edge locations",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 506,
+        "title": "Serving static content, globally, securelyAmazon CloudFrontGlobal distribution Amazon S3 Client Interaction with edge locatio",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 507,
+        "title": "Adding a public serverless REST APIAmazon CloudFrontGlobal distribution Amazon S3 Client Interaction with edge locationsOAC: ",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 508,
+        "title": "Leveraging DynamoDB Global TablesAmazon CloudFrontGlobal distribution Amazon S3 Client Interaction with edge locationsOAC: Or",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 509,
+        "title": "User Welcome email flowAmazon CloudFrontGlobal distribution Amazon S3 Client Interaction with edge locationsOAC: Origin Acces",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 510,
+        "title": "Thumbnail Generation flowAmazon CloudFrontGlobal distribution Amazon S3 Client Interaction with edge locationsOAC: Origin Acc",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 511,
+        "title": "AWS Hosted Website Summary",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 512,
+        "title": "Micro Services architecture",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 513,
+        "title": "Micro Services Environment Amazon API Gateway AWS LambdaElastiCache Elastic Load Balancing Amazon EC2 Auto ScalingAmazon RDS ",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 514,
+        "title": "Discussions on Micro Services",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 515,
+        "title": "Software updates offloading",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 516,
+        "title": "Our application current state Availability zone 1 to 3 Availability zone 1 Auto Scaling group Availability zone 2 Availabilit",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 517,
+        "title": "Easy way to fix things! Availability zone 1 to 3 Availability zone 1 Auto Scaling group Availability zone 2 Availability zone",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 518,
+        "title": "Why CloudFront?",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 519,
+        "title": "Databases in AWS",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 520,
+        "title": "Choosing the Right Database",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-databases-selection-128"
+        ]
+      },
+      {
+        "page": 521,
+        "title": "Database Types",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-databases-selection-128"
+        ]
+      },
+      {
+        "page": 522,
+        "title": "Amazon RDS – Summary",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 523,
+        "title": "",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 524,
+        "title": "Amazon ElastiCache – Summary",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 525,
+        "title": "Amazon DynamoDB – Summary",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 526,
+        "title": "Amazon S3 – Summary",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 527,
+        "title": "DocumentDB",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-databases-documentdb-129"
+        ]
+      },
+      {
+        "page": 528,
+        "title": "Amazon Neptune",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-databases-neptune-130"
+        ]
+      },
+      {
+        "page": 529,
+        "title": "Amazon Neptune – Streams",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-databases-neptune-130"
+        ]
+      },
+      {
+        "page": 530,
+        "title": "Amazon Keyspaces (for Apache Cassandra)",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-databases-keyspaces-131"
+        ]
+      },
+      {
+        "page": 531,
+        "title": "Amazon Timestream",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-databases-timestream-132"
+        ]
+      },
+      {
+        "page": 532,
+        "title": "Amazon Timestream – Architecture AmazonTimestream AWS IoT Kinesis DataStreams Lambda Prometheus Amazon MSK Kinesis Data Analy",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-databases-timestream-132"
+        ]
+      },
+      {
+        "page": 533,
+        "title": "Data & Analytics",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 534,
+        "title": "Amazon Athena",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-analytics-athena-133"
+        ]
+      },
+      {
+        "page": 535,
+        "title": "Amazon Athena – Performance Improvement",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-analytics-athena-133"
+        ]
+      },
+      {
+        "page": 536,
+        "title": "Amazon Athena – Federated Query",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-analytics-athena-133"
+        ]
+      },
+      {
+        "page": 537,
+        "title": "Redshift Overview",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-analytics-redshift-134"
+        ]
+      },
+      {
+        "page": 538,
+        "title": "Redshift Cluster",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-analytics-redshift-134"
+        ]
+      },
+      {
+        "page": 539,
+        "title": "Redshift – Snapshots & DR",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-analytics-redshift-134"
+        ]
+      },
+      {
+        "page": 540,
+        "title": "Loading data into Redshift: Large inserts are MUCH betterAmazon Kinesis Data FirehoseS3 using COPY command Amazon KinesisData",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 541,
+        "title": "Redshift Spectrum",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-analytics-redshift-134"
+        ]
+      },
+      {
+        "page": 542,
+        "title": "Amazon OpenSearch Service",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-analytics-opensearch-135"
+        ]
+      },
+      {
+        "page": 543,
+        "title": "OpenSearch patternsDynamoDB DynamoDB TableDynamoDB Stream Lambda Function Amazon OpenSearch API to retrieve items API to sear",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-analytics-opensearch-135"
+        ]
+      },
+      {
+        "page": 544,
+        "title": "OpenSearch patternsCloudWatch LogsCloudWatch LogsSubscription FilterLambda Function(managed by AWS) Amazon OpenSearch CloudWa",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-analytics-opensearch-135"
+        ]
+      },
+      {
+        "page": 545,
+        "title": "OpenSearch patternsKinesis Data Streams & Kinesis Data Firehose Kinesis DataStreams Kinesis DataFirehose(near real time) Amaz",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-analytics-opensearch-135"
+        ]
+      },
+      {
+        "page": 546,
+        "title": "Amazon EMR",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-analytics-emr-136"
+        ]
+      },
+      {
+        "page": 547,
+        "title": "Amazon EMR – Node types & purchasing",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-analytics-emr-136"
+        ]
+      },
+      {
+        "page": 548,
+        "title": "Amazon QuickSight",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-analytics-quicksight-137"
+        ]
+      },
+      {
+        "page": 549,
+        "title": "QuickSight Integrations QuickSight RDS Redshift Athena S3 ELF & CLF(Log Format) OpenSearch Aurora Timestream Data Sources (AW",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-analytics-quicksight-137"
+        ]
+      },
+      {
+        "page": 550,
+        "title": "QuickSight – Dashboard & Analysis",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-analytics-quicksight-137"
+        ]
+      },
+      {
+        "page": 551,
+        "title": "AWS Glue",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-analytics-glue-138"
+        ]
+      },
+      {
+        "page": 552,
+        "title": "AWS Glue – Convert data into Parquet format InputS3 Bucket Import CSVParquet OutputS3 Bucket Glue ETL AmazonAthenaAnalyze Eve",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-analytics-glue-138"
+        ]
+      },
+      {
+        "page": 553,
+        "title": "Glue Data Catalog: catalog of datasets JDBC Amazon S3 Amazon RDS Amazon DynamoDB AWS GlueData CatalogWrites Metadata Database",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-analytics-glue-138"
+        ]
+      },
+      {
+        "page": 554,
+        "title": "Glue – things to know at a high-level",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-analytics-glue-138"
+        ]
+      },
+      {
+        "page": 555,
+        "title": "AWS Lake Formation",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-analytics-lakeformation-139"
+        ]
+      },
+      {
+        "page": 556,
+        "title": "AWS Lake Formation Data Sources Amazon S3 RDS On-PremisesDatabase (SQL & NoSQL)AWS Lake Formation Source CrawlersETL and Data",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-analytics-lakeformation-139"
+        ]
+      },
+      {
+        "page": 557,
+        "title": "AWS Lake Formation Centralized Permissions Example Data Sources Amazon S3 RDS AWS Lake Formation Access ControlColumn-level s",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-analytics-lakeformation-139"
+        ]
+      },
+      {
+        "page": 558,
+        "title": "Amazon Managed Service for Apache Flink",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-analytics-flink-140"
+        ]
+      },
+      {
+        "page": 559,
+        "title": "Amazon Managed Streaming for Apache Kafka (Amazon MSK)",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-analytics-msk-141"
+        ]
+      },
+      {
+        "page": 560,
+        "title": "Apache Kafka at a high level Kinesis IoT RDS Etc… MSK Cluster Etc… Broker 2 Broker 3 Broker 1Producers(your code) Consumers(y",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-analytics-msk-141"
+        ]
+      },
+      {
+        "page": 561,
+        "title": "Kinesis Data Streams vs. Amazon MSK Kinesis Data Streams",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-analytics-msk-141"
+        ]
+      },
+      {
+        "page": 562,
+        "title": "Amazon MSK Consumers Amazon MSK Kinesis Data Analytics for Apache Flink AWS GlueStreaming ETL JobsPowered by Apache Spark Str",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-analytics-msk-141"
+        ]
+      },
+      {
+        "page": 563,
+        "title": "Big Data Ingestion Pipeline",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-analytics-ingestionpipeline-233"
+        ]
+      },
+      {
+        "page": 564,
+        "title": "Big Data Ingestion Pipeline diagram",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-analytics-ingestionpipeline-233"
+        ]
+      },
+      {
+        "page": 565,
+        "title": "Big Data Ingestion Pipeline discussion",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-analytics-ingestionpipeline-233"
+        ]
+      },
+      {
+        "page": 566,
+        "title": "Machine Learning",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 567,
+        "title": "Amazon Rekognition",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-ml-rekognition-142"
+        ]
+      },
+      {
+        "page": 568,
+        "title": "Amazon Rekognition – Content Moderation",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-ml-rekognition-142"
+        ]
+      },
+      {
+        "page": 569,
+        "title": "Amazon Transcribe",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-ml-transcribe-143"
+        ]
+      },
+      {
+        "page": 570,
+        "title": "Amazon Polly",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-ml-polly-144"
+        ]
+      },
+      {
+        "page": 571,
+        "title": "Amazon Polly – Lexicon & SSML",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-ml-polly-144"
+        ]
+      },
+      {
+        "page": 572,
+        "title": "Amazon Translate",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-ml-translate-145"
+        ]
+      },
+      {
+        "page": 573,
+        "title": "Amazon Lex & Connect",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-ml-lexconnect-146"
+        ]
+      },
+      {
+        "page": 574,
+        "title": "Amazon Comprehend",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-ml-comprehend-147"
+        ]
+      },
+      {
+        "page": 575,
+        "title": "Amazon Comprehend Medical",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-ml-comprehend-147"
+        ]
+      },
+      {
+        "page": 576,
+        "title": "Amazon SageMaker AI",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-ml-sagemaker-148"
+        ]
+      },
+      {
+        "page": 577,
+        "title": "Amazon Kendra",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-ml-kendra-149"
+        ]
+      },
+      {
+        "page": 578,
+        "title": "Amazon Personalize",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-ml-personalize-150"
+        ]
+      },
+      {
+        "page": 579,
+        "title": "Amazon Textract",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-ml-textract-151"
+        ]
+      },
+      {
+        "page": 580,
+        "title": "AWS Machine Learning - Summary",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 581,
+        "title": "AWS Monitoring, Audit and PerformanceCloudWatch, CloudTrail & AWS Config",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 582,
+        "title": "Amazon CloudWatch Metrics",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-observability-metrics-152"
+        ]
+      },
+      {
+        "page": 583,
+        "title": "CloudWatch Metric Streams",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-observability-metrics-152"
+        ]
+      },
+      {
+        "page": 584,
+        "title": "CloudWatch Logs",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-observability-logs-153"
+        ]
+      },
+      {
+        "page": 585,
+        "title": "CloudWatch Logs - Sources",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 586,
+        "title": "CloudWatch Logs Insights https://mng.workshop.aws/operations-2022/detect/cwlogs.html",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-observability-logs-153"
+        ]
+      },
+      {
+        "page": 587,
+        "title": "CloudWatch Logs Insights",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 588,
+        "title": "CloudWatch Logs – S3 Export",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-observability-logs-153"
+        ]
+      },
+      {
+        "page": 589,
+        "title": "CloudWatch Logs Subscriptions",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-observability-logs-153"
+        ]
+      },
+      {
+        "page": 590,
+        "title": "CloudWatch Logs AggregationMulti-Account & Multi Region CloudWatch LogsSubscription Filter CloudWatch LogsSubscription Filter",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 591,
+        "title": "CloudWatch Logs Subscriptions",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 592,
+        "title": "CloudWatch Logs for EC2",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 593,
+        "title": "CloudWatch Logs Agent & Unified Agent",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-observability-metrics-152"
+        ]
+      },
+      {
+        "page": 594,
+        "title": "CloudWatch Unified Agent – Metrics",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-observability-metrics-152"
+        ]
+      },
+      {
+        "page": 595,
+        "title": "CloudWatch Alarms",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-observability-alarms-154"
+        ]
+      },
+      {
+        "page": 596,
+        "title": "CloudWatch Alarm Targets",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-observability-alarms-154"
+        ]
+      },
+      {
+        "page": 597,
+        "title": "CloudWatch Alarms – Composite Alarms",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-observability-alarms-154"
+        ]
+      },
+      {
+        "page": 598,
+        "title": "EC2 Instance Recovery CloudWatch AlarmStatusCheckFailed_System",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-observability-alarms-154"
+        ]
+      },
+      {
+        "page": 599,
+        "title": "CloudWatch Alarm: good to know",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 600,
+        "title": "Amazon EventBridge (formerly CloudWatch Events)",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-events-eventbridge-155"
+        ]
+      },
+      {
+        "page": 601,
+        "title": "Amazon EventBridge Rules Example Source EC2 Instance(ex: Start Instance)CodeBuild(ex: failed build) S3 Event(ex: upload objec",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-events-eventbridge-155"
+        ]
+      },
+      {
+        "page": 602,
+        "title": "Amazon EventBridge",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-events-eventbridge-155"
+        ]
+      },
+      {
+        "page": 603,
+        "title": "Amazon EventBridge – Schema Registry",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-events-eventbridge-155"
+        ]
+      },
+      {
+        "page": 604,
+        "title": "Amazon EventBridge – Resource-based Policy",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-events-eventbridge-155"
+        ]
+      },
+      {
+        "page": 605,
+        "title": "CloudWatch Container Insights",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 606,
+        "title": "CloudWatch Lambda Insights",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 607,
+        "title": "CloudWatch Contributor Insights",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 608,
+        "title": "CloudWatch Application Insights",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 609,
+        "title": "CloudWatch Insights and Operational Visibility",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 610,
+        "title": "AWS CloudTrail",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-audit-cloudtrail-156"
+        ]
+      },
+      {
+        "page": 611,
+        "title": "CloudTrail Diagram SDK CLI Console CloudTrail Console Inspect & Audit CloudWatch Logs S3 Bucket IAM Users &IAM Roles",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-audit-cloudtrail-156"
+        ]
+      },
+      {
+        "page": 612,
+        "title": "CloudTrail Events",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-audit-cloudtrail-156"
+        ]
+      },
+      {
+        "page": 613,
+        "title": "CloudTrail Insights",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 614,
+        "title": "CloudTrail Events Retention",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-audit-cloudtrail-156"
+        ]
+      },
+      {
+        "page": 615,
+        "title": "Amazon EventBridge – Intercept API Calls CloudTrail(any API call)AmazonEventBridge SNS event DynamoDB Log API call User alert",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 616,
+        "title": "Amazon EventBridge + CloudTrail CloudTrail EventBridge IAMIAM Role UserAssumeRole API Call logs event SNS CloudTrailEC2 UserA",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 617,
+        "title": "AWS Config",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-audit-config-157"
+        ]
+      },
+      {
+        "page": 618,
+        "title": "Config Rules",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-audit-config-157"
+        ]
+      },
+      {
+        "page": 619,
+        "title": "AWS Config Resource",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-audit-config-157"
+        ]
+      },
+      {
+        "page": 620,
+        "title": "Config Rules – Remediations",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-audit-config-157"
+        ]
+      },
+      {
+        "page": 621,
+        "title": "Config Rules – Notifications",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-audit-config-157"
+        ]
+      },
+      {
+        "page": 622,
+        "title": "CloudWatch vs CloudTrail vs Config",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 623,
+        "title": "For an Elastic Load Balancer",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 624,
+        "title": "Advanced Identity in AWS",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 625,
+        "title": "AWS Organizations",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-governance-organizations-158"
+        ]
+      },
+      {
+        "page": 626,
+        "title": "AWS OrganizationsRoot Organizational Unit (OU) Management AccountOU (Dev) Member Accounts OU (Prod) OU (HR) OU (Finance)",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-governance-organizations-158"
+        ]
+      },
+      {
+        "page": 627,
+        "title": "Organizational Units (OU) - ExamplesBusiness Unit Management Account Sales OU Retail OU Finance OU SalesAccount 1SalesAccount",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-governance-organizations-158"
+        ]
+      },
+      {
+        "page": 628,
+        "title": "AWS Organizations",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-governance-organizations-158",
+          "saa-governance-scp-159"
+        ]
+      },
+      {
+        "page": 629,
+        "title": "SCP HierarchyOU (Root) Management Account OU (Sandbox) OU (Test) Account AAccount D FullAWSAccessDeny AthenaFullAWSAccess + D",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-governance-scp-159"
+        ]
+      },
+      {
+        "page": 630,
+        "title": "SCP ExamplesBlocklist and Allowlist strategies More examples: https://docs.aws.amazon.com/organizations/latest/userguide/orgs",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-governance-scp-159"
+        ]
+      },
+      {
+        "page": 631,
+        "title": "AWS Organizations – Tag Policies",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-cost-billingdata-223"
+        ]
+      },
+      {
+        "page": 632,
+        "title": "IAM Conditionsaws:SourceIprestrict the client IP from which the API calls are being made aws:RequestedRegionrestrict the regi",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-iam-conditions-160"
+        ]
+      },
+      {
+        "page": 633,
+        "title": "IAM Conditionsec2:ResourceTagrestrict based on tags aws:MultiFactorAuthPresentto force MFA",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-iam-conditions-160"
+        ]
+      },
+      {
+        "page": 634,
+        "title": "IAM for S3",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-iam-conditions-160"
+        ]
+      },
+      {
+        "page": 635,
+        "title": "Resource Policies & aws:PrincipalOrgID",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-iam-conditions-160"
+        ]
+      },
+      {
+        "page": 636,
+        "title": "IAM Roles vs Resource Based Policies",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-iam-crossaccount-161"
+        ]
+      },
+      {
+        "page": 637,
+        "title": "IAM Roles vs Resource-Based Policies",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-iam-crossaccount-161"
+        ]
+      },
+      {
+        "page": 638,
+        "title": "Amazon EventBridge – Security",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-iam-crossaccount-161"
+        ]
+      },
+      {
+        "page": 639,
+        "title": "IAM Permission Boundaries",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-iam-boundaries-162"
+        ]
+      },
+      {
+        "page": 640,
+        "title": "IAM Permission Boundaries",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-iam-boundaries-162"
+        ]
+      },
+      {
+        "page": 641,
+        "title": "IAM Policy Evaluation Logic",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-iam-boundaries-162"
+        ]
+      },
+      {
+        "page": 642,
+        "title": "Example IAM Policy",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-iam-boundaries-162"
+        ]
+      },
+      {
+        "page": 643,
+        "title": "AWS IAM Identity Center(successor to AWS Single Sign-On)",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-identity-identitycenter-163"
+        ]
+      },
+      {
+        "page": 644,
+        "title": "AWS IAM Identity Center – Login Flow AWS IAM Identity Center",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-identity-identitycenter-163"
+        ]
+      },
+      {
+        "page": 645,
+        "title": "AWS IAM Identity Center AWS Organization Business Cloud Apps Custom SAML2.0-enabled Apps AWS IAM Identity Center Permission S",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-identity-identitycenter-163"
+        ]
+      },
+      {
+        "page": 646,
+        "title": "IAM Identity CenterAWS Organization Management Account OU (Development) Dev Account A Dev Account B OU (Production) Prod Acco",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-identity-identitycenter-163"
+        ]
+      },
+      {
+        "page": 647,
+        "title": "AWS IAM Identity CenterFine-grained Permissions and Assignments",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-identity-identitycenter-163"
+        ]
+      },
+      {
+        "page": 648,
+        "title": "What is Microsoft Active Directory (AD)?",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-identity-directory-164"
+        ]
+      },
+      {
+        "page": 649,
+        "title": "AWS Directory Services",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-identity-directory-164"
+        ]
+      },
+      {
+        "page": 650,
+        "title": "IAM Identity Center – Active Directory Setup",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-identity-directory-164"
+        ]
+      },
+      {
+        "page": 651,
+        "title": "AWS Control Tower",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-governance-controltower-165"
+        ]
+      },
+      {
+        "page": 652,
+        "title": "AWS Control Tower – Guardrails",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-governance-controltower-165"
+        ]
+      },
+      {
+        "page": 653,
+        "title": "AWS Security & EncryptionKMS, Encryption SDK, SSM Parameter Store",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 654,
+        "title": "Why encryption?Encryption in flight (TLS / SSL)",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 655,
+        "title": "Why encryption?Server-side encryption at rest",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 656,
+        "title": "Why encryption?Client-side encryption",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 657,
+        "title": "AWS KMS (Key Management Service)",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-security-kms-166"
+        ]
+      },
+      {
+        "page": 658,
+        "title": "KMS Keys Types",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-security-kms-166"
+        ]
+      },
+      {
+        "page": 659,
+        "title": "AWS KMS (Key Management Service)",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-security-kms-166"
+        ]
+      },
+      {
+        "page": 660,
+        "title": "Copying Snapshots across regions EBS VolumeEncryptedWith KMS EBS SnapshotEncryptedWith KMS KMS Key A KMS Key A Region eu-west",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 661,
+        "title": "KMS Key Policies",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-security-kms-166"
+        ]
+      },
+      {
+        "page": 662,
+        "title": "Copying Snapshots across accounts1.Create a Snapshot, encrypted with your own KMS Key (Customer Managed Key)2.Attach a KMS Ke",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 663,
+        "title": "KMS Multi-Region KeysAWS KMS us-east-1 multi-Region Primary keyarn:aws:kms:us-east-1:111122223333:key/mrk-1234abcd12ab34cd56e",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-security-multiregionkeys-167"
+        ]
+      },
+      {
+        "page": 664,
+        "title": "KMS Multi-Region Keys",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-security-multiregionkeys-167"
+        ]
+      },
+      {
+        "page": 665,
+        "title": "DynamoDB Global Tables and KMS Multi-Region Keys Client-Side encryption",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-security-multiregionkeys-167"
+        ]
+      },
+      {
+        "page": 666,
+        "title": "Global Aurora and KMS Multi-Region Keys Client-Side encryption",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-security-multiregionkeys-167"
+        ]
+      },
+      {
+        "page": 667,
+        "title": "S3 Replication Encryption Considerations",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 668,
+        "title": "AMI Sharing Process Encrypted via KMS1.AMI in Source Account is encrypted with KMS Key from Source Account2.Must modify the i",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 669,
+        "title": "SSM Parameter Store",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-security-parameterstore-168"
+        ]
+      },
+      {
+        "page": 670,
+        "title": "SSM Parameter Store Hierarchy",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-security-parameterstore-168"
+        ]
+      },
+      {
+        "page": 671,
+        "title": "Standard and advanced parameter tiersStandard AdvancedTotal number of parameters allowed(per AWS account and Region) 10,000 1",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-security-parameterstore-168"
+        ]
+      },
+      {
+        "page": 672,
+        "title": "Parameters Policies (for advanced parameters)",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-security-parameterstore-168"
+        ]
+      },
+      {
+        "page": 673,
+        "title": "AWS Secrets Manager",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-security-secretsmanager-169"
+        ]
+      },
+      {
+        "page": 674,
+        "title": "AWS Secrets Manager – Multi-Region Secrets",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-security-secretsmanager-169"
+        ]
+      },
+      {
+        "page": 675,
+        "title": "AWS Certificate Manager (ACM)",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-security-acm-170"
+        ]
+      },
+      {
+        "page": 676,
+        "title": "ACM – Requesting Public Certificates1.List domain names to be included in the certificate",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-security-acm-170"
+        ]
+      },
+      {
+        "page": 677,
+        "title": "ACM – Importing Public Certificates",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-security-acm-170"
+        ]
+      },
+      {
+        "page": 678,
+        "title": "ACM – Integration with ALB Auto Scaling group EC2 InstanceEC2 Instance AWS Certificate Manager Application Load BalancerWith ",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-security-acm-170"
+        ]
+      },
+      {
+        "page": 679,
+        "title": "API Gateway - Endpoint Types",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-security-acm-170"
+        ]
+      },
+      {
+        "page": 680,
+        "title": "ACM – Integration with API Gateway",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-security-acm-170"
+        ]
+      },
+      {
+        "page": 681,
+        "title": "AWS WAF – Web Application Firewall",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-security-waf-171"
+        ]
+      },
+      {
+        "page": 682,
+        "title": "AWS WAF – Web Application Firewall",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-security-waf-171"
+        ]
+      },
+      {
+        "page": 683,
+        "title": "WAF – Fixed IP while using WAF with a Load Balancer",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-security-waf-171"
+        ]
+      },
+      {
+        "page": 684,
+        "title": "AWS Shield: protect from DDoS attack",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-security-shield-172"
+        ]
+      },
+      {
+        "page": 685,
+        "title": "AWS Firewall Manager",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-security-firewallmanager-173"
+        ]
+      },
+      {
+        "page": 686,
+        "title": "WAF vs. Firewall Manager vs. Shield",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-security-firewallmanager-173"
+        ]
+      },
+      {
+        "page": 687,
+        "title": "AWS Best Practices for DDoS ResiliencyEdge Location Mitigation (BP1, BP3)",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 688,
+        "title": "AWS Best Practices for DDoS ResiliencyBest pratices for DDoS mitigation",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 689,
+        "title": "AWS Best Practices for DDoS ResiliencyApplication Layer Defense",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 690,
+        "title": "AWS Best Practices for DDoS ResiliencyAttack surface reduction",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 691,
+        "title": "Amazon GuardDuty",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-security-guardduty-174"
+        ]
+      },
+      {
+        "page": 692,
+        "title": "Amazon GuardDuty VPC Flow Logs CloudTrail Logs DNS Logs (AWS DNS)GuardDuty EventBridge SNS Lambda Optional Features EKS Audit",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-security-guardduty-174"
+        ]
+      },
+      {
+        "page": 693,
+        "title": "Amazon Inspector",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-security-inspector-175"
+        ]
+      },
+      {
+        "page": 694,
+        "title": "What does Amazon Inspector evaluate?",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-security-inspector-175"
+        ]
+      },
+      {
+        "page": 695,
+        "title": "AWS Macie",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-security-macie-176"
+        ]
+      },
+      {
+        "page": 696,
+        "title": "Amazon VPC",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 697,
+        "title": "VPC Components Diagram Region Availability Zone VPC VPC PeeringConnections Private SubnetPublic Subnet InternetGatewayRouter ",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 698,
+        "title": "Understanding CIDR – IPv4",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-cidr-177"
+        ]
+      },
+      {
+        "page": 699,
+        "title": "Understanding CIDR – IPv4",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-cidr-177"
+        ]
+      },
+      {
+        "page": 700,
+        "title": "Understanding CIDR – Subnet Mask",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-cidr-177"
+        ]
+      },
+      {
+        "page": 701,
+        "title": "Understanding CIDR – Little Exercise",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-cidr-177"
+        ]
+      },
+      {
+        "page": 702,
+        "title": "Public vs. Private IP (IPv4)",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 703,
+        "title": "Default VPC Walkthrough",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 704,
+        "title": "VPC in AWS – IPv4",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-subnets-178"
+        ]
+      },
+      {
+        "page": 705,
+        "title": "State of Hands-on Region VPC",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 706,
+        "title": "Adding Subnets Region VPC Availability Zone Private SubnetPublic Subnet",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-subnets-178"
+        ]
+      },
+      {
+        "page": 707,
+        "title": "VPC – Subnet (IPv4)",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-subnets-178"
+        ]
+      },
+      {
+        "page": 708,
+        "title": "Internet Gateway (IGW)",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-internet-179"
+        ]
+      },
+      {
+        "page": 709,
+        "title": "Adding Internet Gateway Region VPC Availability Zone Private SubnetPublic Subnet InternetGateway",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-internet-179"
+        ]
+      },
+      {
+        "page": 710,
+        "title": "Editing Route Tables Region VPC Availability Zone Private SubnetPublic Subnet InternetGateway Router RouteTableSecurity Group",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-internet-179"
+        ]
+      },
+      {
+        "page": 711,
+        "title": "Bastion Hosts",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-bastion-180"
+        ]
+      },
+      {
+        "page": 712,
+        "title": "NAT Instance (outdated, but still at the exam)",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-nat-181"
+        ]
+      },
+      {
+        "page": 713,
+        "title": "NAT Instance Region VPC Availability Zone Private SubnetPublic Subnet InternetGateway Router RouteTableSecurity Group Public ",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 714,
+        "title": "NAT Instance – Comments",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 715,
+        "title": "NAT Gateway",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-nat-181"
+        ]
+      },
+      {
+        "page": 716,
+        "title": "NAT Gateway Region VPC Availability Zone Private SubnetPublic Subnet InternetGateway Router RouteTableSecurity Group Public E",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-nat-181"
+        ]
+      },
+      {
+        "page": 717,
+        "title": "NAT Gateway with High Availability",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-nat-181"
+        ]
+      },
+      {
+        "page": 718,
+        "title": "NAT Gateway vs. NAT InstanceNAT GatewayNAT InstanceAvailabilityHighly available within AZ (create in another AZ)Use a script ",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 719,
+        "title": "Subnet Security Groups & NACLs Security Group EC2 Instance NACL NACL InboundRules SG InboundRules Outbound Allowed(Stateful) ",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-nacl-182"
+        ]
+      },
+      {
+        "page": 720,
+        "title": "Network Access Control List (NACL)",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-nacl-182"
+        ]
+      },
+      {
+        "page": 721,
+        "title": "NACLs Region VPC Availability Zone Private SubnetPublic Subnet InternetGateway Router RouteTableSecurity Group Public EC2 Ins",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 722,
+        "title": "Default NACL",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-nacl-182"
+        ]
+      },
+      {
+        "page": 723,
+        "title": "Response Ephemeral Ports",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-nacl-182"
+        ]
+      },
+      {
+        "page": 724,
+        "title": "NACL with Ephemeral PortsVPC DB Subnet (Private)Web Subnet (Public) Web Tier Database Tier DB InstancePort 3306 Web-NACL DB-N",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 725,
+        "title": "Create NACL rules for each target subnets CIDRVPC DB Subnet – A (Private)Web Subnet - A (Public) Web Subnet - B (Public) DB S",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 726,
+        "title": "Security Group vs. NACLsSecurity GroupNACLOperates at the instance levelOperates at the subnet levelSupports allow rules only",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-ec2-securitygroups-011",
+          "saa-network-nacl-182"
+        ]
+      },
+      {
+        "page": 727,
+        "title": "VPC Peering",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-peering-183"
+        ]
+      },
+      {
+        "page": 728,
+        "title": "VPC Peering – Good to know",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-peering-183"
+        ]
+      },
+      {
+        "page": 729,
+        "title": "VPC Peering Region VPC Availability Zone Private SubnetPublic Subnet InternetGateway Router RouteTableSecurity Group Public E",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 730,
+        "title": "VPC Endpoints Region VPC Availability Zone Private SubnetPublic Subnet InternetGateway Router RouteTableSecurity Group Public",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 731,
+        "title": "VPC Endpoints (AWS PrivateLink)",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-endpoints-184"
+        ]
+      },
+      {
+        "page": 732,
+        "title": "Private Subnet Types of Endpoints",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-endpoints-184"
+        ]
+      },
+      {
+        "page": 733,
+        "title": "Gateway or Interface Endpoint for S3?",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-endpoints-184"
+        ]
+      },
+      {
+        "page": 734,
+        "title": "Private subnet Lambda in VPC accessing DynamoDBAWS Cloud DynamoDB Public subnet NATIGW VPC Gateway EndpointFor DynamoDB",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 735,
+        "title": "VPC Flow Logs",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-flowlogs-185"
+        ]
+      },
+      {
+        "page": 736,
+        "title": "VPC Flow Logs Region VPC Availability Zone Private SubnetPublic Subnet InternetGateway Router RouteTableSecurity Group Public",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 737,
+        "title": "VPC Flow Logs Syntax",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-flowlogs-185"
+        ]
+      },
+      {
+        "page": 738,
+        "title": "VPC Flow Logs – Troubleshoot SG & NACL issues SubnetSecurity Group EC2 Instance NACL NACL InboundRules SG InboundRules Outbou",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-flowlogs-185"
+        ]
+      },
+      {
+        "page": 739,
+        "title": "VPC Flow Logs – Architectures VPC Flow Logs CloudWatch LogsCloudWatch Contributor Insights Top-10 IP addresses CW Alarm Alert",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-flowlogs-185"
+        ]
+      },
+      {
+        "page": 740,
+        "title": "AWS Site-to-Site VPN Region Availability Zone VPC VPC PeeringConnections Private SubnetPublic Subnet InternetGatewayRouter Ro",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 741,
+        "title": "AWS Site-to-Site VPN",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-vpn-186"
+        ]
+      },
+      {
+        "page": 742,
+        "title": "Private SubnetSite-to-Site VPN Connections",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-vpn-186"
+        ]
+      },
+      {
+        "page": 743,
+        "title": "AWS VPN CloudHub",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-vpn-186"
+        ]
+      },
+      {
+        "page": 744,
+        "title": "Direct Connect (DX)",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-directconnect-187"
+        ]
+      },
+      {
+        "page": 745,
+        "title": "Direct Connect Diagram Region(us-east-1) VPC Private Subnet EC2 Instances Virtual Private Gateway Amazon S3Amazon Glacier AWS",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 746,
+        "title": "Direct Connect Gateway",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-directconnect-187"
+        ]
+      },
+      {
+        "page": 747,
+        "title": "Direct Connect – Connection Types",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-directconnect-187"
+        ]
+      },
+      {
+        "page": 748,
+        "title": "Direct Connect – Encryption",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-directconnect-187"
+        ]
+      },
+      {
+        "page": 749,
+        "title": "Direct Connect - ResiliencyHigh Resiliency for Critical Workloads One connection at multiple locations Maximum Resiliency for",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-directconnect-187"
+        ]
+      },
+      {
+        "page": 750,
+        "title": "Site-to-Site VPN connection as a backup",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-directconnect-187"
+        ]
+      },
+      {
+        "page": 751,
+        "title": "Network topologies can become complicated Customer Gateway Amazon VPC VPN Connection Amazon VPC VPC PeeringConnection Amazon ",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 752,
+        "title": "Transit Gateway",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-transitgateway-188",
+          "saa-governance-ram-229"
+        ]
+      },
+      {
+        "page": 753,
+        "title": "Transit Gateway: Site-to-Site VPN ECMP",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-transitgateway-188"
+        ]
+      },
+      {
+        "page": 754,
+        "title": "Transit Gateway: throughput with ECMPVPN to virtual private gateway 1x=1xVPC 1x=1.25 Gbps VPN connection(2 tunnels) VPN to tr",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-transitgateway-188"
+        ]
+      },
+      {
+        "page": 755,
+        "title": "Transit Gateway – Share Direct Connect between multiple accounts AWS DirectConnect Location Corporatedata center Clients Clie",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-transitgateway-188",
+          "saa-governance-ram-229"
+        ]
+      },
+      {
+        "page": 756,
+        "title": "VPC – Traffic Mirroring",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-mirroring-189"
+        ]
+      },
+      {
+        "page": 757,
+        "title": "What is IPv6?",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-ipv6egress-190"
+        ]
+      },
+      {
+        "page": 758,
+        "title": "IPv6 in VPC",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-ipv6egress-190"
+        ]
+      },
+      {
+        "page": 759,
+        "title": "IPv4 Troubleshooting",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 760,
+        "title": "Egress-only Internet Gateway",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-ipv6egress-190"
+        ]
+      },
+      {
+        "page": 761,
+        "title": "Private Subnet(IPv4: 10.0.1.0/24)(IPv6: 2001:db8:1234:1a02::/64) Public Subnet(IPv4: 10.0.0.0/24)(IPv6: 2001:db8:1234:1a00::/",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-ipv6egress-190"
+        ]
+      },
+      {
+        "page": 762,
+        "title": "VPC Section Summary (1/3)",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 763,
+        "title": "VPC Section Summary (2/3)",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 764,
+        "title": "VPC Section Summary (3/3)",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 765,
+        "title": "Networking Costs in AWS per GB - SimplifiedRegion Availability ZoneAvailability ZoneRegion Availability Zone $0.02Inter-regio",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-transfercost-191"
+        ]
+      },
+      {
+        "page": 766,
+        "title": "Minimizing egress traffic network cost",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-transfercost-191"
+        ]
+      },
+      {
+        "page": 767,
+        "title": "S3 Data Transfer Pricing – Analysis for USA",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-transfercost-191"
+        ]
+      },
+      {
+        "page": 768,
+        "title": "Private subnet 2(10.0.1.0/24) Public subnet Pricing: NAT Gateway vs Gateway VPC EndpointRegion(us-east-1) VPC(10.0.0.0/16) Pr",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-transfercost-191"
+        ]
+      },
+      {
+        "page": 769,
+        "title": "Network Protection on AWS",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-networkfirewall-192"
+        ]
+      },
+      {
+        "page": 770,
+        "title": "AWS Network Firewall",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-networkfirewall-192"
+        ]
+      },
+      {
+        "page": 771,
+        "title": "Network Firewall – Fine Grained Controls",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-network-networkfirewall-192"
+        ]
+      },
+      {
+        "page": 772,
+        "title": "Disaster Recovery & Migrations",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 773,
+        "title": "Disaster Recovery Overview",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-recovery-rporto-193"
+        ]
+      },
+      {
+        "page": 774,
+        "title": "RPO and RTO RPO Disaster Data loss RTO Downtime",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-recovery-rporto-193"
+        ]
+      },
+      {
+        "page": 775,
+        "title": "Disaster Recovery Strategies",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-recovery-strategies-194"
+        ]
+      },
+      {
+        "page": 776,
+        "title": "Backup and Restore (High RPO)Corporate data center AWS Cloud AWS Cloud AWS Storage Gateway Glacier Amazon S3 AWS Snowball EBS",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-recovery-strategies-194"
+        ]
+      },
+      {
+        "page": 777,
+        "title": "Disaster Recovery – Pilot Light",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-recovery-strategies-194"
+        ]
+      },
+      {
+        "page": 778,
+        "title": "Warm Standby",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-recovery-strategies-194"
+        ]
+      },
+      {
+        "page": 779,
+        "title": "Multi Site / Hot Site Approach",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-recovery-strategies-194"
+        ]
+      },
+      {
+        "page": 780,
+        "title": "All AWS Multi RegionAWS Cloud Data Replication Route 53 ELB EC2 Auto Scaling(production) failover activeactiveAWS Cloud EC2 A",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-recovery-strategies-194"
+        ]
+      },
+      {
+        "page": 781,
+        "title": "Disaster Recovery Tips",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 782,
+        "title": "DMS – Database Migration Service",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-migration-dms-195"
+        ]
+      },
+      {
+        "page": 783,
+        "title": "DMS Sources and TargetsSOURCES:",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-migration-dms-195"
+        ]
+      },
+      {
+        "page": 784,
+        "title": "AWS Schema Conversion Tool (SCT)",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-migration-dms-195"
+        ]
+      },
+      {
+        "page": 785,
+        "title": "DMS - Continuous ReplicationCorporate data center Oracle DB(source) VPC Region Public Subnet AWS DMS Replication Instance Pri",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-migration-dms-195"
+        ]
+      },
+      {
+        "page": 786,
+        "title": "AWS DMS – Multi-AZ DeploymentAWS RegionAvailability Zone - A DMS ReplicationInstance Availability Zone - B DMS ReplicationIns",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-migration-dms-195"
+        ]
+      },
+      {
+        "page": 787,
+        "title": "RDS & Aurora MySQL Migrations",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 788,
+        "title": "RDS & Aurora PostgreSQL Migrations",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 789,
+        "title": "On-Premise strategy with AWS",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 790,
+        "title": "AWS Backup",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-recovery-backup-196"
+        ]
+      },
+      {
+        "page": 791,
+        "title": "AWS Backup",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-recovery-backup-196"
+        ]
+      },
+      {
+        "page": 792,
+        "title": "AWS Backup AWS Backup Create Backup Plan(frequency, retention policy) Assign AWS Resources EC2EBS DynamoDBRDS EFS Aurora FSxS",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-recovery-backup-196"
+        ]
+      },
+      {
+        "page": 793,
+        "title": "AWS Backup Vault Lock",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-recovery-backup-196"
+        ]
+      },
+      {
+        "page": 794,
+        "title": "AWS Application Discovery Service",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-migration-mgn-197"
+        ]
+      },
+      {
+        "page": 795,
+        "title": "AWS Application Migration Service (MGN)",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-migration-mgn-197"
+        ]
+      },
+      {
+        "page": 796,
+        "title": "VMware Cloud on AWS",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 797,
+        "title": "Transferring large amount of data into AWS",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-hybrid-offline-086"
+        ]
+      },
+      {
+        "page": 798,
+        "title": "More Solutions Architecture",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 799,
+        "title": "Lambda, SNS & SQS SQS SNS retries SQS DLQ Try, retry SQS FIFO DLQ Try, retryblocking DLQ asynchronous(poll) SQS + Lambda SQS ",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-messaging-deadletter-228"
+        ]
+      },
+      {
+        "page": 800,
+        "title": "Fan Out Pattern: deliver to multiple SQS SDK PUT #1 PUT #2 PUT #3 Option 1 SDK Option 2 – Fan Out SNS SQS SQS PUT subscribe",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 801,
+        "title": "S3 Event Notifications Amazon S3 events Lambda Function SQS SNS",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 802,
+        "title": "S3 Event Notifications with Amazon EventBridge Amazon S3bucket eventsAll events AmazonEventBridge rulesOver 18 AWS servicesas",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 803,
+        "title": "Amazon EventBridge – Intercept API Calls CloudTrail(any API call)AmazonEventBridge SNS event DynamoDB Log API call User alert",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 804,
+        "title": "API Gateway – AWS Service IntegrationKinesis Data Streams example API GatewayKinesis DataStreamsKinesis DataFirehoseAmazon S3",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 805,
+        "title": "Caching Strategies API Gateway CloudFront (edge) Redis Memcached DAX S3 CloudFront Caching, TTL, Network, Computation, Cost, ",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-architecture-cachinglayers-127"
+        ]
+      },
+      {
+        "page": 806,
+        "title": "Blocking an IP address Client VPC Public Subnet Security Group (allow rules) EC2 Instancepublic IP + Firewall Software (optio",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 807,
+        "title": "Blocking an IP address – with an ALB Client VPC Public Subnet EC2 Security Group EC2 InstancePrivate IP Private Subnet ALB Se",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 808,
+        "title": "Blocking an IP address – with an NLB Client VPC Public Subnet EC2 Security Group EC2 InstancePrivate IP NACL Private Subnet N",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 809,
+        "title": "Blocking an IP address – ALB + WAF Client VPC Public Subnet EC2 Security Group EC2 InstancePrivate IP NACL Private Subnet ALB",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 810,
+        "title": "Blocking an IP address – ALB, CloudFront & WAF Client VPC Public Subnet EC2 Security Group EC2 InstancePrivate IP NACL Privat",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 811,
+        "title": "High Performance Computing (HPC)",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-architecture-hpc-198"
+        ]
+      },
+      {
+        "page": 812,
+        "title": "Data Management & Transfer",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 813,
+        "title": "Compute and Networking",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-architecture-hpc-198"
+        ]
+      },
+      {
+        "page": 814,
+        "title": "Compute and Networking",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-architecture-hpc-198"
+        ]
+      },
+      {
+        "page": 815,
+        "title": "Storage",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-architecture-hpc-198"
+        ]
+      },
+      {
+        "page": 816,
+        "title": "Automation and Orchestration",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-architecture-hpc-198"
+        ]
+      },
+      {
+        "page": 817,
+        "title": "Creating a highly available EC2 instance Public EC2 Elastic IP Address What time is it? 5:30 pm! Standby EC2 instance Attachm",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 818,
+        "title": "Creating a highly available EC2 instanceWith an Auto Scaling Group Public EC2 Elastic IP Address What time is it? 5:30 pm! Re",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 819,
+        "title": "Creating a highly available EC2 instanceWith ASG + EBS Public EC2 Elastic IP Address What time is it? 5:30 pm! Replacement EC",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 820,
+        "title": "Other ServicesOverview of Services that might come up in a few questions",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 821,
+        "title": "What is CloudFormation",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-iac-cloudformation-199"
+        ]
+      },
+      {
+        "page": 822,
+        "title": "Benefits of AWS CloudFormation (1/2)",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-iac-cloudformation-199"
+        ]
+      },
+      {
+        "page": 823,
+        "title": "Benefits of AWS CloudFormation (2/2)",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-iac-cloudformation-199"
+        ]
+      },
+      {
+        "page": 824,
+        "title": "CloudFormation + Infrastructure Composer",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-iac-cloudformation-199"
+        ]
+      },
+      {
+        "page": 825,
+        "title": "CloudFormation – Service Role",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-iac-cloudformation-199"
+        ]
+      },
+      {
+        "page": 826,
+        "title": "Amazon Simple Email Service (Amazon SES)",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 827,
+        "title": "Amazon Pinpoint",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 828,
+        "title": "Systems Manager – SSM Session Manager",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-operations-sessionmanager-200"
+        ]
+      },
+      {
+        "page": 829,
+        "title": "Systems Manager – Run Command",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-operations-runcommand-201"
+        ]
+      },
+      {
+        "page": 830,
+        "title": "Systems Manager – Patch Manager",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-operations-patching-202"
+        ]
+      },
+      {
+        "page": 831,
+        "title": "Systems Manager – Maintenance Windows",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-operations-patching-202"
+        ]
+      },
+      {
+        "page": 832,
+        "title": "Systems Manager - Automation",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-operations-automation-203"
+        ]
+      },
+      {
+        "page": 833,
+        "title": "Cost Explorer",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-cost-explorer-204"
+        ]
+      },
+      {
+        "page": 834,
+        "title": "Cost Explorer – Monthly Cost by AWS Service",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-cost-explorer-204"
+        ]
+      },
+      {
+        "page": 835,
+        "title": "Cost Explorer– Hourly & Resource Level",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-cost-explorer-204"
+        ]
+      },
+      {
+        "page": 836,
+        "title": "Cost Explorer – Savings PlanAlternative to Reserved Instances",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-cost-explorer-204"
+        ]
+      },
+      {
+        "page": 837,
+        "title": "Cost Explorer – Forecast Usage",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-cost-explorer-204"
+        ]
+      },
+      {
+        "page": 838,
+        "title": "AWS Cost Anomaly Detection",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-cost-anomalies-205"
+        ]
+      },
+      {
+        "page": 839,
+        "title": "AWS Outposts",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-hybrid-outposts-206"
+        ]
+      },
+      {
+        "page": 840,
+        "title": "AWS Outposts",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-hybrid-outposts-206"
+        ]
+      },
+      {
+        "page": 841,
+        "title": "AWS Batch",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-compute-batch-207"
+        ]
+      },
+      {
+        "page": 842,
+        "title": "AWS Batch – Simplified Example Trigger AWS Batch EC2 Instance Spot InstanceAmazon S3 Insert processed objectAmazon S3 ECS",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-compute-batch-207"
+        ]
+      },
+      {
+        "page": 843,
+        "title": "Batch vs Lambda",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-compute-batch-207"
+        ]
+      },
+      {
+        "page": 844,
+        "title": "Amazon AppFlow",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-integration-appflow-208"
+        ]
+      },
+      {
+        "page": 845,
+        "title": "Amazon AppFlow AmazonAppFlow Sources Destinations",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-integration-appflow-208"
+        ]
+      },
+      {
+        "page": 846,
+        "title": "AWS Amplify - web and mobile applications",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-frontend-amplify-209"
+        ]
+      },
+      {
+        "page": 847,
+        "title": "Instance Scheduler on AWS",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-cost-scheduler-210"
+        ]
+      },
+      {
+        "page": 848,
+        "title": "White Papers & ArchitecturesWell Architected Framework, Disaster Recover y, etc…",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 849,
+        "title": "Section Overview",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 850,
+        "title": "Well Architected Framework General Guiding Principles",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-architecture-wellarchitected-211"
+        ]
+      },
+      {
+        "page": 851,
+        "title": "Well Architected Framework 6 Pillars",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-architecture-wellarchitected-211"
+        ]
+      },
+      {
+        "page": 852,
+        "title": "AWS Well-Architected T ool",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-architecture-wellarchitected-211"
+        ]
+      },
+      {
+        "page": 853,
+        "title": "Tr usted Advisor",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-architecture-trustedadvisor-212"
+        ]
+      },
+      {
+        "page": 854,
+        "title": "More Architecture Examples",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 855,
+        "title": "Exam Review & Tips",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 856,
+        "title": "State of learning checkpoint",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 857,
+        "title": "Practice makes perfect",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 858,
+        "title": "Proceed by elimination",
+        "state": "referenced",
+        "kp_ids": [
+          "saa-exam-reasoning-213"
+        ]
+      },
+      {
+        "page": 859,
+        "title": "Skim the AWS Whitepapers",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 860,
+        "title": "Read each service’s FAQ",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 861,
+        "title": "Get into the AWS Community",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 862,
+        "title": "How will the exam work?",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 863,
+        "title": "Yo u r AW S C e r t i fi c a t i o n j o u r n e yFoundationalKnowledge-based certification for foundational understanding of",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 864,
+        "title": "AWS Certification Paths – ArchitectureArchitectureSolutions ArchitectDesign, develop, and managecloud infrastructure and asse",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 865,
+        "title": "AWS Certification Paths – OperationsOperationsSystems AdministratorInstall, upgrade, and maintaincomputer components andsoftw",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 866,
+        "title": "AWS Certification Paths – DevOpsDevOpsTest EngineerEmbed testing and qualitybest practices for softwaredevelopment from desig",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 867,
+        "title": "AWS Certification Paths – SecuritySecurityCloud Security EngineerDesign computer security architectureand develop detailed cy",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 868,
+        "title": "AWS Certification Paths – Development & NetworkingDevelopmentSoftware Development EngineerDevelop, construct, and maintainsof",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 869,
+        "title": "AWS Certification Paths – Data Analytics & AI/MLData AnalyticsCloud Data EngineerAutomate collection and processingof structu",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 870,
+        "title": "AWS Certification Paths – AI/MLAI/MLPrompt EngineerDesign, test, and refine textprompts to optimize theperformance of AI lang",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 871,
+        "title": "Congratulations!",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      },
+      {
+        "page": 872,
+        "title": "Congratulations!",
+        "state": "not_directly_referenced",
+        "kp_ids": []
+      }
+    ]
+  },
+  "official_sources": [
+    {
+      "url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/target-group-health-checks.html",
+      "reviewed_at": "2026-11-04",
+      "supports": "健康检查阈值与全目标不健康时的 fail-open"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-visibility-timeout.html",
+      "reviewed_at": "2026-11-04",
+      "supports": "暂时隐藏、删除确认与至少一次投递边界"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/STS/latest/APIReference/API_AssumeRole.html",
+      "reviewed_at": "2026-11-04",
+      "supports": "临时凭证组成、信任策略、权限策略及会话限制"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic.html",
+      "reviewed_at": "2026-11-04",
+      "supports": "同账户策略合并、边界交集与显式拒绝"
+    },
+    {
+      "url": "https://aws.amazon.com/compliance/shared-responsibility-model/",
+      "reviewed_at": "2026-11-04",
+      "supports": "EC2 与抽象托管服务的客户安全责任"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-groups.html",
+      "reviewed_at": "2026-11-04",
+      "supports": "允许规则、流量方向和有状态返回流量"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/TTL.html",
+      "reviewed_at": "2026-11-04",
+      "supports": "秒级时间戳、延迟删除及过滤过期项目"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/vpc/latest/userguide/nat-gateways-regional.html",
+      "reviewed_at": "2026-11-04",
+      "supports": "区域级与可用区级 NAT 的高可用和部署差异"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.ReadConsistency.html",
+      "reviewed_at": "2026-11-04",
+      "supports": "表、LSI、GSI 与全球表的读取一致性"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/V2globaltables_HowItWorks.html",
+      "reviewed_at": "2026-11-04",
+      "supports": "MREC/MRSC 的复制、Streams 与 TTL 差异"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html",
+      "reviewed_at": "2026-11-04",
+      "supports": "实际或预测费用阈值、通知与预算动作"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/cur/latest/userguide/what-is-cur.html",
+      "reviewed_at": "2026-11-04",
+      "supports": "明细行、S3 交付及未结账费用的估算性质"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/general/latest/gr/aws_service_limits.html",
+      "reviewed_at": "2026-11-04",
+      "supports": "按区域的实际配额与提额审批并非即时"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/xray/latest/devguide/aws-xray.html",
+      "reviewed_at": "2026-11-04",
+      "supports": "请求链路、下游调用与延迟定位"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/xray/latest/devguide/xray-sdk-migration.html",
+      "reviewed_at": "2026-11-04",
+      "supports": "OpenTelemetry 接入建议与旧 SDK/daemon 维护状态"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-dead-letter-queues.html",
+      "reviewed_at": "2026-11-04",
+      "supports": "maxReceiveCount、重投递与 FIFO 顺序风险"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage-class-intro.html",
+      "reviewed_at": "2026-11-04",
+      "supports": "访问延迟、冗余范围、最短计费时长和归档恢复"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/transfer-acceleration.html",
+      "reviewed_at": "2026-11-04",
+      "supports": "边缘接入优化到 S3 的长距离传输"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/RequesterPaysBuckets.html",
+      "reviewed_at": "2026-11-04",
+      "supports": "请求方与桶所有者的费用分担及认证要求"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/ram/latest/userguide/what-is.html",
+      "reviewed_at": "2026-11-04",
+      "supports": "共享受支持资源而不复制资源"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/SecondaryIndexes.html",
+      "reviewed_at": "2026-11-04",
+      "supports": "GSI/LSI 的替代访问键、投影与维护"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/kms/latest/developerguide/rotate-keys.html",
+      "reviewed_at": "2026-11-04",
+      "supports": "新密钥材料与旧密文解密的关系"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/SelectEngine.html",
+      "reviewed_at": "2026-11-04",
+      "supports": "Memcached 与 Valkey/Redis OSS 的能力选择"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Aurora.Overview.Endpoints.html",
+      "reviewed_at": "2026-11-04",
+      "supports": "写、读、实例与自定义端点的连接分配"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Aurora.Managing.Clone.html",
+      "reviewed_at": "2026-11-04",
+      "supports": "写时复制、共享初始数据页与独立写入"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/rds-custom.html",
+      "reviewed_at": "2026-11-04",
+      "supports": "普通 RDS、RDS Custom 与 EC2 自管的责任边界"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/retry-backoff.html",
+      "reviewed_at": "2026-11-04",
+      "supports": "瞬态错误、退避、重试上限与幂等要求"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/amazons3-ol-change.html",
+      "reviewed_at": "2026-11-04",
+      "supports": "2025-11-07 起的使用资格限制与替代路径"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/lambda/latest/dg/configuration-vpc-internet.html",
+      "reviewed_at": "2026-11-04",
+      "supports": "私有资源访问与互联网出口须分别配置"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/cost-alloc-tags.html",
+      "reviewed_at": "2026-11-04",
+      "supports": "激活成本分配标签后按标签归集费用"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_execution_IAM_role.html",
+      "reviewed_at": "2026-11-04",
+      "supports": "执行角色凭证提供给代理而非直接交给业务容器"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps.html",
+      "reviewed_at": "2026-11-04",
+      "supports": "不授予权限、成员账户范围与适用例外"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Aurora.Endpoints.Reader.html",
+      "reviewed_at": "2026-11-04",
+      "supports": "按连接均衡，以及无副本时连接主实例的例外"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/LSI.html",
+      "reviewed_at": "2026-11-04",
+      "supports": "本地索引的同分区键与创建约束"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GSI.html",
+      "reviewed_at": "2026-11-04",
+      "supports": "全局索引的替代访问与同步边界"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users.html",
+      "reviewed_at": "2026-11-04",
+      "supports": "IAM 用户可表示人或工作负载，优先采用联合身份及临时凭证"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/AmazonECR/latest/userguide/docker-push-multi-architecture-image.html",
+      "reviewed_at": "2026-11-04",
+      "supports": "不同 CPU 架构镜像与兼容平台选择"
+    }
+  ],
+  "exam_tasks": [
+    {
+      "task": "1.1",
+      "topic": "安全资源访问",
+      "kp_ids": [
+        "saa-foundations-regions-001",
+        "saa-foundations-availabilityzones-002",
+        "saa-iam-identities-003",
+        "saa-iam-policies-004",
+        "saa-iam-mfa-005",
+        "saa-iam-serviceroles-007",
+        "saa-iam-accessaudit-008",
+        "saa-governance-organizations-158",
+        "saa-governance-scp-159",
+        "saa-iam-conditions-160",
+        "saa-iam-crossaccount-161",
+        "saa-iam-boundaries-162",
+        "saa-identity-identitycenter-163",
+        "saa-identity-directory-164",
+        "saa-governance-controltower-165",
+        "saa-foundations-sharedresponsibility-214",
+        "saa-iam-stssessions-215",
+        "saa-iam-evaluation-216",
+        "saa-governance-ram-229"
+      ],
+      "coverage": "definition-level",
+      "limits": "复杂资源策略直接授权与 RCP 细节需按场景继续核对"
+    },
+    {
+      "task": "1.2",
+      "topic": "安全工作负载",
+      "kp_ids": [
+        "saa-ec2-securitygroups-011",
+        "saa-s3-bucketpolicy-061",
+        "saa-containers-taskrole-106",
+        "saa-serverless-lambdavpc-115",
+        "saa-identity-cognito-126",
+        "saa-security-parameterstore-168",
+        "saa-security-secretsmanager-169",
+        "saa-security-waf-171",
+        "saa-security-shield-172",
+        "saa-security-firewallmanager-173",
+        "saa-security-guardduty-174",
+        "saa-security-inspector-175",
+        "saa-security-macie-176",
+        "saa-network-subnets-178",
+        "saa-network-internet-179",
+        "saa-network-bastion-180",
+        "saa-network-nat-181",
+        "saa-network-nacl-182",
+        "saa-network-endpoints-184",
+        "saa-network-vpn-186",
+        "saa-network-directconnect-187",
+        "saa-network-networkfirewall-192",
+        "saa-operations-sessionmanager-200"
+      ],
+      "coverage": "definition-level",
+      "limits": "多种保护组合的生产配置与测试不在 KP 定义层完成"
+    },
+    {
+      "task": "1.3",
+      "topic": "数据安全控制",
+      "kp_ids": [
+        "saa-storage-ebsencryption-025",
+        "saa-rds-dbsecurity-046",
+        "saa-s3-versioning-063",
+        "saa-s3-replication-064",
+        "saa-s3-lifecycle-068",
+        "saa-s3-encryption-073",
+        "saa-s3-transport-074",
+        "saa-s3-mfadelete-076",
+        "saa-s3-accesslogs-077",
+        "saa-s3-presigned-078",
+        "saa-s3-objectlock-079",
+        "saa-s3-accesspoints-080",
+        "saa-security-kms-166",
+        "saa-security-multiregionkeys-167",
+        "saa-security-secretsmanager-169",
+        "saa-security-acm-170",
+        "saa-security-macie-176",
+        "saa-recovery-backup-196",
+        "saa-security-keyrotation-234"
+      ],
+      "coverage": "definition-level",
+      "limits": "密钥跨账户授权和合规保留需基于实际场景验证"
+    },
+    {
+      "task": "2.1",
+      "topic": "可扩展与松耦合",
+      "kp_ids": [
+        "saa-scaling-availability-028",
+        "saa-scaling-asg-037",
+        "saa-scaling-policies-038",
+        "saa-architecture-stateless-058",
+        "saa-s3-events-069",
+        "saa-messaging-sqs-096",
+        "saa-messaging-visibility-097",
+        "saa-messaging-longpolling-098",
+        "saa-messaging-fifo-099",
+        "saa-messaging-backlog-100",
+        "saa-messaging-sns-101",
+        "saa-messaging-kinesis-102",
+        "saa-messaging-firehose-103",
+        "saa-messaging-mq-104",
+        "saa-containers-ecs-105",
+        "saa-containers-eks-109",
+        "saa-serverless-lambda-111",
+        "saa-serverless-apigateway-123",
+        "saa-serverless-stepfunctions-125",
+        "saa-architecture-cachinglayers-127",
+        "saa-messaging-deadletter-228",
+        "saa-architecture-retry-231",
+        "saa-architecture-multitier-232",
+        "saa-containers-fundamentals-235"
+      ],
+      "coverage": "definition-level",
+      "limits": "负载参数化选型和失败注入尚未作为学习成果验证"
+    },
+    {
+      "task": "2.2",
+      "topic": "高可用与容错",
+      "kp_ids": [
+        "saa-foundations-availabilityzones-002",
+        "saa-storage-snapshots-020",
+        "saa-storage-ami-021",
+        "saa-storage-multiattach-024",
+        "saa-elb-healthchecks-029",
+        "saa-elb-crosszone-034",
+        "saa-elb-draining-036",
+        "saa-scaling-asg-037",
+        "saa-rds-readreplicas-040",
+        "saa-rds-multiaz-041",
+        "saa-rds-auroraglobal-044",
+        "saa-rds-dbbackup-045",
+        "saa-rds-dbproxy-047",
+        "saa-dns-failover-055",
+        "saa-s3-replication-064",
+        "saa-edge-accelerator-085",
+        "saa-dynamodb-globaltables-120",
+        "saa-dynamodb-recovery-122",
+        "saa-observability-alarms-154",
+        "saa-network-nat-181",
+        "saa-network-directconnect-187",
+        "saa-recovery-rporto-193",
+        "saa-recovery-strategies-194",
+        "saa-recovery-backup-196",
+        "saa-recovery-quotas-224",
+        "saa-observability-tracing-225",
+        "saa-architecture-retry-231",
+        "saa-architecture-multitier-232"
+      ],
+      "coverage": "definition-level",
+      "limits": "恢复演练与实际配额/容量检查仍须在学习和实践阶段完成"
+    },
+    {
+      "task": "3.1",
+      "topic": "高性能存储",
+      "kp_ids": [
+        "saa-storage-ebs-019",
+        "saa-storage-instancestore-022",
+        "saa-storage-ebstypes-023",
+        "saa-storage-multiattach-024",
+        "saa-storage-efs-026",
+        "saa-storage-efsperformance-027",
+        "saa-s3-objects-060",
+        "saa-s3-storageclasses-065",
+        "saa-s3-intelligenttiering-066",
+        "saa-s3-express-067",
+        "saa-s3-transferperformance-070",
+        "saa-storage-fsxwindows-087",
+        "saa-storage-lustre-088",
+        "saa-storage-ontap-089",
+        "saa-storage-openzfs-090",
+        "saa-hybrid-filegateway-091",
+        "saa-hybrid-volumegateway-092",
+        "saa-hybrid-tapegateway-093",
+        "saa-hybrid-transferfamily-094",
+        "saa-hybrid-datasync-095",
+        "saa-s3-acceleration-220"
+      ],
+      "coverage": "definition-level",
+      "limits": "具体 IOPS、吞吐与网络瓶颈需要给定负载后评估"
+    },
+    {
+      "task": "3.2",
+      "topic": "弹性计算",
+      "kp_ids": [
+        "saa-ec2-bootstrap-009",
+        "saa-ec2-instancetypes-010",
+        "saa-ec2-spot-013",
+        "saa-ec2-placement-016",
+        "saa-scaling-availability-028",
+        "saa-elb-alb-030",
+        "saa-elb-nlb-031",
+        "saa-elb-gwlb-032",
+        "saa-scaling-asg-037",
+        "saa-scaling-policies-038",
+        "saa-messaging-backlog-100",
+        "saa-containers-ecs-105",
+        "saa-containers-ecsscaling-107",
+        "saa-containers-eks-109",
+        "saa-containers-apprunner-110",
+        "saa-serverless-lambda-111",
+        "saa-serverless-concurrency-112",
+        "saa-serverless-coldstart-113",
+        "saa-architecture-hpc-198",
+        "saa-compute-batch-207",
+        "saa-containers-fundamentals-235"
+      ],
+      "coverage": "definition-level",
+      "limits": "规格、预热和并发参数仍需业务负载推导"
+    },
+    {
+      "task": "3.3",
+      "topic": "高性能数据库",
+      "kp_ids": [
+        "saa-rds-manageddb-039",
+        "saa-rds-readreplicas-040",
+        "saa-rds-multiaz-041",
+        "saa-rds-aurora-042",
+        "saa-rds-auroraserverless-043",
+        "saa-rds-auroraglobal-044",
+        "saa-rds-dbproxy-047",
+        "saa-cache-elasticache-048",
+        "saa-cache-patterns-049",
+        "saa-dynamodb-datamodel-116",
+        "saa-dynamodb-capacity-117",
+        "saa-dynamodb-dax-118",
+        "saa-dynamodb-globaltables-120",
+        "saa-databases-selection-128",
+        "saa-databases-documentdb-129",
+        "saa-databases-neptune-130",
+        "saa-databases-keyspaces-131",
+        "saa-databases-timestream-132",
+        "saa-cache-engines-217",
+        "saa-rds-customendpoints-218",
+        "saa-rds-cloning-219",
+        "saa-dynamodb-consistency-226",
+        "saa-dynamodb-indexes-227",
+        "saa-rds-custom-230"
+      ],
+      "coverage": "definition-level",
+      "limits": "容量单位估算和热点分区的完整计算尚未展开"
+    },
+    {
+      "task": "3.4",
+      "topic": "高性能网络",
+      "kp_ids": [
+        "saa-ec2-ipaddresses-015",
+        "saa-ec2-placement-016",
+        "saa-ec2-eni-017",
+        "saa-elb-alb-030",
+        "saa-elb-nlb-031",
+        "saa-elb-crosszone-034",
+        "saa-dns-resolution-050",
+        "saa-dns-records-051",
+        "saa-dns-ttl-052",
+        "saa-dns-alias-053",
+        "saa-dns-routing-054",
+        "saa-dns-failover-055",
+        "saa-dns-georouting-056",
+        "saa-dns-hybrid-057",
+        "saa-edge-cloudfront-081",
+        "saa-edge-privateorigin-082",
+        "saa-edge-accelerator-085",
+        "saa-network-cidr-177",
+        "saa-network-subnets-178",
+        "saa-network-internet-179",
+        "saa-network-peering-183",
+        "saa-network-endpoints-184",
+        "saa-network-vpn-186",
+        "saa-network-directconnect-187",
+        "saa-network-transitgateway-188",
+        "saa-network-ipv6egress-190",
+        "saa-governance-ram-229"
+      ],
+      "coverage": "definition-level",
+      "limits": "BGP 与复杂路由故障定位仅保留架构层范围"
+    },
+    {
+      "task": "3.5",
+      "topic": "摄取与转换",
+      "kp_ids": [
+        "saa-hybrid-datasync-095",
+        "saa-messaging-kinesis-102",
+        "saa-messaging-firehose-103",
+        "saa-analytics-athena-133",
+        "saa-analytics-redshift-134",
+        "saa-analytics-opensearch-135",
+        "saa-analytics-emr-136",
+        "saa-analytics-quicksight-137",
+        "saa-analytics-glue-138",
+        "saa-analytics-lakeformation-139",
+        "saa-analytics-flink-140",
+        "saa-analytics-msk-141",
+        "saa-analytics-ingestionpipeline-233"
+      ],
+      "coverage": "definition-level",
+      "limits": "事件时间、水位线与端到端回补仅在单项中提及，未完整展开"
+    },
+    {
+      "task": "4.1",
+      "topic": "存储成本",
+      "kp_ids": [
+        "saa-storage-ebs-019",
+        "saa-storage-ebstypes-023",
+        "saa-storage-efsperformance-027",
+        "saa-s3-storageclasses-065",
+        "saa-s3-intelligenttiering-066",
+        "saa-s3-lifecycle-068",
+        "saa-s3-transferperformance-070",
+        "saa-s3-batchoperations-071",
+        "saa-s3-storagelens-072",
+        "saa-storage-fsxwindows-087",
+        "saa-hybrid-filegateway-091",
+        "saa-hybrid-volumegateway-092",
+        "saa-hybrid-tapegateway-093",
+        "saa-hybrid-transferfamily-094",
+        "saa-hybrid-datasync-095",
+        "saa-recovery-backup-196",
+        "saa-s3-acceleration-220",
+        "saa-s3-requesterpays-221",
+        "saa-cost-budgets-222",
+        "saa-cost-billingdata-223"
+      ],
+      "coverage": "definition-level",
+      "limits": "对象大小分布和检索频率的数值费用比较不在本次定义层计算"
+    },
+    {
+      "task": "4.2",
+      "topic": "计算成本",
+      "kp_ids": [
+        "saa-ec2-instancetypes-010",
+        "saa-ec2-purchasing-012",
+        "saa-ec2-spot-013",
+        "saa-ec2-dedicated-014",
+        "saa-ec2-hibernate-018",
+        "saa-scaling-availability-028",
+        "saa-scaling-asg-037",
+        "saa-scaling-policies-038",
+        "saa-containers-ecs-105",
+        "saa-containers-ecsscaling-107",
+        "saa-serverless-lambda-111",
+        "saa-serverless-concurrency-112",
+        "saa-serverless-coldstart-113",
+        "saa-architecture-hpc-198",
+        "saa-cost-explorer-204",
+        "saa-cost-anomalies-205",
+        "saa-hybrid-outposts-206",
+        "saa-compute-batch-207",
+        "saa-cost-scheduler-210",
+        "saa-cost-budgets-222",
+        "saa-cost-billingdata-223"
+      ],
+      "coverage": "definition-level",
+      "limits": "Savings Plans 不同承诺范围及实际价格须以所用方案核对"
+    },
+    {
+      "task": "4.3",
+      "topic": "数据库成本",
+      "kp_ids": [
+        "saa-rds-manageddb-039",
+        "saa-rds-readreplicas-040",
+        "saa-rds-auroraserverless-043",
+        "saa-rds-dbbackup-045",
+        "saa-rds-dbproxy-047",
+        "saa-cache-elasticache-048",
+        "saa-cache-patterns-049",
+        "saa-dynamodb-capacity-117",
+        "saa-dynamodb-dax-118",
+        "saa-dynamodb-ttl-121",
+        "saa-databases-selection-128",
+        "saa-databases-timestream-132",
+        "saa-migration-dms-195",
+        "saa-cost-explorer-204",
+        "saa-cache-engines-217",
+        "saa-rds-cloning-219",
+        "saa-cost-budgets-222",
+        "saa-cost-billingdata-223"
+      ],
+      "coverage": "definition-level",
+      "limits": "实际请求组合下的成本估算及存储增长计算尚未展开"
+    },
+    {
+      "task": "4.4",
+      "topic": "网络成本",
+      "kp_ids": [
+        "saa-dns-alias-053",
+        "saa-s3-storageclasses-065",
+        "saa-s3-transferperformance-070",
+        "saa-edge-cloudfront-081",
+        "saa-edge-accelerator-085",
+        "saa-hybrid-datasync-095",
+        "saa-network-nat-181",
+        "saa-network-endpoints-184",
+        "saa-network-vpn-186",
+        "saa-network-directconnect-187",
+        "saa-network-transfercost-191",
+        "saa-s3-acceleration-220",
+        "saa-s3-requesterpays-221",
+        "saa-cost-budgets-222",
+        "saa-cost-billingdata-223"
+      ],
+      "coverage": "definition-level",
+      "limits": "网络报价随服务和路径变化；需要业务流量矩阵后做定量比较"
+    }
+  ]
+}
