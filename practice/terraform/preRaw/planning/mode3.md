@@ -1,3 +1,186 @@
+# Terraform × Udemy SAA — 渐进式 AWS 部署计划
+
+更新：2026-11-12（Australia/Sydney）。当前活动计划为本文件上半部；2026-10-31 的计划原文保留在末尾，作为历史路径，不再作为当前 next_action。
+
+## Scope
+
+- Learning / persistence root：`luyi985/aws/practice/terraform`，复用原位置。
+- Session ID：`SESSION-AWS-TERRAFORM-001`；Project Path ID：`PATH-AWS-TERRAFORM-001`，复用已有身份。
+- Primary Mode：Mode 3，用户于本次交互明确选择；depth：guided-practice。
+- 用户目标：以指定 HashiCorp 小项目为起点，从 setup 开始，一个概念一个概念地动手，并随着 Udemy SAA 课程增加能力。
+- 本文件仍集中保存活动计划、轻量 manifest、Session State 和 Project Path；不创建第二份活动计划。
+- 实操代码已有 `infra/main.tf` 和 lockfile，是 S3 起步配置，保持不动；后续 EC2 实验建议独立目录 `ec2-web/` 和独立 state，实施时才创建。
+- Candidate root：`preRaw/`；已准入笔记与 wiki 保留原约定位置。本次仅更新计划，不写 raw/wiki，不生成 KP 文件。
+- Knowledge Map：Terraform 专属 Map 仍未建立；不分配新的 KP ID。SAA 已有 `SAA/preRaw/KP/` 与课程映射，按需复用其身份。文件树及课程清单已核验，未声称通读全部 235 个 KP。
+- Active KP set：[]（准备/工具核验阶段）；下面概念名称是即时解释提示，不是新的 KP 身份或掌握声明。
+- Include：本机 setup、短期认证、HCL、资源生命周期、EC2 网页、网络入口、存储、负载均衡、数据库、DNS、对象存储，以及随课选做扩展。
+- Exclude：一开始重写购物助手、一次部署全部 AWS 服务、替用户完成学习关键操作、直接执行云 apply、把课程全覆盖等同于主项目包含所有服务。
+- 本次操作边界：只准备和保存计划；未访问用户电脑、未执行 Terraform、未创建 AWS 资源。
+
+## Operational Goal
+
+核心结果：用户在指导下，从实际操作电脑完成 Terraform 部署一个可访问的小网页；能修改、验证、排错、销毁，并用同一项目依次验证存储、高可用和数据访问。
+
+最小工作流：浏览器 → EC2 HTTP 服务 → 示例网页/实例标识。
+后续：浏览器 → ALB → ASG 中的网页实例 → 私有数据库；静态内容逐步放入 S3/CloudFront。
+
+初期保留示例应用的简单性，先不改成商品目录。若 RDS 阶段需要数据库行为，只增加一个最小合成数据读写端点，明确这是自建扩展，原教程未提供。
+
+完成条件：
+- 第一里程碑：T00–T11 在指导下通过，含浏览器/HTTP 验证、启动日志诊断、无变更 plan、销毁与资源读回。
+- 后续阶段：只在到达对应课程主题时推进；每一行均独立验证，不要求一次完成整张表。
+- 跟练成功记作 guided，不自动记 independent；课程观看进度、部署成功、概念理解分别记录。
+
+## Source Register / Source Scope
+
+| ID | 资料 | 角色与读取覆盖 |
+|---|---|---|
+| H1 | https://github.com/hashicorp-education/learn-terraform-resources | 用户指定主资料；通过 GitHub 读取 main.tf、terraform.tf、init-script.sh、outputs.tf、README.md 全文；尚未执行 |
+| H2 | https://developer.hashicorp.com/terraform/tutorials/configuration-language/resource | 用户指定主资料；已读取资源、依赖、安全组、验证、清理部分；采用本地 CLI 路线 |
+| U1 | https://github.com/luyi985/aws/blob/main/SAA/preRaw/planning/video-kp-checklist.md | 已核验章节索引；另读取同名已保存清单前 400 行，以课程标题映射初期细步骤 |
+| U2 | https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c03/ | 对应课程入口；本次未观看付费视频，也没有逐字稿；章节/课时映射以 U1 保存版本为准，更新时用英文标题定位 |
+| P1 | 本文件末尾原计划及 ../.. 下的 infra/main.tf | 已有学习状态与配置证据；旧计划自报未开始，当前代码说明已有文件，不能据此推断 apply 结果 |
+| X1 | HashiCorp 安装/语言/CLI 文档及 AWS 所选服务官方文档 | 补充资料，具体实现前按实际工具与 Provider 版本读取；不把尚未访问的新资料写成已验证 |
+
+### 已发现差异及适配策略
+
+1. README 声称两台 EC2 和一个 ELB，但当前 main.tf 只有一个 aws_instance 与 random_pet；以代码与教程实际步骤为准。先前按 README 描述的项目规模需要纠正。
+2. main.tf 固定 us-west-2、ami-a0cfeed8、t2.micro；目标区域和认证配置在 T01 本地验证后确定，不仅替换 region 就照搬 AMI。
+3. terraform.tf 使用 AWS Provider ~> 4.15.0；现有个人配置为 AWS >=6.0.0。required_version ~>1.2 是约束，不等于必须安装 1.2.x。首次 init 前统一选择经核验版本并保留 lockfile，不盲目 init -upgrade。
+4. init-script.sh 使用 httpd24/php72/mysql57 包和 service/chkconfig；还以无 token 请求元数据。选择当前镜像后要检查包管理器、服务管理与 IMDSv2 兼容性。默认改用简单 HTML/实例信息完成首轮验证；若保留 Terramino，单独验证 PHP 与下载依赖。
+5. 起步配置未显式指定 VPC/subnet，需核验默认 VPC、子网、公网地址与路由。缺失时先完成最小 VPC/subnet/IGW/路由实验，标为第 27 章的提前先修，后续再系统深化。
+6. 新增 ALB/ASG/RDS 等均为本计划自建增量，不能标为原仓库现成功能。
+
+## End-to-End Flow
+
+本机工具 → AWS 身份/区域 → 隔离实验目录 → 版本/Provider → HCL 资源 → init/fmt/validate → 审查 plan → apply → HTTP/日志验证 → 无变更 plan → Git checkpoint → 下一项能力 → 清理并核验。
+
+学习节奏：看对应一小组视频 → 说明一个当前概念及用途 → 改最小代码/运行一个操作 → 用户反馈结果 → 解释证据 → 保存 checkpoint。
+每次通常 20–45 分钟；复杂实验可分几次。这是安排建议，不是测量出的工时承诺。不强制看完整章后才能实操。
+
+## Checkpoints — 从 setup 到第一个网页
+
+所有序号是操作 checkpoint，不是 KP ID。未取得用户实际运行证据的操作不得标 completed。
+
+| ID | 课程对应 / 当前概念 | Input → Action → Output / 在流程中的作用 | 验证 | 状态 |
+|---|---|---|---|---|
+| T00 | 第 4 章 CLI Setup；工具与环境 | 用户实际电脑 → 检查 OS/架构、Git、AWS CLI、Terraform，缺什么只补什么 → 已知本地工具清单 | 用户反馈版本/缺失命令；不在代理容器代测 | in_progress |
+| T01 | 第 3–4 章；部署身份与区域 | 工具可用 → 验证 profile、短期登录、目标账号和 region → 明确 Terraform 用谁访问 AWS | 本地 STS 身份及区域正确；只记录通过/未通过结论 | not_started |
+| T02 | 05.01 AWS Budget Setup；费用边界 | 身份已知 → 查看预算提醒、确认实验时长和清理责任 → 首次云 apply 前费用边界明确 | 用户确认实验预算；提醒不是自动费用上限 | not_started |
+| T03 | Terraform 补充；配置与 state 分离 | 已有 S3 配置 → 盘点其 state/资源归属，准备单独 EC2 目录和 Git 忽略 → 不覆盖旧练习 | diff 不改旧 S3 配置；state/凭证不会被 Git 跟踪 | not_started |
+| T04 | Terraform 补充；Provider | 空实验目录 → 选择 Terraform/AWS/random 版本与认证方式，解释 Provider 调 AWS API 的作用 → 可初始化配置 | init 成功；所选版本和 lockfile 一致 | not_started |
+| T05 | Terraform 补充；resource 与引用 | Provider 已就绪 → 先用 random_pet 演示声明/属性引用 → 读懂 resource_type.local_name | 本地随机资源的 plan/apply/output 一致；无 AWS 资源 | not_started |
+| T06 | 05.02–05.04；AMI 与实例 | 版本确定 → 选择当前区域可用镜像和兼容实例规格，只写 EC2 配置 → 可解释计划中的实例 | fmt/validate；确认镜像/架构；此步不云 apply | not_started |
+| T07 | 05.03；User Data | 实例配置 → 加入匹配镜像的最小网页启动脚本 → 首次启动能安装/启动服务 | 先审阅脚本；启动后的验证在 T10 | not_started |
+| T08 | 05.05–05.06；Security Group | 网页配置 → 加入所需 HTTP 规则及资源引用 → 应用有明确访问边界 | plan 检查端口/来源；SSH 如使用只允许实际操作来源 | not_started |
+| T09 | 05.03；plan 与 apply | 已核验网络/身份/费用 → 审查实际变更后部署 → AWS 实例被创建 | 计划仅含实验资源；AWS 实例状态可读；不要把 apply 成功当网页成功 | not_started |
+| T10 | 05.03 / 05.11；部署与启动不同步 | 已启动实例 → HTTP 请求、检查 cloud-init/服务 → 端到端网页成功 | 返回预期页面；读取启动日志定位失败；再次 plan 无变更 | not_started |
+| T11 | Terraform 补充；state 与生命周期 | 稳定网页 → 观察 state 地址、改标签、验证原地更新，再销毁本轮 → 完成 create/change/destroy | 标签读回一致；配置留存；确认对应实例/相关实验资源已清理 | not_started |
+
+T04、T05 的 Provider/resource 是 Terraform 操作概念，不是 SAA 课程独立章节。
+T06–T10 是首个不可分割的网页能力，但每次只解释表中一个当前概念，不一次投喂全部代码。
+若默认网络不满足条件，插入独立网络先修检查后再继续；不得部署后才猜测网络条件。
+
+## Checkpoints — 随课程增加能力
+
+以下是能力路线预览。每个阶段开工时再拆出单次操作，并读取对应现有 SAA KP/当前官方参数文档。
+每次记录 Input、变更、输出、验证、费用、清理和准确恢复点。
+
+| ID | 课程章节 | 能力增量 / 操作顺序 | 可观察结果与验证 | 状态 |
+|---|---|---|---|---|
+| A01 | 第 6 章 EC2 SAA | 重建网页 → 公/私有 IP 观察 → 可选 EIP 独立短实验 | 停止/启动前后对比地址；仅在已读费用后分配 EIP，实验后释放 | not_started |
+| A02 | 第 7 章 EC2 Instance Storage | 独立数据卷写合成文本 → 卸载/重挂 → 快照 → 从快照恢复；AMI 另一次实验 | 恢复卷内容一致；AMI 启动副本成功；root 卷与数据卷删除规则明确 | not_started |
+| A03 | 第 7 章 EFS，可选支线 | 两台临时实例挂载 EFS → 观察共享文件 → 清理 | 第二台读取第一台写入内容；不宣称任意并发写天然安全 | not_started |
+| A04 | 第 8 章 ELB | 增加第二个 AZ 所需子网 → ALB/target group/listener → 收紧实例只收 ALB 流量 | 经 ALB 返回实例标识；停止一个目标后其健康状态变化且请求仍成功 | not_started |
+| A05 | 第 8 章 ASG | launch template → 用 ASG 代替手工实例 → 单独增加 scaling policy | 删除受管实例后补建；伸缩实验有明确上下限；避免同一实例双重管理 | not_started |
+| A06 | 第 9 章 RDS | 数据库专用子网/安全组 → 私有 RDS → 最小应用合成数据读写；备份另一步 | 写入后可读回；外部不能直接连数据库；不把建库成功等同业务集成 | not_started |
+| A07 | 第 9 章 Aurora/ElastiCache，可选 | 从已验证数据库路径选择一个对比实验，不同时常驻多引擎 | 单独验证读端点或缓存命中/失效；记录成本后拆除 | not_started |
+| A08 | 第 10 章 Route 53；回接第 8 章 TLS | 有可用域名时 DNS → Alias → ACM DNS 验证 → HTTPS listener，逐项完成 | 域名解析到入口；HTTPS 成功且证书匹配；无域名时保留该阶段 deferred | not_started |
+| A09 | 第 11 章架构讨论 | 对当前方案逐项复盘故障、状态、可用区与扩容 | 用户指出单点和恢复路径；不为完成讨论增加新服务 | not_started |
+| A10 | 第 12–14 章 S3 | 复用已有 S3 练习验证 → 应用实例 Role 读取私有对象 → 版本控制/生命周期分次实验 | 有权限读取成功，未授权访问失败；版本可恢复；不重建第二份同用途 S3 练习 | not_started |
+| A11 | 第 15 章 CloudFront | 先 S3 私有源站/OAC → 再缓存更新与失效 | 经分发访问成功，源站保持私有；更新后验证缓存行为 | not_started |
+| A12 | 第 17 章解耦 | 最小任务 → SQS → worker，SNS 作为单独通知增量 | 任务入队/消费可见；失败重试或死信独立验证 | not_started |
+| A13 | 第 18 章容器，可选迁移 | 容器化同一应用 → ECR → ECS/Fargate，分步替换计算层 | 相同 HTTP 行为在容器运行；验证完成后清理旧计算，避免叠加常驻费用 | not_started |
+| A14 | 第 19–20 章 Serverless | 独立小分支 Lambda → API Gateway → DynamoDB（每次一个能力） | 请求产生预期 JSON/持久化结果；与 EC2 路线对比，不强制整体迁移 | not_started |
+| A15 | 第 24 章监控审计 | 日志 → 指标 → 告警分别验证；CloudTrail/Config 独立范围实验 | 人为触发可控故障并查到证据；审计事件与应用日志分清 | not_started |
+| A16 | 第 25–26 章权限/安全 | 收敛部署和运行权限 → Parameter Store/Secrets → KMS；按需 WAF | 正常访问仍成功，越权请求失败；敏感值不写公开仓库 | not_started |
+| A17 | 第 27 章 VPC | 将先前最小网络展开为自建 VPC → 分层子网 → 路由/端点 → 可选 NAT 短实验 | 画出并实测请求和出站路径；迁移先 plan，识别资源替换 | not_started |
+| A18 | 第 28 章恢复 | 对合成数据做备份 → 新资源恢复 → 应用切换验证 | 恢复后的业务数据可读，记录耗时及损失窗口；验证后清理副本 | not_started |
+| A19 | 第 29–32 章综合 | 在已完成版本上讲解选择、费用、故障与重建；错题只触发相关补实验 | 可从配置重建并定位常见失败；考试准备仍使用原课程/KP体系 | not_started |
+
+第 16、21–23、30 章里的部分服务，以及第 6–9 章不适合此小应用的选项，使用对比/短支线按需练习，不强行加进常驻系统。第 1–2、33 章为课程准备/说明，不新增基础设施。
+第 27 章内容只在当前部署需要时提前引入最小先修，其余保持课程节奏。
+
+## Terraform 技能穿插顺序
+
+- 首个网页前：版本约束、Provider、resource、引用、init/fmt/validate/plan/apply、output。
+- 首个生命周期闭环：state、update/replace/destroy，Git 与基础设施回滚的区别。
+- 第二个可重复实验：variables、tfvars 示例、locals、data source；AMI 查找固定明确选择，不静默追随 latest 自动替换。
+- 多实例时：count/for_each、依赖图，出现复用需求再抽 module。
+- 多轮实验或第二个 root 前：按旧计划 C4/C5 的独立 bootstrap 机制建立远程 state/锁，再验证隔离。
+- 手工变更/迁移时：drift、import、moved；保留云端身份与状态归属。
+- 稳定后可选 CI：先静态检查，再 OIDC plan；不把自动 apply 当起步要求。
+
+## Environment, Cost and Cleanup
+
+- 本次计划更新新增云资源：[]。用户账户已有资源与费用状态未知；旧 S3 是否已 apply 需本机核验。
+- 账号、区域与认证配置在 T01 本地确认；不在公开计划中记录具体账号、profile 或凭证。
+- 实施前核对所选区域/规格价格；不承诺 free tier。EC2、EBS、公共 IPv4/EIP、ALB、RDS、NAT、日志、快照等按当前配置可能持续收费。
+- ALB、RDS、NAT、EKS 等不作为第一课依赖；预算告警不充当硬性消费上限。
+- 合成数据，无生产资源；不提交凭证、state、plan、真实 tfvars 或敏感输出；lockfile 应提交。
+- 每次只处理当前实验目录/state 的资源；先审查 plan 和 destroy plan，不能一条 destroy 代表全部 root 清理。
+- 每轮结束以资源类型读回核验删除；列出有意保留对象、快照、AMI、日志、EIP、数据库和 state 存储。
+- 回退代码后仍需检查 plan；Git 回退不会恢复被删数据。清理 snapshot/AMI 时注意它们关联的独立存储资源。
+
+## Checkpoint and Rollback
+
+- known_good_checkpoint：已有 S3 配置文件可读取；没有其运行成功证据，也没有本次 EC2 实操证据。
+- 每个已验证能力记录：配置 commit、对应目录/state、脱敏验证结果、已知限制、清理结果、下一项。
+- 失败定位：身份/区域 → Provider/语法 → AWS API/权限 → 网络 → cloud-init/服务 → HTTP → state。
+- 学员看不懂当前概念时，暂停在当前 checkpoint；定位对应已有 KP，单独解释后回到准确操作点；不扩展整章理论。
+
+## Current Position / Session State
+
+- session_id：SESSION-AWS-TERRAFORM-001；primary_mode：mode_3；depth：guided-practice。
+- status：active；current_position：T00，本机 setup 盘点。
+- goal：按 SAA 课程逐项构建并验证小型 AWS 网页部署。
+- starting_state：已存在 S3 main.tf/lockfile；未验证本机工具或已部署资源；学习进度不按旧计划的过时“尚未创建代码”推断。
+- expected_output：working_result + explanation；active_kp_set：[]。
+- mode_stack：[mode_3]；return_point：T00。
+- knowledge_map_id/location：Terraform 未建立；复用 SAA/preRaw/KP 已有身份时按文件实际读取，不另造 Map。
+- session_state_location / project_path_location：本文件。
+- latest_validation_evidence：源码/教程与课程索引读取；用户明确确认 Mode 3。无本机或云端验证。
+- next_action：用户在实际操作终端运行 uname -s、uname -m、git --version、aws --version、terraform version，反馈工具存在与版本；若命令不存在记录即可。
+- next_transition：T00 通过后进入 T01；不能在代理运行环境的输出上判定用户电脑准备完毕。
+- completion_condition：见 Operational Goal；全部实操除 T00 启动外均 not_started。
+
+## Evidence
+
+- 用户指定 H1/H2，并明确要求匹配 SAA、从 setup 开始、逐概念实操；随后选择 Mode 3。
+- 读取 GitHub main 完整递归树（truncated=false），当前读取头 da99de8a518f1d6db39a515a25f9ed48e4a38634；未发现路径层级适用的 AGENTS.md 文件。
+- 读取原活动 mode3.md、infra/main.tf 与 SAA 课程索引；保留旧计划，不更改已有实现。
+- H1 main.tf blob：28de7dea558265c99066f36bbb6952fc0c42e6a6；terraform.tf：ea62827fae8abfdfda022d4fd8cd2934c23a7ad0；来源 main 可变，真正实施时固定实际 checkout commit 并复核文件。
+- 官方网页说明：区域变更需重新选择可用 AMI，镜像变更可能要求调整启动脚本；启动日志可用于排错。
+- 课程映射属于按标题制定的学习安排，非视频逐段核验；后续实施参数需再核对版本。
+
+## Blockers / KP Interruptions / Open Questions
+
+- 尚无已观察的操作故障或 KP 中断；当前无 blocker。
+- 待 T00/T01 解决：实际电脑 OS/架构、工具版本、认证 profile、账号/区域。
+- 首次云 apply 前解决：预算/实验保留时长、默认网络是否存在、旧 S3 资源/state 归属。
+- 域名等只在相关阶段解决，不阻塞 setup。
+
+## Completion
+
+- 计划：已制定，保存后读回验证。
+- 学习：T00 等待用户本机结果；0 个本次已验证实操 checkpoint。
+- 下一次说“继续 Terraform SAA”，读取本文件上半部，从 T00 或后续实际保存位置继续。
+- 下方原计划属于历史记录；旧 next_action、旧 not_started 与旧来源访问时间不覆盖当前状态。
+
+---
+
+## 历史记录：2026-10-31 原计划（保留原文）
+
 # Terraform on AWS — Mode 3 实操学习体系
 
 ## Scope
